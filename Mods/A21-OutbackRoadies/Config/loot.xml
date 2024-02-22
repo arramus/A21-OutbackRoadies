@@ -1,0 +1,29 @@
+<configs>
+
+	<!-- Vanilla Loot Additions -->
+    <!-- Make player dropped bags bigger to accomodate new size KhaineGB -->
+	<set xpath="/lootcontainers/lootcontainer[@name='playerBackpack']/@size">10,10</set>
+	
+    <!-- Increase Vehicle Container Size +1 except 4x4 -->
+	<set xpath="/lootcontainers/lootcontainer[@name='vehicleBicycle']/@size">9,2</set> <!-- Default is 9,1 -->
+	<set xpath="/lootcontainers/lootcontainer[@name='vehicleMinibike']/@size">9,4</set> <!-- Default is 9,3 -->
+	<set xpath="/lootcontainers/lootcontainer[@name='vehicleMotorcycle']/@size">9,5</set> <!-- Default is 9,4 -->
+	<set xpath="/lootcontainers/lootcontainer[@name='vehicleGyrocopter']/@size">9,6</set> <!-- Default is 9,5 -->
+	
+    <!-- Increase the storage space for player storage -->
+	<set xpath="/lootcontainers/lootcontainer[@name='beerCooler']/@size">8,9</set> <!-- Beer Cooler from 6,3 since Preppers are Preppers -->
+	<set xpath="/lootcontainers/lootcontainer[@name='playerCooler']/@size">8,9</set> <!-- Player Cooler from 6,2 as above -->
+	<set xpath="/lootcontainers/lootcontainer[@name='nightstandNOPOP']/@size">8,9</set> <!-- Player Night Stands from 6,2 as above -->	
+	<set xpath="/lootcontainers/lootcontainer[@name='lockersNOPOP']/@size">8,9</set> <!-- Player Lockers from 6,2 as above -->
+	<set xpath="/lootcontainers/lootcontainer[@name='refrigeratorNOPOP']/@size">8,9</set> <!-- Player Refrigerator from 6,4 as above -->	
+
+	<append xpath="/lootcontainers">
+	
+	<!-- cntAmmoPileSmall copy from default TFP small ammo as a token gesture for Relootable Military Cartons since they are in context -->
+	<lootcontainer name="ammoPileSmallpalletCartonMilitary" size="6,1" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
+		<item group="groupAmmoPileSmall"/>
+	</lootcontainer>
+	
+	</append>
+	
+</configs>

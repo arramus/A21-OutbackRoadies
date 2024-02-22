@@ -1,0 +1,242 @@
+<configs>
+
+<append xpath="/recipes">
+
+	<!-- Vanilla support items and decorations -->
+	
+	<recipe name="resourceAcid" count="1" craft_area="chemistryStation" tags="chemStationCrafting">
+		<ingredient name="carBattery" count="3"/>
+		<ingredient name="resourceScrapPolymers" count="9"/>
+	</recipe>
+	
+	<recipe name="flagPoleWhiteRiver" count="1" craft_area="workbench">
+		<ingredient name="resourceSewingKit" count="1"/>
+		<ingredient name="resourceForgedIron" count="5"/>
+		<ingredient name="resourceCloth" count="10"/>			
+	</recipe>
+	
+	<recipe name="flagPoleAmerican" count="1" craft_area="workbench">
+		<ingredient name="resourceSewingKit" count="1"/>
+		<ingredient name="resourceForgedIron" count="5"/>
+		<ingredient name="resourceCloth" count="10"/>			
+	</recipe>
+	
+	<recipe name="modularFireWoodStackA" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceWood" count="100"/>
+	</recipe>
+	
+	<recipe name="modularFireWoodStackB" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceWood" count="100"/>
+	</recipe>
+	
+	<recipe name="modularFireWoodStackC" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceWood" count="100"/>
+	</recipe>
+	
+	<recipe name="decoWildWestWagon" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceForgedIron" count="50"/>
+		<ingredient name="resourceWood" count="500"/>
+		<ingredient name="resourceNail" count="50"/>
+	</recipe>
+	
+	<recipe name="decoWildWestWagonWheelFront" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceForgedIron" count="1"/>
+		<ingredient name="resourceWood" count="50"/>
+		<ingredient name="resourceNail" count="10"/>
+	</recipe>
+	
+	<recipe name="decoWildWestWagonWheelBack" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceForgedIron" count="1"/>
+		<ingredient name="resourceWood" count="50"/>
+		<ingredient name="resourceNail" count="10"/>
+	</recipe>
+
+	<recipe name="decoCowSkull" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceBone" count="10"/>
+		<ingredient name="resourceGlue" count="1"/>
+		<ingredient name="resourceDuctTape" count="1"/>
+		<ingredient name="resourceScrapPolymers" count="5"/>
+		<ingredient name="resourceNail" count="6"/>
+	</recipe>
+	
+	<recipe name="crushedCars01WhiteVariantHelper" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceScrapIron" count="250"/>
+	</recipe>
+	
+	<recipe name="helipad" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceConcreteMix" count="100"/>
+		<ingredient name="resourceScrapPolymers" count="10"/>
+		<ingredient name="resourceScrapIron" count="50"/>
+	</recipe>
+	
+	<recipe name="doorWoodLargeGate" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceWood" count="200"/>
+		<ingredient name="resourceNail" count="100"/>
+		<ingredient name="resourceScrapIron" count="50"/>
+	</recipe>
+	
+	<recipe name="LogWallsVariantHelper" count="1" craft_time="10" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceWood" count="60"/>
+		<ingredient name="resourceNail" count="10"/>
+		<ingredient name="resourceScrapIron" count="10"/>
+	</recipe>
+	
+	<recipe name="chainLinkFencePOIVariantHelper" count="1" craft_time="10" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceForgedIron" count="1"/>
+		<ingredient name="resourceMetalPipe" count="1"/>
+		<ingredient name="resourceSpring" count="1"/>
+		<ingredient name="resourceScrapIron" count="100"/>
+	</recipe>
+	
+	<recipe name="woodenBear" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="woodLogPillar100" count="10"/>
+	</recipe>
+	
+	<recipe name="rugBear" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceSewingKit" count="1"/>
+		<ingredient name="resourceCloth" count="10"/>
+		<ingredient name="resourceLeather" count="10"/>
+	</recipe>
+	
+	<recipe name="banditWallCorrugatedVariantHelper" count="1" craft_time="10" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceForgedIron" count="1"/>
+		<ingredient name="resourceScrapIron" count="50"/>
+	</recipe>
+	
+	<recipe name="banditPlatformVariantHelper" count="1" craft_time="10" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceWood" count="60"/>
+		<ingredient name="resourceNail" count="10"/>
+		<ingredient name="resourceScrapIron" count="10"/>
+	</recipe>
+	
+	<recipe name="barbedWireSpindleVariantHelper" count="1"> <!-- trap -->
+		<ingredient name="resourceScrapIron" count="50"/>
+	</recipe>
+	
+	<recipe name="chainlinkDoorGateVariantHelper" count="1" craft_time="10" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceForgedIron" count="5"/>
+		<ingredient name="resourceMetalPipe" count="5"/>
+		<ingredient name="resourceSpring" count="5"/>
+		<ingredient name="resourceScrapIron" count="200"/>
+	</recipe>
+	
+	<recipe name="resourceCementMixerConcreteBundle" count="1" craft_time="1760" craft_area="cementMixer" tags="cementMixerCrafting">
+		<ingredient name="resourceCrushedSand" count="800"/>
+		<ingredient name="resourceRockSmall" count="800"/>
+		<ingredient name="resourceCement" count="800"/>
+	</recipe>
+	
+<!-- Food -->
+
+	<recipe name="foodWheatFlour" count="1">
+		<ingredient name="foodWildWheat" count="30"/>
+	</recipe>
+	
+	<recipe name="foodSnagSanga" count="1" craft_time="12" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef">
+		<ingredient name="foodWheatFlour" count="1"/>		
+		<ingredient name="foodRawMeat" count="5"/>
+		<ingredient name="foodEgg" count="1"/>
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+	
+	<recipe name="foodWitchettyGrubSoupandSanga" count="1" craft_time="12" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+		<ingredient name="foodSnagSanga" count="1"/>		
+		<ingredient name="foodWitchettyGrub" count="5"/>
+		<ingredient name="drinkJarRiverWater" count="1"/>
+		<ingredient name="foodCropMushrooms" count="2"/>
+		<ingredient name="foodCropPotato" count="2"/>
+	</recipe>
+	
+	<recipe name="foodMeatPie" count="1" craft_time="18" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+		<ingredient name="foodWheatFlour" count="1"/>		
+		<ingredient name="foodRawMeat" count="5"/>
+		<ingredient name="foodCropMushrooms" count="2"/>
+		<ingredient name="resourceAnimalFat" count="1"/>
+		<ingredient name="foodCanSoup" count="1"/>
+	</recipe>
+	
+	<recipe name="foodPocoTucker" count="1" craft_time="60" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+		<ingredient name="foodCanChicken" count="1"/> <!-- Food 15 / Health 7 -->
+		<ingredient name="foodCanCatfood" count="1"/> <!-- Food 10 / Health 5 -->
+		<ingredient name="foodWitchettyGrub" count="3"/>
+		<ingredient name="foodCanSoup" count="1"/> <!-- Food 10 / Health 5 / Water 10 -->
+		<ingredient name="foodCanPears" count="1"/> <!-- Food 10 / Health 5 / Water 5 -->	
+	</recipe>
+
+<!-- Vehicles -->
+
+<recipe name="vehiclePocoCarPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="vehicleWheels" count="4"/>
+	<ingredient name="vehicle4x4TruckChassis" count="1"/>
+	<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="carBattery" count="1"/>
+</recipe>
+
+<recipe name="vehiclePocoBuggyPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="vehicleWheels" count="4"/>
+	<ingredient name="vehicle4x4TruckChassis" count="1"/>
+	<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="carBattery" count="1"/>
+</recipe>
+
+<recipe name="vehiclePocoBattleCarPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="vehicleWheels" count="4"/>
+	<ingredient name="vehicle4x4TruckChassis" count="1"/>
+	<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="carBattery" count="1"/>
+</recipe>
+
+<recipe name="vehiclePocoBusPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="vehicleWheels" count="4"/>
+	<ingredient name="vehicle4x4TruckChassis" count="1"/>
+	<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="carBattery" count="1"/>
+</recipe>
+
+<recipe name="vehiclePocoTruckPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="vehicleWheels" count="4"/>
+	<ingredient name="vehicle4x4TruckChassis" count="1"/>
+	<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="carBattery" count="1"/>
+</recipe>
+
+<recipe name="vehiclePocoNuxPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="vehicleWheels" count="4"/>
+	<ingredient name="vehicle4x4TruckChassis" count="1"/>
+	<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="carBattery" count="1"/>
+</recipe>
+
+<recipe name="vehiclePocoRaceCarPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="vehicleWheels" count="4"/>
+	<ingredient name="vehicle4x4TruckChassis" count="1"/>
+	<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="carBattery" count="1"/>
+</recipe>
+
+<recipe name="vehiclePocoBattleBuggyPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="vehicleWheels" count="4"/>
+	<ingredient name="vehicle4x4TruckChassis" count="1"/>
+	<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="carBattery" count="1"/>
+</recipe>
+
+<recipe name="vehiclePocoBattleCranePlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="vehicleWheels" count="4"/>
+	<ingredient name="vehicle4x4TruckChassis" count="1"/>
+	<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="carBattery" count="1"/>
+</recipe>
+
+</append>
+
+</configs>

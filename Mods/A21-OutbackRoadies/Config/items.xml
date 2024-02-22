@@ -1,0 +1,658 @@
+<configs>
+
+	<append xpath="/items/item[@name='foxPickUpNPC']">		
+		<property name="CustomIcon" value="foxPickUpNPC" />
+	</append>
+	
+	<!-- VANILLA TWEAKS and TOGGLES -->
+	<!-- Zombie Reach Adjust KhaineGB -->
+	<set xpath="/items/item[@name='meleeHandMaster']/property[@class='Action0']/property[@name='Range']/@value">1.325</set>
+	<set xpath="/items/item[@name='meleeHandZombie01']/property[@class='Action0']/property[@name='Range']/@value">1.325</set>
+	<set xpath="/items/item[@name='meleeHandZombieShort']/property[@class='Action0']/property[@name='Range']/@value">1.325</set>
+	<set xpath="/items/item[@name='meleeHandZombieShortFeral']/property[@class='Action0']/property[@name='Range']/@value">1.325</set>
+	<set xpath="/items/item[@name='meleeHandZombieBurning']/property[@class='Action0']/property[@name='Range']/@value">1.325</set>
+	<set xpath="/items/item[@name='meleeHandZombieBurningFeral']/property[@class='Action0']/property[@name='Range']/@value">1.325</set>
+	<set xpath="/items/item[@name='meleeHandZombieCop']/property[@class='Action0']/property[@name='Range']/@value">1.5</set>
+	<set xpath="/items/item[@name='meleeHandzombieMutated']/property[@class='Action0']/property[@name='Range']/@value">1.5</set>
+	<set xpath="/items/item[@name='meleeHandzombieMutatedFeral']/property[@class='Action0']/property[@name='Range']/@value">1.5</set>
+	<set xpath="/items/item[@name='meleeHandzombieMutatedRadiated']/property[@class='Action0']/property[@name='Range']/@value">1.5</set>
+	<!-- Lotions and Potions -->
+	<set xpath="/items/item[@name='medicalFirstAidBandage']/effect_group/triggered_effect[@cvar='medicalRegHealthAmount']/@value">35</set> <!-- 30 Default -->
+	<set xpath="/items/item[@name='medicalFirstAidBandage']/effect_group/display_value[@name='foodHealthAmount']/@value">35</set> <!-- 30 Default -->
+	<!-- Weapons and Tools -->
+	<set xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/property[@class='Action1']/property[@name='Repair_amount']/@value">500</set><!-- 100 Default -->
+	<set xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/effect_group/display_value[@name='dBlockRepairAmount']/@value">500</set><!-- 100 Default -->
+	<set xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/property[@class='Action1']/property[@name='Upgrade_hit_offset']/@value">-2</set><!-- 2 Hit Upgrades -->
+	<set xpath="/items/item[@name='meleeToolRepairT0TazasStoneAxe']/effect_group/display_value[@name='dBlockRepairAmount']/@value">500</set><!-- 100 Default -->
+	<set xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/property[@class='Action1']/property[@name='Repair_amount']/@value">850</set><!-- 400 Default -->
+	<set xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/effect_group/display_value[@name='dBlockRepairAmount']/@value">850</set><!-- 400 Default -->
+	<set xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/property[@class='Action1']/property[@name='Upgrade_hit_offset']/@value">-5</set><!-- 1 Hit Upgrade -->
+	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Delay']/@value">.35</set><!-- .5 Default -->
+	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Repair_amount']/@value">2000</set><!-- 1000 Default -->
+	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/effect_group/display_value[@name='dBlockRepairAmount']/@value">2000</set><!-- 1000 Default -->
+	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/effect_group/passive_effect[@name='MagazineSize']/@value">25</set><!-- Mag Size -->
+	<set xpath="/items/item[@name='gunRifleT1HuntingRifle']/effect_group/passive_effect[@name='MagazineSize']/@value">3</set><!-- 3 Shots per mag -->
+	<set xpath="/items/item[@name='gunBowT0PrimitiveBow']/effect_group/passive_effect[@name='SpreadMultiplierAiming']/@value">0.16</set> <!-- .26 Default -->
+	<set xpath="/items/item[@name='gunBowT1WoodenBow']/effect_group/passive_effect[@name='SpreadMultiplierAiming']/@value">0.11</set> <!-- .26 Default -->
+	<set xpath="/items/item[@name='gunBowT3CompoundBow']/effect_group/passive_effect[@name='SpreadMultiplierAiming']/@value">0.1</set> <!-- .15 Default -->
+	<set xpath="/items/item[@name='gunBowT1IronCrossbow']/property[@class='Action0']/property[@name='AutoReload']/@value">true</set>
+	<append xpath="/items/item[@name='resourceAcid']/property[@name='Group']/@value">,Chemicals</append><!-- Acid for chemistry table -->
+	<!-- Ammo Stacking -->
+	<set xpath="/items/item[@name='ammo9mmBulletBall']/property[@name='Stacknumber']/@value">3000</set><!-- x10 of default -->	
+	<set xpath="/items/item[@name='ammo762mmBulletBall']/property[@name='Stacknumber']/@value">1500</set><!-- x10 of default -->
+	<set xpath="/items/item[@name='ammoShotgunShell']/property[@name='Stacknumber']/@value">1500</set><!-- x10 of default -->
+	<set xpath="/items/item[@name='ammoShotgunSlug']/property[@name='Stacknumber']/@value">1500</set>
+	<set xpath="/items/item[@name='ammoShotgunBreachingSlug']/property[@name='Stacknumber']/@value">1500</set>	
+	<set xpath="/items/item[@name='ammoJunkTurretRegular']/property[@name='Stacknumber']/@value">5000</set><!-- x5 of default -->
+	<set xpath="/items/item[@name='ammoRocketHE']/property[@name='Stacknumber']/@value">100</set><!-- x5 of default -->
+	<set xpath="/items/item[@name='ammoArrowStone']/property[@name='Stacknumber']/@value">1000</set><!-- x6.5 of default -->
+	<set xpath="/items/item[@name='ammoArrowExploding']/property[@name='Stacknumber']/@value">1000</set>
+	<set xpath="/items/item[@name='ammoCrossbowBoltStone']/property[@name='Stacknumber']/@value">1000</set><!-- x6.5 of default -->
+	<set xpath="/items/item[@name='ammoCrossbowBoltIron']/property[@name='Stacknumber']/@value">1000</set>
+	<set xpath="/items/item[@name='ammoCrossbowBoltExploding']/property[@name='Stacknumber']/@value">1000</set>
+	<!-- Multiple extends -->	
+	<!-- Explosives/Incendiaries/Darts Stacking -->
+	<set xpath="/items/item[@name='thrownAmmoPipeBomb']/property[@name='Stacknumber']/@value">50</set><!-- x2.5 of default -->
+	<set xpath="/items/item[@name='thrownGrenadeContact']/property[@name='Stacknumber']/@value">50</set>	
+	<!-- thrownGrenade extends thrownGrenadeContact -->
+	<set xpath="/items/item[@name='thrownTimedCharge']/property[@name='Stacknumber']/@value">50</set>
+	<set xpath="/items/item[@name='thrownDynamite']/property[@name='Stacknumber']/@value">50</set>
+	<set xpath="/items/item[@name='thrownAmmoMolotovCocktail']/property[@name='Stacknumber']/@value">50</set>
+	<set xpath="/items/item[@name='ammoDartIron']/property[@name='Stacknumber']/@value">5000</set><!-- x10 of default -->
+	<!-- Parts -->
+	<set xpath="/items/item[@name='gunMGT1AK47Parts']/property[@name='Stacknumber']/@value">250</set><!-- x5 of default -->
+	<!-- Multiple extends of partsMaster -->	
+	<!-- Apparel -->
+	<set xpath="/items/item[@name='apparelCigar']/property[@name='Stacknumber']/@value">50</set><!-- x50 of default -->
+	<!-- Meds -->	
+	<set xpath="/items/item[@name='medicalAloeCream']/property[@name='Stacknumber']/@value">100</set><!-- x10 or more of default -->
+	<set xpath="/items/item[@name='medicalBandage']/property[@name='Stacknumber']/@value">100</set>
+	<set xpath="/items/item[@name='medicalFirstAidBandage']/property[@name='Stacknumber']/@value">100</set>
+	<set xpath="/items/item[@name='medicalFirstAidKit']/property[@name='Stacknumber']/@value">50</set>
+	<set xpath="/items/item[@name='medicalSplint']/property[@name='Stacknumber']/@value">50</set>	
+	<set xpath="/items/item[@name='medicalBloodBag']/property[@name='Stacknumber']/@value">1000</set>
+	<set xpath="/items/item[@name='drugVitamins']/property[@name='Stacknumber']/@value">100</set>
+	<set xpath="/items/item[@name='drugPainkillers']/property[@name='Stacknumber']/@value">100</set>
+	<set xpath="/items/item[@name='drugHerbalAntibiotics']/property[@name='Stacknumber']/@value">100</set>
+	<set xpath="/items/item[@name='drugAntibiotics']/property[@name='Stacknumber']/@value">100</set>
+	<set xpath="/items/item[@name='drugRecog']/property[@name='Stacknumber']/@value">100</set>
+	<!-- drugFortBites extends drugRecog -->
+	<set xpath="/items/item[@name='drugAtomJunkies']/property[@name='Stacknumber']/@value">100</set>
+	<!-- Multiple extends of drugAtomJunkies for other candy -->
+	<!-- Food and Drink reflects Oaks Modpack Stacking Values except for raw materials -->
+	<!-- Raw Materials 250 x2 and Crafted Food/Drink 50 x5 Vanilla x2/2.5 Oaks to support abundance of items -->	
+	<set xpath="/items/item[@name='foodHoney']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='foodCanBeef']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='foodCornOnTheCob']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='foodCornBread']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='foodShamSandwich']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='foodCharredMeat']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='foodGrilledMeat']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='foodBoiledMeat']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='foodMeatStew']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='foodSteakAndPotato']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='foodHoboStew']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='foodFishTacos']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='foodBakedPotato']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='foodBlueberryPie']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='foodPumpkinPie']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='foodPumpkinCheesecake']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='foodPumpkinBread']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='foodGumboStew']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='foodShepardsPie']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='foodSpaghetti']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='foodTunaFishGravyToast']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='foodEggBoiled']/property[@name='Stacknumber']/@value">1000</set>
+	<set xpath="/items/item[@name='foodBaconAndEggs']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='foodVegetableStew']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='foodRawMeat']/property[@name='Stacknumber']/@value">2000</set><!-- To offset Coops -->
+	<set xpath="/items/item[@name='foodRottingFlesh']/property[@name='Stacknumber']/@value">2000</set><!-- To offset Coops Mincer -->
+	<set xpath="/items/item[@name='foodEgg']/property[@name='Stacknumber']/@value">1000</set><!-- To offset Coops -->
+	<set xpath="/items/item[@name='foodCornMeal']/property[@name='Stacknumber']/@value">1000</set>
+	<set xpath="/items/item[@name='foodCropBlueberries']/property[@name='Stacknumber']/@value">1000</set>
+	<set xpath="/items/item[@name='foodCropCorn']/property[@name='Stacknumber']/@value">1000</set>
+	<set xpath="/items/item[@name='foodCropGraceCorn']/property[@name='Stacknumber']/@value">1000</set>
+	<set xpath="/items/item[@name='foodCropPotato']/property[@name='Stacknumber']/@value">1000</set>
+	<set xpath="/items/item[@name='foodCropMushrooms']/property[@name='Stacknumber']/@value">1000</set>
+	<set xpath="/items/item[@name='foodCropYuccaFruit']/property[@name='Stacknumber']/@value">1000</set>
+	<set xpath="/items/item[@name='foodCropPumpkin']/property[@name='Stacknumber']/@value">1000</set>
+	<!--set xpath="/items/item[@name='drinkJarEmpty']/property[@name='Stacknumber']/@value">1000</set-->
+	<set xpath="/items/item[@name='drinkJarRiverWater']/property[@name='Stacknumber']/@value">500</set>
+	<set xpath="/items/item[@name='drinkJarBoiledWater']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='drinkJarPureMineralWater']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='drinkJarYuccaJuice']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='drinkJarGoldenRodTea']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='drinkJarRedTea']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/property[@name='Stacknumber']/@value">250</set>
+	<!-- drinkCanMegaCrush extends drinkJarRedTea -->
+	<set xpath="/items/item[@name='drinkJarCoffee']/property[@name='Stacknumber']/@value">250</set>
+	<!-- drinkJarBlackStrapCoffee extends drinkJarCoffee -->
+	<set xpath="/items/item[@name='drinkJarBeer']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='drinkJarGrandpasMoonshine']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='drinkJarGrandpasAwesomeSauce']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='drinkJarGrandpasLearningElixir']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='drinkJarGrandpasForgettingElixir']/property[@name='Stacknumber']/@value">250</set>
+	<!-- Other Stuff Stacking -->
+	<set xpath="/items/item[@name='resourceRockSmall']/property[@name='Stacknumber']/@value">15000</set><!-- x2.5 of default -->
+	<set xpath="/items/item[@name='resourceSnowBall']/property[@name='Stacknumber']/@value">15000</set><!-- x2.5 of default -->
+	<set xpath="/items/item[@name='resourceYuccaFibers']/property[@name='Stacknumber']/@value">15000</set><!-- x2.5 of default -->
+	<set xpath="/items/item[@name='resourceWood']/property[@name='Stacknumber']/@value">15000</set><!-- x2.5 of default -->
+	<set xpath="/items/item[@name='resourceCrushedSand']/property[@name='Stacknumber']/@value">15000</set><!-- x2.5 of default -->
+	<set xpath="/items/item[@name='resourceScrapIron']/property[@name='Stacknumber']/@value">15000</set><!-- x2.5 of default -->
+	<set xpath="/items/item[@name='resourceForgedIron']/property[@name='Stacknumber']/@value">2500</set><!-- x5 of default -->	
+	<set xpath="/items/item[@name='resourceForgedSteel']/property[@name='Stacknumber']/@value">2500</set><!-- x5 of default -->		
+	<set xpath="/items/item[@name='resourceScrapPolymers']/property[@name='Stacknumber']/@value">2500</set><!-- x2.5 of default -->	
+	<set xpath="/items/item[@name='resourceSewingKit']/property[@name='Stacknumber']/@value">250</set><!-- x12.5 of default -->
+	<set xpath="/items/item[@name='resourceOilShale']/property[@name='Stacknumber']/@value">15000</set><!-- x2.5 of default -->
+	<set xpath="/items/item[@name='resourceBone']/property[@name='Stacknumber']/@value">2500</set><!-- x2.1 of default -->
+	<set xpath="/items/item[@name='resourceLeather']/property[@name='Stacknumber']/@value">1000</set><!-- x4 of default -->
+	<set xpath="/items/item[@name='resourceAnimalFat']/property[@name='Stacknumber']/@value">1000</set><!-- x2 of default -->	
+	<set xpath="/items/item[@name='resourceTestosteroneExtract']/property[@name='Stacknumber']/@value">50</set><!-- x5 of default -->
+	<set xpath="/items/item[@name='resourceScrapBrass']/property[@name='Stacknumber']/@value">15000</set><!-- x15 of default -->		
+	<set xpath="/items/item[@name='resourceScrapLead']/property[@name='Stacknumber']/@value">15000</set><!-- x15 of default -->
+	<set xpath="/items/item[@name='resourceClayLump']/property[@name='Stacknumber']/@value">15000</set><!-- x15 of default -->	
+	<set xpath="/items/item[@name='resourceCobblestones']/property[@name='Stacknumber']/@value">15000</set><!-- x15 of default -->	
+	<set xpath="/items/item[@name='resourceCement']/property[@name='Stacknumber']/@value">15000</set><!-- x15 of default -->
+	<set xpath="/items/item[@name='resourceConcreteMix']/property[@name='Stacknumber']/@value">15000</set><!-- x15 of default -->	
+	<set xpath="/items/item[@name='resourceCloth']/property[@name='Stacknumber']/@value">2000</set><!-- x8 of default -->
+	<set xpath="/items/item[@name='resourcePaper']/property[@name='Stacknumber']/@value">15000</set><!-- x2.5 of default -->
+	<set xpath="/items/item[@name='resourceFeather']/property[@name='Stacknumber']/@value">15000</set><!-- x2.5 of default -->
+	<set xpath="/items/item[@name='resourceCoal']/property[@name='Stacknumber']/@value">15000</set><!-- x2.5 of default -->	
+	<set xpath="/items/item[@name='resourcePotassiumNitratePowder']/property[@name='Stacknumber']/@value">15000</set><!-- x15 of default -->	
+	<set xpath="/items/item[@name='resourceGunPowder']/property[@name='Stacknumber']/@value">15000</set><!-- x15 of default -->
+	<set xpath="/items/item[@name='resourceBuckshot']/property[@name='Stacknumber']/@value">15000</set><!-- x15 of default -->
+	<set xpath="/items/item[@name='resourceBulletCasing']/property[@name='Stacknumber']/@value">15000</set><!-- x15 of default -->
+	<set xpath="/items/item[@name='resourceBulletTip'] /property[@name='Stacknumber']/@value">15000</set><!-- x15 of default -->
+	<set xpath="/items/item[@name='resourceRepairKit']/property[@name='Stacknumber']/@value">250</set><!-- x10 of default -->
+	<set xpath="/items/item[@name='resourceOil']/property[@name='Stacknumber']/@value">250</set><!-- x5 of default -->
+	<set xpath="/items/item[@name='resourceRadiator']/property[@name='Stacknumber']/@value">50</set><!-- x10 of default -->	
+	<set xpath="/items/item[@name='smallEngine']/property[@name='Stacknumber']/@value">100</set><!-- x10 of default -->	
+	<set xpath="/items/item[@name='resourceHeadlight']/property[@name='Stacknumber']/@value">250</set><!-- x5 of default -->
+	<set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">30000</set><!-- x1.5 of default -->
+	<set xpath="/items/item[@name='ammoGasCan']/property[@name='Stacknumber']/@value">30000</set><!-- x3 of default -->
+	<set xpath="/items/item[@name='toolCookingGrill']/property[@name='Stacknumber']/@value">50</set><!-- x17 of default -->
+	<set xpath="/items/item[@name='toolCookingPot']/property[@name='Stacknumber']/@value">50</set><!-- x17 of default -->
+	<set xpath="/items/item[@name='toolBeaker']/property[@name='Stacknumber']/@value">50</set><!-- x5 of default -->
+	<set xpath="/items/item[@name='toolBellows']/property[@name='Stacknumber']/@value">25</set><!-- x25 of default -->
+	<set xpath="/items/item[@name='toolAnvil']/property[@name='Stacknumber']/@value">25</set><!-- x25 of default -->
+	<set xpath="/items/item[@name='toolForgeCrucible']/property[@name='Stacknumber']/@value">25</set><!-- x25 of default -->
+	<set xpath="/items/item[@name='resourceSilverNugget']/property[@name='Stacknumber']/@value">100</set>
+	<set xpath="/items/item[@name='resourcePaint']/property[@name='Stacknumber']/@value">15000</set><!-- x15 of default -->
+	<!-- Bundle Stacking -->
+	<set xpath="/items/item[@name='resourceRockSmallBundle']/property[@name='Stacknumber']/@value">30</set><!-- x6 of default -->
+
+<append xpath="/items">
+
+<item name="StarterRewardPocoCar">
+	<property name="Extends" value="questRewardBundleMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="bundleVehiclePoco"/>
+	<property name="CustomIconTint" value="FFFFFF"/>
+	<property name="ItemTypeIcon" value="bundle"/>
+	<property name="DescriptionKey" value="StarterRewardPocoCarDesc"/>
+	<property class="Action0">
+		<property name="Create_item" value="resourcePaper"/>
+		<property name="Create_item_count" value="0"/>
+		<property name="Random_item" value="vehiclePocoCarPlaceable,vehiclePocoBuggyPlaceable,vehiclePocoBattleCarPlaceable,vehiclePocoBusPlaceable,vehiclePocoTruckPlaceable,vehiclePocoNuxPlaceable,vehiclePocoRaceCarPlaceable,vehiclePocoBattleBuggyPlaceable,vehiclePocoBattleCranePlaceable"/>
+		<property name="Random_item_count" value="1"/>
+		<property name="Random_count" value="1"/>
+		<property name="Unique_random_only" value="true"/>
+	</property>
+</item>
+
+	<!-- Outback Roadies Starter Kit -->
+	
+		<item name="OutbackRoadiesStarterKit">
+			<property name="CustomIcon" value="cntWeaponsBagSmall"/><property name="ItemTypeIcon" value="bundle"/>
+			<property name="DescriptionKey" value="OutbackRoadiesStarterKitDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="Weight" value="0"/>
+			<property name="EconomicValue" value="100"/>
+			<property name="Group" value="Basics"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="open_supply_crate"/>
+				<property name="Create_item" value="meleeToolSalvageT1Wrench,resourceWood,resourceRockSmall,resourceYuccaFibers,resourceFeather,meleeWpnBladeT1HuntingKnife,gunHandgunT0PipePistol,ammo9mmBulletBall,modGunScopeSmall,drinkJarRedTea,foodBaconAndEggs,questRewardT1SkillMagazineBundle,ammoGasCan,resourceRepairKit,gunShotgunT1DoubleBarrel,ammoShotgunShell"/>
+				<property name="Create_item_count" value="3-4,100,50,50,25,3-4,3-4,50,1,3,3,1,2500,3,1-2,30"/>
+			</property>
+		</item>
+		
+	<!-- Starter 'Bundle' of Fox Food -->
+
+		<item name="npcAnimalFoxStarterFood">
+			<property name="CustomIcon" value="friendlyfoxfood"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="DescriptionKey" value="npcAnimalFoxStarterFoodDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/parcelPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="Weight" value="0"/>
+			<property name="EconomicValue" value="100"/>
+			<property name="Group" value="Basics"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="open_supply_crate"/>
+				<property name="Create_item" value="foodRawMeat"/>
+				<property name="Create_item_count" value="20"/>
+			</property>
+		</item>
+		
+	<!-- Concrete Bundles -->		
+	<item name="resourceCementMixerConcreteBundle">
+		<property name="Extends" value="resourceRockSmallBundle"/>
+		<property name="CustomIcon" value="resourceConcreteMix"/>
+		<property name="DescriptionKey" value="resourceCementMixerConcreteBundleDesc"/>	
+		<property class="Action0">
+			<property name="Create_item" value="resourceConcreteMix"/>
+			<property name="Create_item_count" value="1000"/>
+		</property>
+	</item>
+		
+<!-- Food -->
+<item name="foodWildWheat">
+	<property name="Tags" value="food,foodSkill"/>
+	<property name="HoldType" value="31"/>
+	<property name="DisplayType" value="foodWaterRaw"/>
+	<property name="Meshfile" value="@:Other/Items/Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="1000"/> <!-- STK resource -->
+	<property name="EconomicValue" value="1"/>
+	<!-- <property name="EconomicBundleSize" value="5"/> -->
+	<property name="CraftingIngredientTime" value="10"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Sound_start" value="player_eating"/>
+	</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+	<effect_group tiered="false" name="Food Tier 0">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="water" operation="add" value="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="$waterAmountAdd" value="-1"/>
+	</effect_group>
+</item>
+
+<item name="foodWheatFlour">
+	<property name="Tags" value="food,foodSkill"/>
+	<property name="HoldType" value="31"/>
+	<property name="DisplayType" value="foodWaterRaw"/>
+	<property name="Meshfile" value="@:Other/Items/Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="1000"/> <!-- STK resource -->
+	<property name="EconomicValue" value="25"/>
+	<!-- <property name="EconomicBundleSize" value="5"/> -->
+	<property name="CraftingIngredientTime" value="10"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Sound_start" value="player_eating"/>
+	</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+	<effect_group tiered="false" name="Food Tier 0">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="5"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="5"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="water" operation="add" value="-5"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		<display_value name="$waterAmountAdd" value="-5"/>
+	</effect_group>
+</item>
+
+<item name="foodSnagSanga">
+	<property name="Tags" value="food"/>
+	<property name="HoldType" value="31"/>
+	<property name="DisplayType" value="food"/>	
+	<property name="Meshfile" value="@:Other/Items/Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="250"/> <!-- STK food -->
+	<property name="EconomicValue" value="50"/>
+	<!--property name="UnlockedBy" value="craftingFood"/-->
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_eating"/>
+		<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+	</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+	<effect_group tiered="false" name="Food Tier 0">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="30"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="15"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="10"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+</item>
+
+<item name="foodWitchettyGrub">
+	<property name="Tags" value="food,medical,medicalSkill"/>
+	<property name="HoldType" value="31"/>
+	<property name="DisplayType" value="foodCureInfectionAndFoodWater"/>
+	<property name="Meshfile" value="@:Other/Items/Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="1000"/> <!-- STK food -->
+	<property name="EconomicValue" value="25"/>
+	<!--property name="UnlockedBy" value="craftingFood"/--><!-- perkMasterChef,foodMeatStewSchematic, -->
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Sound_start" value="player_drinking"/>
+		<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+	</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+	<effect_group tiered="false" name="Food Tier 0">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="5"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="5"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="5"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="5"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		
+		<display_value name="dCureInfection" value=".01"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInfectionAddCure"/>
+	</effect_group>
+</item>
+
+<item name="foodWitchettyGrubSoupandSanga">
+	<property name="Tags" value="food,medical,medicalSkill"/>
+	<property name="HoldType" value="31"/>
+	<property name="DisplayType" value="foodCureInfectionAndFoodWater"/>
+	<property name="Meshfile" value="@:Other/Items/Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="250"/> <!-- STK food -->
+	<property name="EconomicValue" value="100"/>
+	<!--property name="UnlockedBy" value="craftingFood"/--><!-- perkMasterChef,foodMeatStewSchematic, -->
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Sound_start" value="player_drinking"/>
+		<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+	</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+	<effect_group tiered="false" name="Food Tier 0">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="65"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="25"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="25"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="15"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+
+		<display_value name="dCureInfection" value=".05"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="5"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInfectionAddCure"/>
+	</effect_group>
+</item>
+
+<item name="foodMeatPie">
+	<property name="Tags" value="food,foodSkill"/>
+	<property name="HoldType" value="31"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="@:Other/Items/Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mplants"/>
+	<property name="Stacknumber" value="250"/> <!-- STK resource -->
+	<property name="EconomicValue" value="100"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="CraftingIngredientTime" value="10"/>
+	<!-- 14 is large round hold -->
+	<!--property name="UnlockedBy" value="craftingFood"/--><!-- perkMasterChef,foodSteakAndPotatoSchematic, -->
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Sound_start" value="player_eating"/>
+	</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+
+	<effect_group tiered="false" name="Food Tier 0">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="50"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="25"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+</item>
+
+<item name="foodPocoTucker">
+	<property name="Tags" value="food,medical,medicalSkill"/>
+	<property name="HoldType" value="31"/>
+	<property name="DisplayType" value="foodCureInfectionAndFoodWater"/>
+	<property name="CustomIcon" value="foodPocoTucker"/>
+	<property name="DescriptionKey" value="foodPocoTuckerDesc"/>	
+	<property name="Meshfile" value="@:Other/Items/Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="250"/> <!-- STK food -->
+	<property name="EconomicValue" value="100"/>
+	<!--property name="UnlockedBy" value="perkMasterChef"/-->
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<!-- jar from cooking food <property name="Create_item" value="drinkJarEmpty"/> -->
+	</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+	
+	<effect_group tiered="false" name="Food Tier 0">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="60"/> <!-- Approx 10% Combination Gain --> 
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="30"/> <!-- Approx 10% Combination Gain -->
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="28"/> <!-- Approx 10% Combination Gain -->
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		
+		<display_value name="dCureInfection" value=".03"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="3"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInfectionAddCure"/>
+	</effect_group>
+</item>
+
+	<!-- Concrete Bundles -->		
+	<item name="resourceCementMixerConcreteBundle">
+		<property name="Extends" value="resourceRockSmallBundle"/>
+		<property name="CustomIcon" value="resourceConcreteMix"/>
+		<property name="DescriptionKey" value="resourceCementMixerConcreteBundleDesc"/>	
+		<property class="Action0">
+			<property name="Create_item" value="resourceConcreteMix"/>
+			<property name="Create_item_count" value="1000"/>
+		</property>
+	</item>
+
+<!--APPOC CAR-->
+<item name="vehiclePocoCarPlaceable">
+    <property name="Extends" value="vehicleMinibikePlaceable"/>
+    <!--property name="UnlockedBy" value="craftingVehicles"/-->    
+    <property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/>
+    <property name="Meshfile" value="#@modfolder:/Resources/ApocCar1.unity3d?ApocCar.prefab"/>
+    <property name="Material" value="Mmetal"/>
+    <property name="EconomicValue" value="30000"/>
+<property class="Action1">
+    <property name="Vehicle" value="vehiclePocoCar"/>
+    <property name="VehicleSize" value="2, 2, 2"/>
+</property>
+<effect_group name="vehiclePocoCarPlaceable" tiered="false">
+    <passive_effect name="ModSlots" operation="base_set" value="5"/>
+    <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+    <passive_effect name="DegradationMax" operation="base_set" value="25000"/>
+</effect_group>
+</item>
+<!--END OF APPOC CAR-->
+
+<!--APPOC BUGGY-->
+<item name="vehiclePocoBuggyPlaceable">
+    <property name="Extends" value="vehicleMinibikePlaceable"/>
+    <!--property name="UnlockedBy" value="craftingVehicles"/-->    
+    <property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/>
+    <property name="Meshfile" value="#@modfolder:/Resources/PreppoBuggy1.unity3d?PreppoBuggy.prefab"/>
+    <property name="Material" value="Mmetal"/>
+    <property name="EconomicValue" value="30000"/>
+<property class="Action1">
+    <property name="Vehicle" value="vehiclePocoBuggy"/>
+    <property name="VehicleSize" value="2, 2, 2"/>
+</property>
+<effect_group name="vehiclePocoBuggyPlaceable" tiered="false">
+    <passive_effect name="ModSlots" operation="base_set" value="5"/>
+    <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+    <passive_effect name="DegradationMax" operation="base_set" value="25000"/>
+</effect_group>
+</item>
+<!--END OF APPOC BUGGY-->
+
+<!--APPOC BATTLE CAR-->
+<item name="vehiclePocoBattleCarPlaceable">
+    <property name="Extends" value="vehicleMinibikePlaceable"/>
+    <!--property name="UnlockedBy" value="craftingVehicles"/-->    
+    <property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/>
+    <property name="Meshfile" value="#@modfolder:/Resources/apocbattlecar1.unity3d?apocbattlecar.prefab"/>
+    <property name="Material" value="Mmetal"/>
+    <property name="EconomicValue" value="30000"/>
+<property class="Action1">
+    <property name="Vehicle" value="vehiclePocoBattleCar"/>
+    <property name="VehicleSize" value="2, 2, 2"/>
+</property>
+<effect_group name="vehiclePocoBattleCarPlaceable" tiered="false">
+    <passive_effect name="ModSlots" operation="base_set" value="5"/>
+    <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+    <passive_effect name="DegradationMax" operation="base_set" value="25000"/>
+</effect_group>
+</item>
+<!--END OF APPOC BATTLE CAR-->
+
+<!--APPOC BUS-->
+<item name="vehiclePocoBusPlaceable">
+    <property name="Extends" value="vehicleMinibikePlaceable"/>
+    <!--property name="UnlockedBy" value="craftingVehicles"/-->    
+    <property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/>
+    <property name="Meshfile" value="#@modfolder:/Resources/ApocBus1.unity3d?ApocBus.prefab"/>
+    <property name="Material" value="Mmetal"/>
+    <property name="EconomicValue" value="30000"/>
+<property class="Action1">
+    <property name="Vehicle" value="vehiclePocoBus"/>
+    <property name="VehicleSize" value="2, 2, 2"/>
+</property>
+<effect_group name="vehiclePocoBusPlaceable" tiered="false">
+    <passive_effect name="ModSlots" operation="base_set" value="5"/>
+    <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+    <passive_effect name="DegradationMax" operation="base_set" value="25000"/>
+</effect_group>
+</item>
+<!--END OF APPOC BUS-->
+
+<!--APPOC TRUCK-->
+<item name="vehiclePocoTruckPlaceable">
+    <property name="Extends" value="vehicleMinibikePlaceable"/>
+    <!--property name="UnlockedBy" value="craftingVehicles"/-->    
+    <property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/>
+    <property name="Meshfile" value="#@modfolder:/Resources/appoctruck1.unity3d?appoctruck.prefab"/>
+    <property name="Material" value="Mmetal"/>
+    <property name="EconomicValue" value="30000"/>
+<property class="Action1">
+    <property name="Vehicle" value="vehiclePocoTruck"/>
+    <property name="VehicleSize" value="2, 2, 2"/>
+</property>
+<effect_group name="vehiclePocoTruckPlaceable" tiered="false">
+    <passive_effect name="ModSlots" operation="base_set" value="5"/>
+    <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+    <passive_effect name="DegradationMax" operation="base_set" value="25000"/>
+</effect_group>
+</item>
+<!--END OF APPOC TRUCK-->
+
+<!--APPOC NUX-->
+<item name="vehiclePocoNuxPlaceable">
+    <property name="Extends" value="vehicleMinibikePlaceable"/>
+    <!--property name="UnlockedBy" value="craftingVehicles"/-->    
+    <property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/>
+    <property name="Meshfile" value="#@modfolder:/Resources/apocnux1.unity3d?apocnux.prefab"/>
+    <property name="Material" value="Mmetal"/>
+    <property name="EconomicValue" value="30000"/>
+<property class="Action1">
+    <property name="Vehicle" value="vehiclePocoNux"/>
+    <property name="VehicleSize" value="2, 2, 2"/>
+</property>
+<effect_group name="vehiclePocoNuxPlaceable" tiered="false">
+    <passive_effect name="ModSlots" operation="base_set" value="5"/>
+    <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+    <passive_effect name="DegradationMax" operation="base_set" value="25000"/>
+</effect_group>
+</item>
+<!--END OF APPOC NUX-->
+
+<!--APPOC RACECAR-->
+<item name="vehiclePocoRaceCarPlaceable">
+    <property name="Extends" value="vehicleMinibikePlaceable"/>
+    <!--property name="UnlockedBy" value="craftingVehicles"/-->    
+    <property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/>
+    <property name="Meshfile" value="#@modfolder:/Resources/apocracecar1.unity3d?apocracecar.prefab"/>
+    <property name="Material" value="Mmetal"/>
+    <property name="EconomicValue" value="30000"/>
+<property class="Action1">
+    <property name="Vehicle" value="vehiclePocoRaceCar"/>
+    <property name="VehicleSize" value="2, 2, 2"/>
+</property>
+<effect_group name="vehiclePocoRaceCarPlaceable" tiered="false">
+    <passive_effect name="ModSlots" operation="base_set" value="5"/>
+    <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+    <passive_effect name="DegradationMax" operation="base_set" value="25000"/>
+</effect_group>
+</item>
+<!--END OF APPOC RACECAR-->
+
+<!--APPOC BATTLEBUGGY-->
+<item name="vehiclePocoBattleBuggyPlaceable">
+    <property name="Extends" value="vehicleMinibikePlaceable"/>
+    <!--property name="UnlockedBy" value="craftingVehicles"/-->    
+    <property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/>
+    <property name="Meshfile" value="#@modfolder:/Resources/apocbattlebuggy1.unity3d?apocbattlebuggy.prefab"/>
+    <property name="Material" value="Mmetal"/>
+    <property name="EconomicValue" value="30000"/>
+<property class="Action1">
+    <property name="Vehicle" value="vehiclePocoBattleBuggy"/>
+    <property name="VehicleSize" value="2, 2, 2"/>
+</property>
+<effect_group name="vehiclePocoBattleBuggyPlaceable" tiered="false">
+    <passive_effect name="ModSlots" operation="base_set" value="5"/>
+    <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+    <passive_effect name="DegradationMax" operation="base_set" value="25000"/>
+</effect_group>
+</item>
+<!--END OF APPOC BATTLEBUGGY-->
+
+<!--APPOC BATTLECRANE-->
+<item name="vehiclePocoBattleCranePlaceable">
+    <property name="Extends" value="vehicleMinibikePlaceable"/>
+    <!--property name="UnlockedBy" value="craftingVehicles"/-->    
+    <property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/>
+    <property name="Meshfile" value="#@modfolder:/Resources/apocbattlecrane1.unity3d?apocbattlecrane.prefab"/>
+    <property name="Material" value="Mmetal"/>
+    <property name="EconomicValue" value="30000"/>
+<property class="Action1">
+    <property name="Vehicle" value="vehiclePocoBattleCrane"/>
+    <property name="VehicleSize" value="2, 2, 2"/>
+</property>
+<effect_group name="vehiclePocoBattleCranePlaceable" tiered="false">
+    <passive_effect name="ModSlots" operation="base_set" value="5"/>
+    <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+    <passive_effect name="DegradationMax" operation="base_set" value="25000"/>
+</effect_group>
+</item>
+<!--END OF APPOC BATTLECRANE-->
+
+</append>
+
+</configs>

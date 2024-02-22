@@ -1,0 +1,11 @@
+<configs>
+	
+	<!-- The fox will spawn when entering game at survival questline 1/2 with 2/2 moving to final campfire quest -->	
+	<insertAfter xpath="/quests/quest[@id='quest_BasicSurvival1']/action[@type='ShowTip']" >
+			<action type="SpawnEnemy" id="npcAnimalFox" value="1"/>
+	</insertAfter>
+	
+	<set xpath="/quests/quest[@id='quest_BasicSurvival1']/reward[@type='Quest']/@id">quest_BasicSurvival8</set>
+	<set xpath="/quests/quest[@id='quest_BasicSurvival8']/reward[@type='SkillPoints']/@value">8</set>
+	
+</configs>

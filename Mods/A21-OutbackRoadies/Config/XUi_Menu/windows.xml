@@ -1,0 +1,6 @@
+<configs>
+
+	<remove xpath="//window[@name='newsWindow']"/>
+	<set xpath="/windows/window[@name='menuBackground']/texture/@texture">@modfolder:Textures/background.png</set>
+	
+</configs>

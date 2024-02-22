@@ -1,0 +1,74 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+
+tutorialTipQuest01,Journal Tip,,,,"Welcome to Outback Roadies.\n\nIt looks like a zombie got ya, and took your clobber! You may be immune, but you are not immortal. That friendly fox over there took care of you.\n\nGive that friendly fox over there the contents of your dog food can, and it'll stick by your side.\n\nComplete your 2 survival quests and stay alert, Road Warrior.",,,,,,,,,,,,,
+quest_BasicSurvival1,Quest,Quest Info,,,Basic Survival 1/2,,Das 1x1 des Überlebens 1/2,Supervivencia básica 1/2,Les bases de la survie 1/2,Basi della sopravvivenza 1/2,生き残るための基礎知識 1/2,기본 생존 1/2,Podstawy przetrwania 1/2,Sobrevivência Básica 1/2,Основы выживания 1/2,Temel Hayatta Kalma 1/2,基础生存 1/2,基本生存 1/2
+quest_BasicSurvival8,Quest,Quest Info,,,Basic Survival 2/2,,Das 1x1 des Überlebens 2/2,Supervivencia básica 2/2,Les bases de la survie 2/2,Basi della sopravvivenza 2/2,生き残るための基礎知識 2/2,기본 생존 2/2,Podstawy przetrwania 2/2,Sobrevivência Básica 2/2,Основы выживания 2/2,Temel Hayatta Kalma 2/2,基础生存 2/2,基本生存 2/2
+quest_WhiteRiverCitizen1_description,Quest,Quest Info,,,"Good on ya!\n\nWe have marked your map with the location of a Trader Servo. Collect 8 Skill Points for your troubles.\n\nWelcome to Outback Roadies.",,,,,,,,,,,,,
+
+OutbackRoadiesStarterKit,items,item,,,Outback Roadies Starter Kit,,,,,,,,,,,,,
+OutbackRoadiesStarterKitDesc,items,item,,,"This will get things rolling in Outback Roadies.",,,,,,,,,,,,,
+StarterRewardPocoCar,items,item,,,Random Outback Roadies Vehicle,,,,,,,,,,,,,
+StarterRewardPocoCarDesc,items,item,,,"This contains one random outback roadies vehicle. There are 9 to collect.",,,,,,,,,,,,,
+npcAnimalFoxStarterFood,items,item,,,Friendly Fox Food,,,,,,,,,,,,,
+npcAnimalFoxStarterFoodDesc,items,item,,,"While you were sleeping it off, a friendly fox licked your face and brought you back to your senses. The fox is still very close and will accompany you if you share the contents of this can.",,,,,,,,,,,,,
+foxPickUpNPC,items,item,,,Friendly Fox (Resting),,,,,,,,,,,,,
+foxPickUpNPCDesc,items,item,,,"You are carrying your friendly fox. Put it in your active toolbelt slot to place it down.",,,,,,,,,,,,,
+
+trader_bob,POI,POIName,,x,Trader Servo Bob,,,,,,,,,,,,,
+trader_hugh,POI,POIName,,x,Trader Servo Hugh,,,,,,,,,,,,,
+trader_jen,POI,POIName,,x,Trader Servo Jen,,,,,,,,,,,,,
+trader_joel,POI,POIName,,x,Trader Servo Joel,,,,,,,,,,,,,
+trader_rekt,POI,POIName,,x,Trader Servo Rekt,,,,,,,,,,,,,
+outbackroadies_TheCompound,POI,POIName,,x,The Compound,,,,,,,,,,,,,
+
+foodWildWheat,items,Food,,,Wild Wheat,,,,,,,,,,,,,
+foodWildWheatDesc,items,Food,,,"Wild Wheat can be ground down to make Wheat Flour and added to recipes.",,,,,,,,,,,,,
+foodWheatFlour,items,Food,,,Wheat Flour,,,,,,,,,,,,,
+foodWheatFlourDesc,items,Food,,,"Wild Flour can be added to recipes.",,,,,,,,,,,,,
+foodSnagSanga,items,Food,,,Snag Sanga,,,,,,,,,,,,,
+foodSnagSangaDesc,items,Food,,,"A Snag Sanga is best served slightly charred.",,,,,,,,,,,,,
+foodWitchettyGrub,items,Food,,,Witchetty Grub,,,,,,,,,,,,,
+foodWitchettyGrubDesc,items,Food,,,"The Witchetty Grub is the larval stage of a large cossid wood moth, but the name is used generically for many kinds of wood boring grub. Makes for good bush tucker, and can be eaten raw.",,,,,,,,,,,,,
+foodWitchettyGrubSoupandSanga,items,Food,,,Witchetty Grub Soup and Sanga,,,,,,,,,,,,,
+foodWitchettyGrubSoupandSangaDesc,items,Food,,,"Witchetty Grub Soup combined with a Snag Sanga is a Snag Sizzle delight.",,,,,,,,,,,,,
+foodMeatPie,items,Food,,,Poco Meat Pie,,,,,,,,,,,,,
+foodMeatPieDesc,items,Food,,,"It's full of good stuff inside there. Good enough to bathe in.",,,,,,,,,,,,,
+foodPocoTucker,items,Food,,,Poco Tucker,,,,,,,,,,,,,
+foodPocoTuckerDesc,items,Food,,,"Fine dining for Outback Roadies.",,,,,,,,,,,,,
+
+crushedCars01WhiteVariantHelper,blocks,Block,,,Crushed Car Defences,,,,,,,,,,,,,
+resourceCementMixerConcreteBundle,items,Item,,,Stack of Concrete Mix (1000),,,,,,,,,,,,,
+resourceCementMixerConcreteBundleDesc,items,Item,,,"This is a compact stack of concrete mix. 'Open' this item to open and unpack it. This stack of concrete uses 20% less resources than the same amount in single units.",,,,,,,,,,,,,
+LogWallsVariantHelper,blocks,block,,,Large Wood Walls,,,,,,,,,,,,,
+banditWallCorrugatedVariantHelper,blocks,Block,,,Bandit - Corrugated Wall,,,,,,,,,,,
+banditPlatformVariantHelper,blocks,Block,,,Bandit - Ramps and Platforms,,,,,,,,,,,
+chainLinkFencePOIVariantHelper,blocks,Block,,,Chain Link Fence,,,,,,,,,,,
+barbedWireSpindleVariantHelper,blocks,Block,,,Barbed Wire Spindle,,,,,,,,,,,
+chainlinkDoorGateVariantHelper,blocks,Block,,,Chain Link Doors,,,,,,,,,,,
+
+animalCassowary,entityclasses,Entity,,,Cassowary,,,,,,,,,,,,,
+animalTassydevil,entityclasses,Entity,,,Tasmanian Devil,,,,,,,,,,,,,
+animalPlatypus,entityclasses,Entity,,,Platypus
+animalKoala,entityclasses,Entity,,,Koala,,,,,,,,,,,,,
+animalFrillneck,entityclasses,Entity,,,Frilled-Neck Lizard,,,,,,,,,,,,,
+animalKangaroo,entityclasses,Entity,,,Kangaroo,,,,,,,,,,,,,
+animalMagpie,entityclasses,Entity,,,Magpie,,,,,,,,,,,,,
+
+vehiclePocoCar,vehicles,vehicle,,,Poco Car
+vehiclePocoCarPlaceable,vehicles,item,,,Poco Car
+vehiclePocoBuggy,vehicles,vehicle,,,Poco Buggy
+vehiclePocoBuggyPlaceable,vehicles,item,,,Poco Buggy
+vehiclePocoBattleCar,vehicles,vehicle,,,Poco Ripper
+vehiclePocoBattleCarPlaceable,vehicles,item,,,Poco Ripper
+vehiclePocoBus,vehicles,vehicle,,,Poco Battle Bus
+vehiclePocoBusPlaceable,vehicles,item,,,Poco Battle Bus
+vehiclePocoTruck,vehicles,vehicle,,,Poco Truck
+vehiclePocoTruckPlaceable,vehicles,item,,,Poco Truck
+vehiclePocoNux,vehicles,vehicle,,,Poco Nux
+vehiclePocoNuxPlaceable,vehicles,item,,,Poco Nux
+vehiclePocoRaceCar,vehicles,vehicle,,,Poco Race Car
+vehiclePocoRaceCarPlaceable,vehicles,item,,,Poco Race Car
+vehiclePocoBattleBuggy,vehicles,vehicle,,,Poco Battle Buggy
+vehiclePocoBattleBuggyPlaceable,vehicles,item,,,Poco Battle Buggy
+vehiclePocoBattleCrane,vehicles,vehicle,,,Poco Battle Crane
+vehiclePocoBattleCranePlaceable,vehicles,item,,,Poco Battle Crane
