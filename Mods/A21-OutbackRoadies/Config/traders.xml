@@ -1,0 +1,20 @@
+<configs>
+
+	<!-- TRADERS -->
+
+	<setattribute xpath="//trader_info[@id='1']" name="open_time">4:05</setattribute>	<!-- Joel -->
+	<setattribute xpath="//trader_info[@id='2']" name="open_time">4:05</setattribute>	<!-- Jen -->
+	<setattribute xpath="//trader_info[@id='6']" name="open_time">4:05</setattribute>	<!-- Bob -->
+	<setattribute xpath="//trader_info[@id='7']" name="open_time">4:05</setattribute>	<!-- Hugh -->
+	<setattribute xpath="//trader_info[@id='8']" name="open_time">4:05</setattribute>	<!-- Rekt -->
+	
+	<!-- *** Trader_Bob_Magazines -->
+	<set xpath="/traders/trader_item_groups/trader_item_group[@name='skillMagazinesTraderBob']/item[@name='vehiclesSkillMagazine']/@count">2,6</set>
+
+	<!-- *** Raw_Ingredients -->
+	
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='foodSupplies']">
+			<item name="GrownChicken" count="1"/>		
+	</append>
+
+</configs>

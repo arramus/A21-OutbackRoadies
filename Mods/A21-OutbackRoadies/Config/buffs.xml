@@ -3,5 +3,43 @@
     <!-- Make Encumberence Debuff percentage lower to accomodate more locked inventory slots - KhaineGB -->
 	<set xpath="/buffs/buff[@name='buffEncumberedInv']/effect_group/triggered_effect[@cvar='$encumbranceEffect'][@value='0.026']/@value">0.013</set>
 	<set xpath="/buffs/buff[@name='buffDrugSteroids']/effect_group/passive_effect[@name='CarryCapacity'][@operation='base_set']/@operation">base_add</set>
+
+	<append xpath="/buffs">
+	
+<!-- Xyth Spiders -->
+	
+		<buff name="buffFeralSpiderBite" icon="ui_game_symbol_stunned" icon_color="20,210,60">
+			<stack_type value="replace"/>
+			<duration value="1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="horde_spawn_warning" play_in_head="true"/>
+				<triggered_effect trigger="onSelfBuffStart" action="FadeOutSound" sound="horde_spawn_warning" play_in_head="true"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="StopSound" sound="horde_spawn_warning" play_in_head="true"/>
+			</effect_group>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="0.1" effect_name="Distortion"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="0.1" fade="1" effect_name="VibrantDeSat"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1"  effect_name="VibrantDeSat"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1"  effect_name="Distortion"/>
+			</effect_group>
+		</buff>	
+
+		<buff name="buffQueenSpiderBite" icon="ui_game_symbol_stunned" icon_color="20,210,60">
+			<stack_type value="replace"/>
+			<duration value="2"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="horde_spawn_warning" play_in_head="true"/>
+				<triggered_effect trigger="onSelfBuffStart" action="FadeOutSound" sound="horde_spawn_warning" play_in_head="true"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="StopSound" sound="horde_spawn_warning" play_in_head="true"/>
+			</effect_group>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="0.2" effect_name="Distortion"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="0.2" fade="1" effect_name="VibrantDeSat"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1"  effect_name="VibrantDeSat"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1"  effect_name="Distortion"/>
+			</effect_group>
+		</buff>		
+		
+	</append>
 	
 </configs>

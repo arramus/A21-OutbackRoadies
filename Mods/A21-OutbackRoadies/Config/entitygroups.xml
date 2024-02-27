@@ -2,7 +2,7 @@
 
 <!-- *** INTEGRATION FOR ANIMALS -->
 
-<!-- *** BIOME_ENEMY_ANIMAL_DESERT_GROUP -->
+<!-- *** BIOME_ENEMY_ANIMAL_DESERT_GROUP --> <!-- ANY -->
 
 	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']/text()" delim="\n" op="add" >
 		animalCassowary, 30
@@ -12,15 +12,45 @@
 		animalFrillneck, 30
 		animalKangaroo, 40
 		animalMagpie, 20
+		animalSpider01Mini, 6
+		animalSpider02Mini, 6
+		animalSpider03Mini, 6
+		animalSpider01, 4
+		animalSpider02, 4
+		animalSpider03, 4
+		animalSpider01Feral, 3
+		animalSpider02Feral, 3
+		animalSpider03Feral, 3
+		animalSpider01Radiated, 2
+		animalSpider02Radiated, 2
+		animalSpider03Radiated, 2
+		animalSpider01Queen, .75
+		animalSpider02Queen, .75
+		animalSpider03Queen, .75
 	</csv>
 	
-<!-- *** SNOW ANIMALS -->
+<!-- *** SNOW ANIMALS --> <!-- ANY -->
 	
 	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']/text()" delim="\n" op="add" >
 		animalMagpie, 15
+		animalSpider01Mini, 3
+		animalSpider02Mini, 3
+		animalSpider03Mini, 3
+		animalSpider01, 2
+		animalSpider02, 2
+		animalSpider03, 2
+		animalSpider01Feral, 1.5
+		animalSpider02Feral, 1.5
+		animalSpider03Feral, 1.5
+		animalSpider01Radiated, 1
+		animalSpider02Radiated, 1
+		animalSpider03Radiated, 1
+		animalSpider01Queen, .75
+		animalSpider02Queen, .75
+		animalSpider03Queen, .75
 	</csv>
 	
-<!-- *** BIOME_ANIMAL_WILD_GAME_FOREST_GROUP -->
+<!-- *** BIOME_ANIMAL_WILD_GAME_FOREST_GROUP --> <!-- ANY -->
 
 	<csv xpath="/entitygroups/entitygroup[@name='WildGameForest']/text()" delim="\n" op="add" >
 		animalTassydevil, 8
@@ -29,13 +59,85 @@
 		animalFrillneck, 8
 		animalKangaroo, 8
 		animalMagpie, 8
+		animalSpider01Mini, 3
+		animalSpider02Mini, 3
+		animalSpider03Mini, 3
+		animalSpider01, 2
+		animalSpider02, 2
+		animalSpider03, 2
+		animalSpider01Feral, 1.5
+		animalSpider02Feral, 1.5
+		animalSpider03Feral, 1.5
+		animalSpider01Radiated, 1
+		animalSpider02Radiated, 1
+		animalSpider03Radiated, 1
+		animalSpider01Queen, .75
+		animalSpider02Queen, .75
+		animalSpider03Queen, .75
 	</csv>
 	
-<!-- *** BIOME_ENEMY_ANIMAL_BURNT_FOREST_GROUP -->
+	<!-- *** BIOME_ENEMY_ANIMAL_FOREST_GROUP --> <!-- NIGHT -->
 	
 	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsForest']/text()" delim="\n" op="add" >
 		animalMagpie, 30
 		animalTassydevil, 10
+		animalSpider01Mini, 3
+		animalSpider02Mini, 3
+		animalSpider03Mini, 3
+		animalSpider01, 2
+		animalSpider02, 2
+		animalSpider03, 2
+		animalSpider01Feral, 1.5
+		animalSpider02Feral, 1.5
+		animalSpider03Feral, 1.5
+		animalSpider01Radiated, 1
+		animalSpider02Radiated, 1
+		animalSpider03Radiated, 1
+		animalSpider01Queen, .75
+		animalSpider02Queen, .75
+		animalSpider03Queen, .75
+	</csv>
+
+	<!-- *** BIOME_ENEMY_ANIMAL_BURNT_FOREST_GROUP --> <!-- NIGHT -->
+
+	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForest']/text()" delim="\n" op="add" >
+		animalMagpie, 30
+		animalTassydevil, 10
+		animalSpider01Mini, 3
+		animalSpider02Mini, 3
+		animalSpider03Mini, 3
+		animalSpider01, 2
+		animalSpider02, 2
+		animalSpider03, 2
+		animalSpider01Feral, 1.5
+		animalSpider02Feral, 1.5
+		animalSpider03Feral, 1.5
+		animalSpider01Radiated, 1
+		animalSpider02Radiated, 1
+		animalSpider03Radiated, 1
+		animalSpider01Queen, .75
+		animalSpider02Queen, .75
+		animalSpider03Queen, .75
+	</csv>
+	
+	<!-- *** BIOME_ENEMY_ANIMAL_WASTELAND_GROUP --> <!-- ANY -->
+	
+	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']/text()" delim="\n" op="add" >
+		animalSpider01Mini, 6
+		animalSpider02Mini, 6
+		animalSpider03Mini, 6
+		animalSpider01, 4
+		animalSpider02, 4
+		animalSpider03, 4
+		animalSpider01Feral, 3
+		animalSpider02Feral, 3
+		animalSpider03Feral, 3
+		animalSpider01Radiated, 2
+		animalSpider02Radiated, 2
+		animalSpider03Radiated, 2
+		animalSpider01Queen, .75
+		animalSpider02Queen, .75
+		animalSpider03Queen, .75
 	</csv>
 
 </configs>

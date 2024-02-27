@@ -1,0 +1,101 @@
+<configs>
+	<append xpath="/Sounds">
+		<SoundDataNode name="animalspideralert"> <AudioSource name="Sounds/AudioSource_CreatureSenseAlert"/>
+			<Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Animalspidersounds.unity3d?animalspideralert"/>
+			<Channel name="Mouth"/>
+			<Priority name="3"/>
+			<maxVoicesPerEntity value="1"/>
+		  <LowestPitch name="0.9"/>
+		  <HighestPitch name="1.0"/>
+			<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.9"/>
+		</SoundDataNode>
+		<SoundDataNode name="animalspidersense"> <AudioSource name="Sounds/AudioSource_CreatureSenseAlert"/>
+			<Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Animalspidersounds.unity3d?animalspidersense"/>
+			<Channel name="Mouth"/>
+			<Priority name="4"/>
+			<maxVoicesPerEntity value="1"/>
+		  <LowestPitch name="0.9"/>
+		  <HighestPitch name="1.0"/>
+			<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.9"/>
+		</SoundDataNode>
+		<SoundDataNode name="animalspiderhurt"> <AudioSource name="Sounds/AudioSource_CreatureSenseAlert"/>
+			<Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Animalspidersounds.unity3d?animalspiderhurt1"/>
+			<AudioClip ClipName="#@modfolder:Resources/Animalspidersounds.unity3d?animalspiderhurt2"/>
+			<AudioClip ClipName="#@modfolder:Resources/Animalspidersounds.unity3d?animalspiderhurt3"/>		
+			<Channel name="Mouth"/>
+			<Priority name="1"/>
+			<maxVoicesPerEntity value="1"/>
+		  <LowestPitch name="0.9"/>
+		  <HighestPitch name="1.0"/>
+			<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.9"/>
+		</SoundDataNode>
+		<SoundDataNode name="animalspiderattack"> <AudioSource name="Sounds/AudioSource_Creatures"/>
+			<Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Animalspidersounds.unity3d?animalspiderattack1"/>
+			<AudioClip ClipName="#@modfolder:Resources/Animalspidersounds.unity3d?animalspiderattack2"/>
+			<AudioClip ClipName="#@modfolder:Resources/Animalspidersounds.unity3d?animalspiderattack3"/>	
+			<Channel name="Mouth"/>
+			<Priority name="2"/>
+			<maxVoicesPerEntity value="1"/>
+		  <LowestPitch name="0.9"/>
+		  <HighestPitch name="1.0"/>
+			<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.9"/>
+		</SoundDataNode>
+		<SoundDataNode name="animalspiderroam"> <AudioSource name="Sounds/AudioSource_CreatureSenseAlert"/>
+			<Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Animalspidersounds.unity3d?animalspiderroam"/>
+			<Channel name="Mouth"/>
+			<Priority name="5"/>
+			<maxVoicesPerEntity value="1"/>
+		  <LowestPitch name="0.9"/>
+		  <HighestPitch name="1.0"/>
+			<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.9"/>
+		</SoundDataNode>
+		<SoundDataNode name="animalspiderdeath"> <AudioSource name="Sounds/AudioSource_CreatureSenseAlert"/>
+			<Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Animalspidersounds.unity3d?animalspiderdeath"/>
+			<Channel name="Mouth"/>
+			<Priority name="5"/>
+			<maxVoicesPerEntity value="1"/>
+		  <LowestPitch name="0.9"/>
+		  <HighestPitch name="1.0"/>
+			<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.9"/>
+		</SoundDataNode>
+		<SoundDataNode name="animalspiderrandom"> <AudioSource name="Sounds/AudioSource_CreatureSenseAlert"/>
+			<Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Animalspidersounds.unity3d?animalspiderrandom"/>
+			<Channel name="Mouth"/>
+			<Priority name="5"/>
+			<maxVoicesPerEntity value="1"/>
+		  <LowestPitch name="0.9"/>
+		  <HighestPitch name="1.0"/>
+			<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.9"/>
+		</SoundDataNode>
+
+  <SoundDataNode name="Chicken6Sounds">
+  <AudioSource name="Sounds/AudioSource_VO" />
+  <Noise ID="3" range="3" volume="25" time="10" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60" />
+  <AudioClip ClipName="#@modfolder:Resources/ChickenCoop.unity3d?Chicken1" />
+  <LocalCrouchVolumeScale name="1.0" />
+  <CrouchNoiseScale name="0.5" />
+  <NoiseScale name="1" />
+  <MaxVoices name="10" />
+  <MaxRepeatRate name="1.111" />
+  </SoundDataNode>
+
+  <SoundDataNode name="BeeHiveOpen">
+  <AudioSource name="Sounds/AudioSource_VO" />
+  <Noise ID="3" range="3" volume="25" time="10" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60" />
+  <AudioClip ClipName="#@modfolder:Resources/BeeSounds.unity3d?zBeeSound2" />
+  <LocalCrouchVolumeScale name="1.0" />
+  <CrouchNoiseScale name="0.5" />
+  <NoiseScale name="1" />
+  <MaxVoices name="10" />
+  <MaxRepeatRate name="1.111" />
+  </SoundDataNode>
+  
+	</append>	
+</configs>
