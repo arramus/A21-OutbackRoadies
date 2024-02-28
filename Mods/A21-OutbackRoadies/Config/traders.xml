@@ -9,12 +9,39 @@
 	<setattribute xpath="//trader_info[@id='8']" name="open_time">4:05</setattribute>	<!-- Rekt -->
 	
 	<!-- *** Trader_Bob_Magazines -->
-	<set xpath="/traders/trader_item_groups/trader_item_group[@name='skillMagazinesTraderBob']/item[@name='vehiclesSkillMagazine']/@count">2,6</set>
+	<set xpath="/traders/trader_item_groups/trader_item_group[@name='skillMagazinesTraderBob']/item[@name='vehiclesSkillMagazine']/@count">3,6</set>
 
 	<!-- *** Raw_Ingredients -->
 	
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='foodSupplies']">
 			<item name="GrownChicken" count="1"/>		
+	</append>
+	
+	<!-- *** T1_Melee_Mods -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupMeleeMods']">
+		<item name="modMeleeSpartanSledgeStamina"/>		
+	</append>
+	
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupRangedMods']">
+	<!-- *** T1_Ranged_Mods-->
+		<item name="modWeaponMaintenance"/>
+	<!-- *** T2_Ranged_Mods -->
+		<item name="modGunBowArrowGrip"/>
+		<item name="modArcheryReloadSpeed"/>		
+	</append>
+	
+	<!-- Group Armor Mods -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorMods']">
+		<item name="modArmorRunningShoesHP"/>	
+	</append>
+	
+	<!-- schematicsModsCommon -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsModsCommon']">
+		<item name="modWeaponMaintenanceSchematic"/>
+		<item name="modMeleeSpartanSledgeStaminaSchematic"/>
+		<item name="modGunBowArrowGripSchematic"/>		
+		<item name="modArcheryReloadSpeedSchematic"/>
+		<item name="modArmorRunningShoesHPSchematic"/>	
 	</append>
 
 </configs>

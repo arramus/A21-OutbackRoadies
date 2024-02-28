@@ -1,5 +1,31 @@
 <configs>
 
+	<set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='hopForce']/@value">5, .025</set> <!-- Bicycle 4, .05 -->
+	<set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='velocityMax']/@value">7.5, 4</set> <!-- Bicycle Default 6, 4 -->
+	<set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='waterDrag_y_velScale_velMaxScale']/@value">1.0, 0.5, .3</set> <!-- 1.7, .9, .2 -->
+	<set xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='hopForce']/@value">5, .025</set> <!-- Minibike 1.5, .2 -->
+	<set xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='velocityMax']/@value">9, 4</set> <!-- Minibike 7, 4 -->
+	<set xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='waterDrag_y_velScale_velMaxScale']/@value">1.0, 0.5, .3</set> <!-- 1.5, .9, .15 -->
+	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='tiltAngleMax']/@value">5</set> <!-- Motorcycle 20 -->
+	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='hopForce']/@value">6.25, .025</set> <!-- Motorcycle 1, .8 -->
+	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='velocityMax']/@value">13.33, 6</set> <!-- Motorcycle 9.33, 6 -->
+	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='waterDrag_y_velScale_velMaxScale']/@value">1.0, 0.5, .3</set> <!-- 1.7, .9, .1 -->
+	<set xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@name='velocityMax']/@value">13.33, 9</set> <!-- 4x4 Truck 9.33, 9 -->
+	<set xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@name='waterDrag_y_velScale_velMaxScale']/@value">1.0, 0.5, .3</set> <!-- 1.8, .9, .1 -->
+	<set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@name='velocityMax']/@value">13.33, 9</set> <!-- Gyrocopter 9, 9 -->
+	
+	<append xpath="/vehicles/vehicle[@name='vehicleBicycle']">
+		<property class="seat1">
+			<property name="position" value="0, 0, -.75"/>
+			<property name="rotation" value="0, 0, 0"/>
+			<property name="exit" value="-.8,0,0 ~ .8,0,0 ~ 0,0,-1.4 ~ 0,0,1.4 ~ 0,1.5,0"/>
+		</property>
+	</append>
+	
+	<append xpath="/vehicles/vehicle[@name='vehicle4x4Truck']">
+		<property name="hopForce" value="4, .025"/>
+	</append>
+
 <!--APOC CAR-->
 <append xpath="/vehicles">
 <vehicle name="vehiclePocoCar">

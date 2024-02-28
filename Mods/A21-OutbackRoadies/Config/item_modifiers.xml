@@ -1,0 +1,92 @@
+﻿<configs>
+
+<append xpath="/item_modifiers">
+
+<!-- Running Shoes High Performance Mod -->
+
+  <item_modifier name="modArmorRunningShoesHP" installable_tags="armorFeet" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="UnlockedBy" value="modArmorRunningShoesHPSchematic"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>		
+		<property name="CustomIcon" value="apparelRunningShoesRegular"/>
+		<property name="CustomIconTint" value="173,216,230"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DisplayType" value="clothing"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="running_shoes"/>
+			<property name="UMA.Overlay0" value="running_shoes"/>
+		</item_property_overrides>
+
+		<effect_group tiered="false">
+		<passive_effect name="HypothermalResist" operation="base_add" value="1.8,4.2"/>
+		<passive_effect name="HyperthermalResist" operation="base_add" value="1.5,2.5"/>
+		<passive_effect name="RunSpeed" operation="perc_add" value=".1"/><display_value name="dRunSpeed" value=".1"/>
+		</effect_group>
+	</item_modifier>		
+
+<!-- Bow Grip Entity Damage Mod -->
+
+	<item_modifier name="modGunBowArrowGrip" installable_tags="bow" modifier_tags="specialDamage" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="modGunBowArrowGrip"/>
+		<property name="UnlockedBy" value="modGunBowArrowGripSchematic"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		<!--Do +15% damage to evil / undead-->
+		<effect_group tiered="false">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value="0.1"/>
+		</effect_group>
+	</item_modifier>
+	
+<!-- Archery Reload Speed Mod -->
+
+	<item_modifier name="modArcheryReloadSpeed" installable_tags="perkArchery" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="CustomIcon" value="modArcheryReloadSpeed"/>
+		<property name="UnlockedBy" value="modArcheryReloadSpeedSchematic"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		<property name="Material" value="Mcloth"/>
+		
+		<!-- Reload archery weapons 15% faster -->
+		<effect_group tiered="false">
+			<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".15"/>
+		</effect_group>
+	</item_modifier>
+	
+<!-- Weapon Maintenance Mod -->
+	
+	<item_modifier name="modWeaponMaintenance" installable_tags="weapon" modifier_tags="durability" blocked_tags="noMods" type="attachment">
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DescriptionKey" value="modWeaponMaintenanceDesc"/>
+		<property name="UnlockedBy" value="modWeaponMaintenanceSchematic"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="CustomIcon" value="modWeaponMaintenance"/>
+		
+		<!-- Increases durability, increases block efficiency, all weapons and melee -->
+		<effect_group tiered="false">
+			<passive_effect name="DegradationPerUse" operation="perc_add" value="-.5" tags="perkYeahScience,perkGunslinger,perkMachineGunner,perkBoomstick,perkDeadEye,perkSkullCrusher,perkDeepCuts,perkArchery,perkFlurryOfBlows,perkPummelPete,perkTheHuntsman,perkMiner69r,perkMotherLode,admin"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
+<!-- Spartan Sledge Stamina Mod -->
+
+	<item_modifier name="modMeleeSpartanSledgeStamina" installable_tags="sledge" modifier_tags="health" blocked_tags="noMods" type="attachment">
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DescriptionKey" value="modMeleeSpartanSledgeStaminaDesc"/>
+		<property name="UnlockedBy" value="modMeleeSpartanSledgeStaminaSchematic"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="CustomIcon" value="modMeleeSpartanSledgeStamina"/>
+
+		<!-- Reduces Stamina usage on all sledge melee attacks -->
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkSkullCrusher"/>
+			<passive_effect name="StaminaLoss" operation="perc_add" value="-.15" tags="primary,secondary"/>
+		</effect_group>
+	</item_modifier>
+
+</append>
+
+</configs>

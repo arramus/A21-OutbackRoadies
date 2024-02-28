@@ -1,7 +1,5 @@
 <configs>
 
-	<remove xpath="/lootcontainers/lootcontainer[@name='birdNest']" />
-
 	<!-- Vanilla Loot Additions -->
     <!-- Make player dropped bags bigger to accomodate new size KhaineGB -->
 	<set xpath="/lootcontainers/lootcontainer[@name='playerBackpack']/@size">10,10</set>
@@ -18,6 +16,42 @@
 	<set xpath="/lootcontainers/lootcontainer[@name='nightstandNOPOP']/@size">8,9</set> <!-- Player Night Stands from 6,2 as above -->	
 	<set xpath="/lootcontainers/lootcontainer[@name='lockersNOPOP']/@size">8,9</set> <!-- Player Lockers from 6,2 as above -->
 	<set xpath="/lootcontainers/lootcontainer[@name='refrigeratorNOPOP']/@size">8,9</set> <!-- Player Refrigerator from 6,4 as above -->	
+	
+	<!-- Mod Schematics and Mod Appendages -->
+	
+	<!-- *** T2_Armor_Mods -->
+	<append xpath="/lootcontainers/lootgroup[@name='modArmorT2']">
+		<item name="modArmorRunningShoesHP"/>
+	</append>
+	
+	<!-- *** T1_Melee_Mods -->
+	<append xpath="/lootcontainers/lootgroup[@name='modMeleeT1']">
+		<item name="modMeleeSpartanSledgeStamina"/>
+	</append>
+	
+	<!-- *** T1_Ranged_Mods -->
+	<append xpath="/lootcontainers/lootgroup[@name='modGunT1']">
+		<item name="modWeaponMaintenance"/>
+	</append>
+	
+	<!-- *** T0_Schematics -->
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT0']">
+		<item name="modWeaponMaintenanceSchematic"/>
+		<item name="modMeleeSpartanSledgeStaminaSchematic"/>
+	</append>
+	
+	<!-- *** T3_Ranged_Mods -->
+	<append xpath="/lootcontainers/lootgroup[@name='modGunT3']">
+		<item name="modGunBowArrowGrip"/>
+		<item name="modArcheryReloadSpeed"/>
+	</append>
+	
+	<!-- *** T2_Schematics -->
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT2']">
+		<item name="modGunBowArrowGripSchematic"/>
+		<item name="modArcheryReloadSpeedSchematic"/>
+		<item name="modArmorRunningShoesHPSchematic"/>
+	</append>
 
 	<append xpath="/lootcontainers">
 	

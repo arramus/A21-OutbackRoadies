@@ -181,6 +181,25 @@
 	<!-- Bundle Stacking -->
 	<set xpath="/items/item[@name='resourceRockSmallBundle']/property[@name='Stacknumber']/@value">30</set><!-- x6 of default -->
 
+	<!-- Append Stacking -->	
+	<append xpath="/items/item[@name='medicalPlasterCast']">
+		<property name="Stacknumber" value="20"/> <!-- STK resource -->	
+	</append><!-- extends medicalSplint at 25 but 20 is sufficient to recognise upgrade feature -->
+	
+	<append xpath="/items/item[@name='drugSteroids']">
+		<property name="Stacknumber" value="25"/> <!-- STK resource -->	
+	</append><!-- extends drugPainkillers but 25 is sufficient -->
+	
+	<!-- Weather Durable Poncho -->
+	<set xpath="/items/item[@name='apparelCoatLeatherPoncho']/effect_group/passive_effect[@name='HypothermalResist']/@value">12.8,14.2</set><!-- 2.8,5.2 -->
+	<set xpath="/items/item[@name='apparelCoatLeatherPoncho']/effect_group/passive_effect[@name='HyperthermalResist']/@value">16.5,20.3</set><!-- 10.5,14.3 -->
+	
+	<!-- Vehicle Tags and Hookups -->
+	<append xpath="/items/item[@name='vehicleBicyclePlaceable']/property[@name='Tags']/@value">,vseat</append><!-- Adding the seat tag -->
+	<set xpath="/items/item[@name='vehicleMinibikeChassis']/property[@name='TraderStageTemplate']/@value">vehicleTier0</set><!-- vehicleTier1 default -->
+	<set xpath="/items/item[@name='vehicleMinibikeHandlebars']/property[@name='TraderStageTemplate']/@value">vehicleTier0</set><!-- vehicleTier1 default -->
+	<set xpath="/items/item[@name='vehicleMinibikePlaceable']/property[@name='TraderStageTemplate']/@value">vehicleTier1</set><!-- vehicleTier2 default -->
+
 <append xpath="/items">
 
 <item name="StarterRewardPocoCar">
@@ -775,6 +794,69 @@
 			<property name="Create_item_count" value="1000"/>
 		</property>
 	</item>
+	
+<!-- CUSTOM MODS -->
+
+<!-- High Performance Running Shoes Mod Schematic -->		
+		<item name="modArmorRunningShoesHPSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="apparelRunningShoesRegular"/>
+			<property name="CustomIconTint" value="173,216,230"/>
+			<property name="Unlocks" value="modArmorRunningShoesHP"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorRunningShoesHP" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+		
+<!-- Bow Grip Mod Schematic -->		
+		<item name="modGunBowArrowGripSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="modGunBowArrowGrip"/>
+			<property name="Unlocks" value="modGunBowArrowGrip"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunBowArrowGrip" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+		
+<!-- Archery Reload Speed Mod -->		
+		<item name="modArcheryReloadSpeedSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="modArcheryReloadSpeed"/>
+			<property name="Unlocks" value="modArcheryReloadSpeed"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArcheryReloadSpeed" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+
+<!-- Weapon Maintenance Mod Schematic -->		
+		<item name="modWeaponMaintenanceSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="modWeaponMaintenance"/>
+			<property name="Unlocks" value="modWeaponMaintenance"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modWeaponMaintenance" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+		
+<!-- Spartan Sledge Stamina Mod Schematic -->		
+		<item name="modMeleeSpartanSledgeStaminaSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="modMeleeSpartanSledgeStamina"/>
+			<property name="Unlocks" value="modMeleeSpartanSledgeStamina"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeSpartanSledgeStamina" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
 	
 <!-- Xyth Spiders -->
 
