@@ -11,7 +11,10 @@
 
 	<!-- Zombie Harvesting -->
 	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='DeadBodyHitPoints']/@value">500</set> <!-- Bear is 600 and reduced from 1000 -->
-	<set xpath="/entity_classes/entity_class[@name='zombieFemaleTutorial']/property[@name='DeadBodyHitPoints']/@value">500</set> <!-- NPC Mod -->
+	<append xpath="/entity_classes/entity_class[@name='zombieFemaleTutorial']">
+			<property name="DeadBodyHitPoints" value="500"/>
+	</append> <!-- NPC Mod -->
+	
 	<!-- Harvest does not extend on entities and manually listed for default -->
 	<!-- *** ZOMBIES_SLIM -->
 	<append xpath="/entity_classes/entity_class[@name='zombieArlene']">
@@ -1572,9 +1575,95 @@
 			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="5"/>
 			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1"/>
 			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="3"/>
-		</entity_class>		
-	</append>
+		</entity_class>
+		
+<!-- CUSTOM SPIDER ADDITIONS -->
 
+		<entity_class name="animalFlyingSpider01" extends="animalTemplateHostile">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="Class" value="EntityVulture"/>
+			<property name="EntityFlags" value="animal,zombie"/>
+			<property name="EntityType" value="Zombie"/>
+			<property name="Tags" value="entity,animal,zombie,hostile,vulture"/>
+			<property name="AvatarController" value="AvatarAnimalController"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="HasRagdoll" value="true"/>
+			<property name="PhysicsBody" value="vulture"/>
+			<property name="Mass" value="50"/>
+			<property name="Mesh" value="#@modfolder:Resources/XythSpiders.unity3d?Spider01_X"/>
+			<property name="HasDeathAnim" value="true"/>
+			<property name="RootMotion" value="false"/>
+			<property name="RagdollOnDeathChance" value="0"/>			
+			<property name="ExperienceGain" value="130"/>
+			<property name="LootDropProb" value=".02"/> <!-- Whether it drops a loot bag on death or not. -->
+			<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
+			
+			<property name="AITask-1" value=""/>
+			<property name="AITarget-1" value=""/>
+			
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="1"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+
+			<!-- Stealth -->
+			<property name="SightRange" value="70"/>
+
+			<!-- Gameplay  -->
+			<property name="MoveSpeed" value="1"/>
+			<property name="MoveSpeedAggro" value="2.1, 2.1"/> <!-- Used when player in vehicle -->
+			<property name="MaxTurnSpeed" value="190"/>
+
+			<property name="HandItem" value="meleeHandAnimalSpider"/>
+			<property name="Immunity" value="sickness;disease;wellness"/> <!-- bleeding; -->
+
+			<property name="DismemberMultiplierLegs" value="0"/>
+			<property name="PainResistPerHit" value="-1"/> <!-- no pain -->
+
+			<property name="SoundRandom" value="animalspiderrandom"/>
+			<property name="SoundAlert" value="animalspideralert"/>
+			<property name="SoundHurt" value="animalspiderhurt"/>
+			<property name="SoundDeath" value="animalspiderdeath"/>
+			<property name="SoundAttack" value="animalspiderattack"/>
+			<property name="SoundSense" value="animalspidersense"/>
+			<property name="SoundGiveUp" value="animalspiderroam"/>
+			
+			<property name="MoveSpeed" value="1"/>
+			<property name="MoveSpeedAggro" value="1.2, 1.2"/> 
+			<property name="MoveSpeedPanic" value="1.2"/>			
+			<property name="DeadBodyHitPoints" value="100"/>
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="200"/>				
+			</effect_group>	
+		</entity_class>
+	
+		<entity_class name="animalFlyingSpider02" extends="animalFlyingSpider01">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="Tags" value="entity,animal,zombie,hostile,vulture"/>
+			<property name="Mesh" value="#@modfolder:Resources/XythSpiders.unity3d?Spider02_X"/>
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="1"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		</entity_class>
+		
+		<entity_class name="animalFlyingSpider03" extends="animalFlyingSpider01">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="Tags" value="entity,animal,zombie,hostile,vulture"/>
+			<property name="Mesh" value="#@modfolder:Resources/XythSpiders.unity3d?Spider03_X"/>
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="1"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		</entity_class>
+	</append>
+			
 <!--APPOC CAR-->
 <append xpath="/entity_classes">
 <entity_class name="vehiclePocoCar">

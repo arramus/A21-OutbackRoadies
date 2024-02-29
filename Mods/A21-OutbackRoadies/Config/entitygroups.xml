@@ -27,6 +27,9 @@
 		animalSpider01Queen, .75
 		animalSpider02Queen, .75
 		animalSpider03Queen, .75
+		animalFlyingSpider01, .75
+		animalFlyingSpider02, .75
+		animalFlyingSpider03, .75
 	</csv>
 	
 <!-- *** SNOW ANIMALS --> <!-- ANY -->
@@ -48,6 +51,9 @@
 		animalSpider01Queen, .75
 		animalSpider02Queen, .75
 		animalSpider03Queen, .75
+		animalFlyingSpider01, .75
+		animalFlyingSpider02, .75
+		animalFlyingSpider03, .75
 	</csv>
 	
 <!-- *** BIOME_ANIMAL_WILD_GAME_FOREST_GROUP --> <!-- ANY -->
@@ -59,21 +65,24 @@
 		animalFrillneck, 8
 		animalKangaroo, 8
 		animalMagpie, 8
-		animalSpider01Mini, 3
-		animalSpider02Mini, 3
-		animalSpider03Mini, 3
-		animalSpider01, 2
-		animalSpider02, 2
-		animalSpider03, 2
-		animalSpider01Feral, 1.5
-		animalSpider02Feral, 1.5
-		animalSpider03Feral, 1.5
-		animalSpider01Radiated, 1
-		animalSpider02Radiated, 1
-		animalSpider03Radiated, 1
-		animalSpider01Queen, .75
-		animalSpider02Queen, .75
-		animalSpider03Queen, .75
+		animalSpider01Mini, 2
+		animalSpider02Mini, 2
+		animalSpider03Mini, 2
+		animalSpider01, 1
+		animalSpider02, 1
+		animalSpider03, 1
+		animalSpider01Feral, .75
+		animalSpider02Feral, .75
+		animalSpider03Feral, .75
+		animalSpider01Radiated, .5
+		animalSpider02Radiated, .5
+		animalSpider03Radiated, .5
+		animalSpider01Queen, .25
+		animalSpider02Queen, .25
+		animalSpider03Queen, .25
+		animalFlyingSpider01, .25
+		animalFlyingSpider02, .25
+		animalFlyingSpider03, .25
 	</csv>
 	
 	<!-- *** BIOME_ENEMY_ANIMAL_FOREST_GROUP --> <!-- NIGHT -->
@@ -81,21 +90,24 @@
 	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsForest']/text()" delim="\n" op="add" >
 		animalMagpie, 30
 		animalTassydevil, 10
-		animalSpider01Mini, 3
-		animalSpider02Mini, 3
-		animalSpider03Mini, 3
-		animalSpider01, 2
-		animalSpider02, 2
-		animalSpider03, 2
-		animalSpider01Feral, 1.5
-		animalSpider02Feral, 1.5
-		animalSpider03Feral, 1.5
-		animalSpider01Radiated, 1
-		animalSpider02Radiated, 1
-		animalSpider03Radiated, 1
-		animalSpider01Queen, .75
-		animalSpider02Queen, .75
-		animalSpider03Queen, .75
+		animalSpider01Mini, 2
+		animalSpider02Mini, 2
+		animalSpider03Mini, 2
+		animalSpider01, 1
+		animalSpider02, 1
+		animalSpider03, 1
+		animalSpider01Feral, .75
+		animalSpider02Feral, .75
+		animalSpider03Feral, .75
+		animalSpider01Radiated, .5
+		animalSpider02Radiated, .5
+		animalSpider03Radiated, .5
+		animalSpider01Queen, .25
+		animalSpider02Queen, .25
+		animalSpider03Queen, .25
+		animalFlyingSpider01, .25
+		animalFlyingSpider02, .25
+		animalFlyingSpider03, .25
 	</csv>
 
 	<!-- *** BIOME_ENEMY_ANIMAL_BURNT_FOREST_GROUP --> <!-- NIGHT -->
@@ -118,6 +130,9 @@
 		animalSpider01Queen, .75
 		animalSpider02Queen, .75
 		animalSpider03Queen, .75
+		animalFlyingSpider01, .75
+		animalFlyingSpider02, .75
+		animalFlyingSpider03, .75
 	</csv>
 	
 	<!-- *** BIOME_ENEMY_ANIMAL_WASTELAND_GROUP --> <!-- ANY -->
@@ -138,6 +153,9 @@
 		animalSpider01Queen, .75
 		animalSpider02Queen, .75
 		animalSpider03Queen, .75
+		animalFlyingSpider01, .75
+		animalFlyingSpider02, .75
+		animalFlyingSpider03, .75
 	</csv>
 
 </configs>

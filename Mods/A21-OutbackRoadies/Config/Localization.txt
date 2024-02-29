@@ -99,6 +99,26 @@ animalFrillneck,entityclasses,Entity,,,Frilled-Neck Lizard,,,,,,,,,,,,,
 animalKangaroo,entityclasses,Entity,,,Kangaroo,,,,,,,,,,,,,
 animalMagpie,entityclasses,Entity,,,Magpie,,,,,,,,,,,,,
 
+animalSpider01,entityclasses,Entity,,,Spider Sam,,,,,,,,,,,,,
+animalSpider01Feral,entityclasses,Entity,,,Feral Spider Sam,,,,,,,,,,,,,
+animalSpider01Radiated,entityclasses,Entity,,,Radiated Spider Sam,,,,,,,,,,,,,
+animalSpider01Mini,entityclasses,Entity,,,Mini Spider Sam,,,,,,,,,,,,,
+animalSpider01Queen,entityclasses,Entity,,,Queen Spider Sam,,,,,,,,,,,,,
+animalSpider02,entityclasses,Entity,,,Spider Sally,,,,,,,,,,,,,
+animalSpider02Feral,entityclasses,Entity,,,Feral Spider Sally,,,,,,,,,,,,,
+animalSpider02Radiated,entityclasses,Entity,,,Radiated Spider Sally,,,,,,,,,,,,,
+animalSpider02Mini,entityclasses,Entity,,,Mini Spider Sally,,,,,,,,,,,,,
+animalSpider02Queen,entityclasses,Entity,,,Queen Spider Sally,,,,,,,,,,,,,
+animalSpider03,entityclasses,Entity,,,Spider Sidney,,,,,,,,,,,,,
+animalSpider03Feral,entityclasses,Entity,,,Feral Spider Sidney,,,,,,,,,,,,,
+animalSpider03Radiated,entityclasses,Entity,,,Radiated Spider Sidney,,,,,,,,,,,,,
+animalSpider03Mini,entityclasses,Entity,,,Mini Spider Sidney,,,,,,,,,,,,,
+animalSpider03Queen,entityclasses,Entity,,,Queen Spider Sidney,,,,,,,,,,,,,
+
+animalFlyingSpider01,entityclasses,Entity,,,Flying Spider Sam,,,,,,,,,,,,,
+animalFlyingSpider02,entityclasses,Entity,,,Flying Spider Sally,,,,,,,,,,,,,
+animalFlyingSpider03,entityclasses,Entity,,,Flying Spider Sidney,,,,,,,,,,,,,
+
 vehiclePocoCar,vehicles,vehicle,,,Poco Car
 vehiclePocoCarPlaceable,vehicles,item,,,Poco Car
 vehiclePocoBuggy,vehicles,vehicle,,,Poco Buggy
