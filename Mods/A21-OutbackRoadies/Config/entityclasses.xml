@@ -1630,9 +1630,6 @@
 			<property name="SoundSense" value="animalspidersense"/>
 			<property name="SoundGiveUp" value="animalspiderroam"/>
 			
-			<property name="MoveSpeed" value="1"/>
-			<property name="MoveSpeedAggro" value="1.2, 1.2"/> 
-			<property name="MoveSpeedPanic" value="1.2"/>			
 			<property name="DeadBodyHitPoints" value="100"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>				
