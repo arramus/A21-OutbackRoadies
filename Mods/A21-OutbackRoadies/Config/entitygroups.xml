@@ -158,4 +158,15 @@
 		animalFlyingSpider03, .75
 	</csv>
 
+	<!-- GRUNT HORDE NIGHT -->
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieArlene')]/text()" delim="\n" op="add">
+		animalBloodMoonSpider01, .25
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieSteve')]/text()" delim="\n" op="add">
+		animalBloodMoonSpider02, .25
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieBoe')]/text()" delim="\n" op="add">
+		animalBloodMoonSpider03, .25
+	</csv>
+
 </configs>

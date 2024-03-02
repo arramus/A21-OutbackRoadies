@@ -178,6 +178,9 @@ animalSpider03Queen,entityclasses,Entity,,,Queen Spider Sidney,,,,,,,,,,,,,
 animalFlyingSpider01,entityclasses,Entity,,,Flying Spider Sam,,,,,,,,,,,,,
 animalFlyingSpider02,entityclasses,Entity,,,Flying Spider Sally,,,,,,,,,,,,,
 animalFlyingSpider03,entityclasses,Entity,,,Flying Spider Sidney,,,,,,,,,,,,,
+animalBloodMoonSpider01,entityclasses,Entity,,,Blood Moon Spider Sam,,,,,,,,,,,,,
+animalBloodMoonSpider02,entityclasses,Entity,,,Blood Moon Spider Sally,,,,,,,,,,,,,
+animalBloodMoonSpider03,entityclasses,Entity,,,Blood Moon Spider Sidney,,,,,,,,,,,,,
 
 vehiclePocoCar,vehicles,vehicle,,,Poco Car
 vehiclePocoCarPlaceable,vehicles,item,,,Poco Car
