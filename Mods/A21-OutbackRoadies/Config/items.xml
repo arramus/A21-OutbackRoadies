@@ -863,6 +863,18 @@
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 			</effect_group>
 		</item>
+		
+<!-- Magnum Magazine Extender Mod Schematic -->		
+		<item name="modGunMagnumMagazineExtenderSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="modGunMagnumMagazineExtender"/>
+			<property name="Unlocks" value="modGunMagnumMagazineExtender"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunMagnumMagazineExtender" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
 	
 <!-- Xyth Spiders -->
 
