@@ -199,6 +199,12 @@
 	<set xpath="/items/item[@name='vehicleMinibikeChassis']/property[@name='TraderStageTemplate']/@value">vehicleTier0</set><!-- vehicleTier1 default -->
 	<set xpath="/items/item[@name='vehicleMinibikeHandlebars']/property[@name='TraderStageTemplate']/@value">vehicleTier0</set><!-- vehicleTier1 default -->
 	<set xpath="/items/item[@name='vehicleMinibikePlaceable']/property[@name='TraderStageTemplate']/@value">vehicleTier1</set><!-- vehicleTier2 default -->
+	
+	<!-- Magazine Reward Bundle Colour -->
+	<set xpath="/items/item[@name='questRewardT1SkillMagazineBundle']/property[@name='CustomIconTint']/@value">FFFFFF</set><!-- FFFF00 yellow default -->
+
+	<!-- Magnum Tag for Mod Magazine Extender -->
+	<append xpath="/items/item[@name='gunHandgunT2Magnum44']/property[@name='Tags']/@value">,magnummagazine</append>
 
 <append xpath="/items">
 

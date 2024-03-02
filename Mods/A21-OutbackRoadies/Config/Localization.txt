@@ -4,6 +4,7 @@ tutorialTipQuest01,Journal Tip,,,,"Welcome to Outback Roadies.\n\nIt looks like 
 quest_BasicSurvival1,Quest,Quest Info,,,Basic Survival 1/2,,Das 1x1 des Überlebens 1/2,Supervivencia básica 1/2,Les bases de la survie 1/2,Basi della sopravvivenza 1/2,生き残るための基礎知識 1/2,기본 생존 1/2,Podstawy przetrwania 1/2,Sobrevivência Básica 1/2,Основы выживания 1/2,Temel Hayatta Kalma 1/2,基础生存 1/2,基本生存 1/2
 quest_BasicSurvival8,Quest,Quest Info,,,Basic Survival 2/2,,Das 1x1 des Überlebens 2/2,Supervivencia básica 2/2,Les bases de la survie 2/2,Basi della sopravvivenza 2/2,生き残るための基礎知識 2/2,기본 생존 2/2,Podstawy przetrwania 2/2,Sobrevivência Básica 2/2,Основы выживания 2/2,Temel Hayatta Kalma 2/2,基础生存 2/2,基本生存 2/2
 quest_WhiteRiverCitizen1_description,Quest,Quest Info,,,"Good on ya!\n\nWe have marked your map with the location of a Trader Servo. Collect 8 Skill Points for your troubles.\n\nWelcome to Outback Roadies.",,,,,,,,,,,,,
+questRewardMagazineBundleDesc,items,item,,,A bundle of 5 random crafting skill magazines.,,Ein Paket mit 5 zufälligen Zeitschriften für Handwerksfertigkeiten.,Un conjunto de 5 revistas de habilidades de fabricación al azar.,Un paquet de 5 magazines sur les compétences en fabrication aléatoires.,Un pacchetto di 5 riviste di creazione casuali.,5つのランダムなクラフトスキル雑誌のバンドル。,무작위 제작 스킬 잡지 5종류 묶음입니다.,Pakiet 5 losowych magazynów podnoszących umiejętności wytwórcze.,Conjunto de 5 revistas de habilidade de fabricação aleatórias,Комплект из 5 случайных журналов по навыкам изготовления.,Rastgele 5 üretim beceri dergisinden oluşan bir paket.,5本随机制作技能杂志的组合包。,內含五本隨機製作技能雜誌的梱包。
 
 OutbackRoadiesStarterKit,items,item,,,Outback Roadies Starter Kit,,,,,,,,,,,,,
 OutbackRoadiesStarterKitDesc,items,item,,,"This will get things rolling in Outback Roadies.",,,,,,,,,,,,,
@@ -65,6 +66,9 @@ modWeaponMaintenanceSchematic,item_modifiers,Mod,,,Weapon Maintenance Mod Schema
 modMeleeSpartanSledgeStamina,item_modifiers,mod,,,Spartan Sledge Stamina Mod,,Spartan Sledge Stamina Mod,,,,,,,,,,,
 modMeleeSpartanSledgeStaminaDesc,item_modifiers,mod,,,"The Spartan Sledge Stamina Mod decreases stamina use for sledge weapons by 15%.",,,,,,,,,,,,,
 modMeleeSpartanSledgeStaminaSchematic,item_modifiers,Mod,,,Spartan Sledge Stamina Mod Schematic,,,,,,,,,,,,,
+modGunMagnumMagazineExtender,item_modifiers,mod,,,Magnum Reload Mod,,,,,,,,,,,,,
+modGunMagnumMagazineExtenderDesc,item_modifiers,mod,,,"Did I fire eleven shots, or twelve? The Magnum Reload Mod allows the Magnum to shoot 12 shots before requiring a full reload.",,,,,,,,,,,,,
+modGunMagnumMagazineExtenderSchematic,item_modifiers,Mod,,,Magnum Reload Mod Schematic,,,,,,,,,,,,,
 
 foodWildWheat,items,Food,,,Wild Wheat,,,,,,,,,,,,,
 foodWildWheatDesc,items,Food,,,"Wild Wheat can be ground down to make Wheat Flour and added to recipes.",,,,,,,,,,,,,
