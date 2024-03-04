@@ -158,7 +158,7 @@
 		animalFlyingSpider03, .75
 	</csv>
 
-	<!-- GRUNT HORDE NIGHT -->
+	<!-- GRUNT SPIDER HORDE NIGHT -->
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieArlene')]/text()" delim="\n" op="add">
 		animalBloodMoonSpider01, .25
 	</csv>
@@ -167,6 +167,40 @@
 	</csv>
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieBoe')]/text()" delim="\n" op="add">
 		animalBloodMoonSpider03, .25
+	</csv>
+	
+	<!-- FERAL SPIDER HORDE NIGHT -->
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieArleneFeral')]/text()" delim="\n" op="add">
+		animalBloodMoonSpider01Feral, .2
+		animalFlyingSpider01, .2		
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieSteveFeral')]/text()" delim="\n" op="add">
+		animalBloodMoonSpider02Feral, .2
+		animalFlyingSpider02, .2
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieBoeFeral')]/text()" delim="\n" op="add">
+		animalBloodMoonSpider03Feral, .2
+		animalFlyingSpider03, .2
+	</csv>
+	
+	<!-- QUEEN SPIDER HORDE NIGHT -->
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieArleneRadiated')]/text()" delim="\n" op="add">
+		animalBloodMoonSpider01Radiated, .15
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieSteveRadiated')]/text()" delim="\n" op="add">
+		animalBloodMoonSpider02Radiated, .15
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieBoeRadiated')]/text()" delim="\n" op="add">
+		animalBloodMoonSpider03Radiated, .15
+	</csv>
+
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieDemolition')]/text()" delim="\n" op="add">
+		animalBloodMoonSpider01Queen, .15
+		animalBloodMoonFlyingSpider01Queen, .15
+		animalBloodMoonSpider02Queen, .15
+		animalBloodMoonFlyingSpider02Queen, .15
+		animalBloodMoonSpider03Queen, .15
+		animalBloodMoonFlyingSpider03Queen, .15
 	</csv>
 
 </configs>

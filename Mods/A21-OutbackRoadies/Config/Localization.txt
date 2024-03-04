@@ -181,6 +181,18 @@ animalFlyingSpider03,entityclasses,Entity,,,Flying Spider Sidney,,,,,,,,,,,,,
 animalBloodMoonSpider01,entityclasses,Entity,,,Blood Moon Spider Sam,,,,,,,,,,,,,
 animalBloodMoonSpider02,entityclasses,Entity,,,Blood Moon Spider Sally,,,,,,,,,,,,,
 animalBloodMoonSpider03,entityclasses,Entity,,,Blood Moon Spider Sidney,,,,,,,,,,,,,
+animalBloodMoonSpider01Feral,entityclasses,Entity,,,Blood Moon Feral Spider Sam,,,,,,,,,,,,,
+animalBloodMoonSpider02Feral,entityclasses,Entity,,,Blood Moon Feral Spider Sally,,,,,,,,,,,,,
+animalBloodMoonSpider03Feral,entityclasses,Entity,,,Blood Moon Feral Spider Sidney,,,,,,,,,,,,,
+animalBloodMoonSpider01Radiated,entityclasses,Entity,,,Blood Moon Radiated Spider Sam,,,,,,,,,,,,,
+animalBloodMoonSpider02Radiated,entityclasses,Entity,,,Blood Moon Radiated Spider Sally,,,,,,,,,,,,,
+animalBloodMoonSpider03Radiated,entityclasses,Entity,,,Blood Moon Radiated Spider Sidney,,,,,,,,,,,,,
+animalBloodMoonSpider01Queen,entityclasses,Entity,,,Blood Moon Queen Spider Sam,,,,,,,,,,,,,
+animalBloodMoonSpider02Queen,entityclasses,Entity,,,Blood Moon Queen Spider Sally,,,,,,,,,,,,,
+animalBloodMoonSpider03Queen,entityclasses,Entity,,,Blood Moon Queen Spider Sidney,,,,,,,,,,,,,
+animalBloodMoonFlyingSpider01Queen,entityclasses,Entity,,,Blood Moon Flying Queen Spider Sam,,,,,,,,,,,,,
+animalBloodMoonFlyingSpider02Queen,entityclasses,Entity,,,Blood Moon Flying Queen Spider Sally,,,,,,,,,,,,,
+animalBloodMoonFlyingSpider03Queen,entityclasses,Entity,,,Blood Moon Flying Queen Spider Sidney,,,,,,,,,,,,,
 
 vehiclePocoCar,vehicles,vehicle,,,Poco Car
 vehiclePocoCarPlaceable,vehicles,item,,,Poco Car
