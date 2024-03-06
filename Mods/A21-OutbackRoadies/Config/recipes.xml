@@ -222,6 +222,14 @@
 		<ingredient name="foodCanPears" count="1"/> <!-- Food 10 / Health 5 / Water 5 -->	
 	</recipe>
 	
+	<recipe name="foodZombimiteToast" count="1" craft_time="12" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef">
+		<ingredient name="foodWitchettyGrub" count="1"/>
+		<ingredient name="foodRottingFlesh" count="5"/>
+		<ingredient name="foodWheatFlour" count="1"/>
+		<ingredient name="drinkJarBeer" count="1"/>
+		<ingredient name="resourceAnimalFat" count="1"/>	
+	</recipe>
+	
 <!-- Oakraven Chicken Coops -->
 	
 	<recipe name="WoodCoopVariantHelper" count="1" craft_area="workbench" tags="workbenchCrafting">

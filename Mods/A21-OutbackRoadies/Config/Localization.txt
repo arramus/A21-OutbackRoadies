@@ -51,6 +51,8 @@ trader_joel,POI,POIName,,x,Trader Servo Joel,,,,,,,,,,,,,
 trader_rekt,POI,POIName,,x,Trader Servo Rekt,,,,,,,,,,,,,
 outbackroadies_TheCompound,POI,POIName,,x,The Compound,,,,,,,,,,,,,
 
+apparelCoatLeatherDuster,items,Clothes,,,Roadies Duster,,,,,,,,,,,,,
+
 modArmorRunningShoesHP,item_modifiers,mod,,,Speedy Running Shoes Mod,,,,,,,,,,,,,
 modArmorRunningShoesHPDesc,item_modifiers,mod,,,"Wearing this mod in your armor footwear provides environmental protection and increases running speed by 10%.",,,,,,,,,,,,,
 modArmorRunningShoesHPSchematic,item_modifiers,Mod,,,Speedy Running Shoes Mod Schematic,,,,,,,,,,,,,
@@ -84,6 +86,8 @@ foodMeatPie,items,Food,,,Poco Meat Pie,,,,,,,,,,,,,
 foodMeatPieDesc,items,Food,,,"It's full of good stuff inside there. Good enough to bathe in.",,,,,,,,,,,,,
 foodPocoTucker,items,Food,,,Poco Tucker,,,,,,,,,,,,,
 foodPocoTuckerDesc,items,Food,,,"Fine dining for Outback Roadies.",,,,,,,,,,,,,
+foodZombimiteToast,items,Food,,,Zombimite on Toast,,,,,,,,,,,,,
+foodZombimiteToastDesc,items,Food,,,"Zombimite tastes like Poco Straya. Harvest those zombies for rotten flesh.",,,,,,,,,,,,,
 
 CaughtChick,items,Item,,,Caught Chick,,,,,,,,,,,,,
 CaughtChickDesc,items,Item,,,"Use 2 Caught Chicks, with right mouse click, on an Empty Chicken Coop to populate and activate the next stage.",,,,,,,,,,,,,
