@@ -9,6 +9,11 @@
 	<set xpath="/entity_classes/entity_class[contains(@name,'playerMale')]/property[contains(@name,'GameModeSurvivalSP')]/@value">OutbackRoadiesStarterKit,StarterRewardPocoCar,medicalFirstAidBandage,meleeToolTorch,keystoneBlock,npcAnimalFoxStarterFood</set>	
 	<set xpath="/entity_classes/entity_class[contains(@name,'playerMale')]/property[contains(@name,'GameModeSurvivalMP')]/@value">OutbackRoadiesStarterKit,StarterRewardPocoCar,medicalFirstAidBandage,meleeToolTorch,keystoneBlock,npcAnimalFoxStarterFood</set>
 
+	<!-- Zombie Loot Bag Time Stay Extensions -->
+	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerRegular']/property[@name='TimeStayAfterDeath']/@value">2000</set> <!-- Default is 1200 secs (20 mins) and good for 60 min cycle at (15 min BM) but not 90 (22 min 30 sec BM) -->
+	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerStrong']/property[@name='TimeStayAfterDeath']/@value">2000</set> <!-- Provides a 3 min 20 sec buffer for 120 min cycle -->
+	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerBoss']/property[@name='TimeStayAfterDeath']/@value">2000</set>
+
 	<!-- Zombie Harvesting -->
 	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='DeadBodyHitPoints']/@value">500</set> <!-- Bear is 600 and reduced from 1000 -->
 	<append xpath="/entity_classes/entity_class[@name='zombieFemaleTutorial']">
