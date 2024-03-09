@@ -22,6 +22,31 @@
 
 	<remove xpath="/lootcontainers/lootcontainer[@name='birdNest']" />
 	
+	<!-- *** T0_Weapons_All -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_All']">
+	<item name="meleeWpnClubT1CanCanBat"/>
+	</append>
+	
+	<!-- *** T1_Melee_Weapons -->	
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_Melee']">
+	<item name="meleeWpnClubT1CanCanBat"/>
+	</append>
+	
+	<!-- *** T1_Melee_Weapons -->	
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Melee']">
+	<item name="meleeWpnClubT1CanCanBat"/>
+	</append>
+	
+	<!-- *** T2&T3_Melee_Weapons -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_Melee']">
+	<item name="meleeWpnClubT1CanCanBat"/>
+	</append>
+	
+	<!-- *** Quest_Rewards -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestWeaponsMeleeT1']">
+	<item name="meleeWpnClubT1CanCanBat"/>
+	</append>
+	
 	<!-- Bringing in mid/late range vehicle mod schematics earlier and keeping them later to remove scripted drops which are far too predictable -->	
 	<!-- T0_Vehicle_Mod_Schematics -->	
 	<append xpath="/lootcontainers/lootgroup[@name='vehicleModSchematics01']">

@@ -155,6 +155,9 @@ chainLinkFencePOIVariantHelper,blocks,Block,,,Chain Link Fence,,,,,,,,,,,
 barbedWireSpindleVariantHelper,blocks,Block,,,Barbed Wire Spindle,,,,,,,,,,,
 chainlinkDoorGateVariantHelper,blocks,Block,,,Chain Link Doors,,,,,,,,,,,
 
+meleeWpnClubT1CanCanBat,items,Melee,,,Can Can Bat,,,,,,,,,,,,,
+meleeWpnClubT1CanCanBatDesc,items,Melee,,,"This Can Can Bat can do what a Can Can Bat can do. Cannot be crafted. Can only be found in loot, rewards, or the trader inventory.\n\nRepair with a Repair Kit.\nScrap to Wood.",,,,,,,,,,,,,
+
 animalCassowary,entityclasses,Entity,,,Cassowary,,,,,,,,,,,,,
 animalTassydevil,entityclasses,Entity,,,Tasmanian Devil,,,,,,,,,,,,,
 animalPlatypus,entityclasses,Entity,,,Platypus
