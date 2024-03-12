@@ -72,6 +72,9 @@ modGunMagnumMagazineExtender,item_modifiers,mod,,,Magnum Reload Mod,,,,,,,,,,,,,
 modGunMagnumMagazineExtenderDesc,item_modifiers,mod,,,"Did I fire eleven shots, or twelve? The Magnum Reload Mod allows the Magnum to shoot 12 shots before requiring a full reload.",,,,,,,,,,,,,
 modGunMagnumMagazineExtenderSchematic,item_modifiers,Mod,,,Magnum Reload Mod Schematic,,,,,,,,,,,,,
 
+resourceSeasonedWoodLogs,items,Item,,,Wood Logs (Seasoned),,,,,,,,,,,,,
+resourceSeasonedWoodLogsDesc,items,Item,,,"Seasoned Wood Logs have a longer burn time than regular Wood Logs.",,,,,,,,,,,,,
+
 foodWildWheat,items,Food,,,Wild Wheat,,,,,,,,,,,,,
 foodWildWheatDesc,items,Food,,,"Wild Wheat can be ground down to make Wheat Flour and added to recipes.",,,,,,,,,,,,,
 foodWheatFlour,items,Food,,,Wheat Flour,,,,,,,,,,,,,
@@ -200,6 +203,10 @@ animalBloodMoonSpider03Queen,entityclasses,Entity,,,Blood Moon Queen Spider Sidn
 animalBloodMoonFlyingSpider01Queen,entityclasses,Entity,,,Blood Moon Flying Queen Spider Sam,,,,,,,,,,,,,
 animalBloodMoonFlyingSpider02Queen,entityclasses,Entity,,,Blood Moon Flying Queen Spider Sally,,,,,,,,,,,,,
 animalBloodMoonFlyingSpider03Queen,entityclasses,Entity,,,Blood Moon Flying Queen Spider Sidney,,,,,,,,,,,,,
+animalBloodMoonSpider01Mini,entityclasses,Entity,,,Blood Moon Mini Spider Sam,,,,,,,,,,,,,
+animalBloodMoonSpider02Mini,entityclasses,Entity,,,Blood Moon Mini Spider Sally,,,,,,,,,,,,,
+animalBloodMoonSpider03Mini,entityclasses,Entity,,,Blood Moon Mini Spider Sidney,,,,,,,,,,,,,
+animalBloodMoonKoala,entityclasses,Entity,,,Blood Moon Koala,,,,,,,,,,,,,
 
 vehiclePocoCar,vehicles,vehicle,,,Poco Car
 vehiclePocoCarPlaceable,vehicles,item,,,Poco Car

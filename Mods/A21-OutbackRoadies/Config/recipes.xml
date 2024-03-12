@@ -126,6 +126,10 @@
 		<ingredient name="resourceCement" count="800"/>
 	</recipe>
 	
+	<recipe name="resourceSeasonedWoodLogs" count="1">
+		<ingredient name="resourceWood" count="30"/>
+	</recipe>
+	
 	<!-- High Performance Running Shoes Mod -->
 	
 		<recipe name="modArmorRunningShoesHP" count="1" craft_area="workbench" tags="learnable">

@@ -2012,8 +2012,115 @@
 			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1"/>
 			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="3"/>
 		</entity_class>
-		</append>
 		
+<!-- GRUNT MINI -->
+		<entity_class name="animalBloodMoonSpider01Mini" extends="animalBloodMoonSpider01">
+			<property name="SizeScale" value="0.3"/>		
+			<property name="Tags" value="entity,animal,zombie,hostile,spider,mini"/>		
+			<property name="ExperienceGain" value="40"/> <!-- XP spider grunt mini approx - 0.7 based on default -->
+			<property name="LootDropProb" value=".01"/> <!-- Whether it drops a loot bag on death or not. -->
+			<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="1"/>
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" prob="0.25" count="1"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest"  prob="0.25" count="1"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>			
+			<property name="MoveSpeed" value=".25"/>
+			<property name="MoveSpeedAggro" value="1.3, 1.3"/> 
+			<property name="MoveSpeedPanic" value="1.3"/>
+			<property name="HandItem" value="meleeHandAnimalSpider"/>			
+			<property name="DeadBodyHitPoints" value="30"/>		
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="60"/> <!-- approx - 0.7 based on Arlene proportion -->			
+			</effect_group>
+		</entity_class>
+		
+		<entity_class name="animalBloodMoonSpider02Mini" extends="animalBloodMoonSpider01Mini">
+			<property name="SizeScale" value="0.3"/>
+			<property name="Tags" value="entity,animal,zombie,hostile,spider,mini"/>	
+			<property name="Mesh" value="#@modfolder:Resources/XythSpiders.unity3d?Spider02_X"/>
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="1"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		</entity_class>
+		
+		<entity_class name="animalBloodMoonSpider03Mini" extends="animalBloodMoonSpider01Mini">
+			<property name="SizeScale" value="0.3"/>
+			<property name="Tags" value="entity,animal,zombie,hostile,spider,mini"/>	
+			<property name="Mesh" value="#@modfolder:Resources/XythSpiders.unity3d?Spider03_X"/>
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="1"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+		</entity_class>
+
+<!-- CUSTOM ANIMAL ADDITIONS FOR ZOMBIE NEUTRALITY -->
+	<entity_class name="animalBloodMoonKoala" extends="animalTemplateHostile">
+		<property name="UserSpawnType" value="Menu"/>
+		<property name="Tags" value="entity,animal,zombie,hostile"/>
+		<property name="IsEnemyEntity" value="true"/>
+		<property name="AvatarController" value="AvatarAnimalController"/>
+		<property name="ModelType" value="Standard"/>
+		<property name="HasRagdoll" value="false"/>
+		<property name="PhysicsBody" value="boar"/>
+		<property name="Mass" value="80"/>
+		<property name="Mesh" value="#@modfolder:Resources/Aussiepack.unity3d?Koala2Legion"/>
+		<property name="LookAtAngle" value="0"/>
+		<property name="HasDeathAnim" value="true"/>
+		<property name="RootMotion" value="false"/>
+		<property name="RagdollOnDeathChance" value=".5"/>
+
+		<property name="AITask-1" value="Leap"/>
+		<property name="AITask-2" value="BreakBlock"/>
+		<property name="AITask-3" value="DestroyArea"/>
+		<property name="AITask-4" value="Territorial"/>
+		<property name="AITask-5" value="ApproachDistraction"/>
+		<property name="AITask-6" value="ApproachAndAttackTarget" data="class=EntityPlayer,30,EntityBandit,20,EntityAnimalStag,30"/>			
+		<property name="AITask-7" value="ApproachSpot"/>
+		<property name="AITask-8" value="Look"/>
+		<property name="AITask-9" value="Wander"/>
+		<property name="AITask-10" value=""/>
+		<property name="AITarget-1" value="SetAsTargetIfHurt"/>
+		<property name="AITarget-2" value="BlockingTargetTask"/>
+		<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityPlayer,29,24,EntityBandit,0,-8,EntityAnimalStag,0,0"/>
+		<property name="AITarget-4" value=""/>
+
+		<property name="SizeScale" value="1.25"/>
+		<property name="PainResistPerHit" value=".05"/>
+		<property name="MoveSpeed" value="0.65"/>
+		<property name="MoveSpeedAggro" value="1.5, 1.55"/>
+		<property name="MoveSpeedPanic" value="1.5"/>
+		<property name="SwimSpeed" value="1.5"/>
+		<property name="SwimStrokeRate" value="1.5,1.7"/>
+		<property name="CanClimbVertical" value="true"/>
+		<property name="JumpMaxDistance" value="9, 12"/>
+		<property name="ExperienceGain" value="450"/>
+		<property name="LootDropProb" value=".25"/> <!-- Feral -->
+		<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
+		<property name="HandItem" value="meleeHandAnimalWolf"/>		
+
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="15"/>
+	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="4"/>
+	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="8"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="3"/>
+	<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+
+    <effect_group name="Base Effects">
+        <passive_effect name="HealthMax" operation="base_set" value="250"/>
+    </effect_group>
+	</entity_class>
+	</append>
+	
 <!--APPOC CAR-->
 <append xpath="/entity_classes">
 <entity_class name="vehiclePocoCar">
