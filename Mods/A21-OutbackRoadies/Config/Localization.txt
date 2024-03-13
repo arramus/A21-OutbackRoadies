@@ -207,6 +207,7 @@ animalBloodMoonSpider01Mini,entityclasses,Entity,,,Blood Moon Mini Spider Sam,,,
 animalBloodMoonSpider02Mini,entityclasses,Entity,,,Blood Moon Mini Spider Sally,,,,,,,,,,,,,
 animalBloodMoonSpider03Mini,entityclasses,Entity,,,Blood Moon Mini Spider Sidney,,,,,,,,,,,,,
 animalBloodMoonKoala,entityclasses,Entity,,,Blood Moon Koala,,,,,,,,,,,,,
+animalBloodMoonKangaroo,entityclasses,Entity,,,Blood Moon Kangaroo,,,,,,,,,,,,,
 
 vehiclePocoCar,vehicles,vehicle,,,Poco Car
 vehiclePocoCarPlaceable,vehicles,item,,,Poco Car

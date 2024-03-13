@@ -201,6 +201,8 @@
 		animalBloodMoonFlyingSpider02Queen, .15
 		animalBloodMoonSpider03Queen, .15
 		animalBloodMoonFlyingSpider03Queen, .15
+		animalBloodMoonKoala, .15
+		animalBloodMoonKangaroo, .15
 	</csv>
 
 	<!-- SPIDER ONLY HORDE NIGHT -->
@@ -209,6 +211,7 @@
 		animalBloodMoonSpider02Mini
 		animalBloodMoonSpider03Mini
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS80']">
 		animalBloodMoonSpider01Mini
@@ -218,6 +221,7 @@
 		animalBloodMoonSpider03Mini
 		animalBloodMoonSpider03, .1
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS121']">
 		animalBloodMoonSpider01Mini
@@ -230,6 +234,7 @@
 		animalBloodMoonSpider03, .1
 		animalBloodMoonSpider03Feral, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS153']">
 		animalBloodMoonSpider01Mini
@@ -248,6 +253,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS195']">
 		animalBloodMoonSpider01Mini
@@ -266,6 +272,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS255']">
 		animalBloodMoonSpider01Mini
@@ -284,6 +291,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS304']">
@@ -303,6 +311,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS354']">
 		animalBloodMoonSpider01Mini
@@ -321,6 +330,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS407']">
 		animalBloodMoonSpider01Mini
@@ -339,6 +349,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS453']">
 		animalBloodMoonSpider01Mini
@@ -357,6 +368,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS501']">
 		animalBloodMoonSpider01Mini
@@ -375,6 +387,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS550']">
@@ -394,6 +407,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS600']">
 		animalBloodMoonSpider01Mini
@@ -412,6 +426,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS651']">
 		animalBloodMoonSpider01Mini
@@ -430,6 +445,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS704']">
 		animalBloodMoonSpider01Mini
@@ -448,6 +464,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS758']">
 		animalBloodMoonSpider01Mini
@@ -466,6 +483,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS802']">
@@ -485,6 +503,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS858']">
 		animalBloodMoonSpider01Mini
@@ -503,6 +522,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS904']">
 		animalBloodMoonSpider01Mini
@@ -521,6 +541,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS951']">
 		animalBloodMoonSpider01Mini
@@ -539,6 +560,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1010']">
 		animalBloodMoonSpider01Mini
@@ -557,6 +579,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1106']">
@@ -576,6 +599,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1206']">
 		animalBloodMoonSpider01Mini
@@ -594,6 +618,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1308']">
 		animalBloodMoonSpider01Mini
@@ -612,6 +637,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1412']">
@@ -631,6 +657,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1506']">
 		animalBloodMoonSpider01Mini
@@ -649,6 +676,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1601']">
@@ -667,7 +695,8 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
-		animalBloodMoonKoala, .05		
+		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05		
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1712']">
 		animalBloodMoonSpider01Mini
@@ -686,6 +715,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1811']">
@@ -705,6 +735,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1911']">
 		animalBloodMoonSpider01Mini
@@ -723,6 +754,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS1999']">
 		animalBloodMoonSpider01Mini
@@ -741,6 +773,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2102']">
@@ -760,6 +793,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2207']">
 		animalBloodMoonSpider01Mini
@@ -778,6 +812,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2314']">
 		animalBloodMoonSpider01Mini
@@ -796,6 +831,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2407']">
@@ -815,6 +851,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2501']">
 		animalBloodMoonSpider01Mini
@@ -833,6 +870,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2612']">
 		animalBloodMoonSpider01Mini
@@ -851,6 +889,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2708']">
@@ -870,6 +909,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2805']">
 		animalBloodMoonSpider01Mini
@@ -888,6 +928,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS2903']">
 		animalBloodMoonSpider01Mini
@@ -906,6 +947,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3003']">
 		animalBloodMoonSpider01Mini
@@ -924,6 +966,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3103']">
@@ -943,6 +986,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3204']">
 		animalBloodMoonSpider01Mini
@@ -961,6 +1005,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3306']">
 		animalBloodMoonSpider01Mini
@@ -979,6 +1024,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3410']">
@@ -998,6 +1044,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3514']">
 		animalBloodMoonSpider01Mini
@@ -1016,6 +1063,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3601']">
 		animalBloodMoonSpider01Mini
@@ -1034,6 +1082,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3707']">
@@ -1053,6 +1102,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3814']">
 		animalBloodMoonSpider01Mini
@@ -1071,6 +1121,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS3904']">
 		animalBloodMoonSpider01Mini
@@ -1089,6 +1140,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS4013']">
 		animalBloodMoonSpider01Mini
@@ -1107,6 +1159,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
 	</set>
 	<set xpath="/entitygroups/entitygroup[@name='feralHordeStageGS4086']">
@@ -1126,6 +1179,7 @@
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
 		animalBloodMoonKoala, .05
+		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
 	</set>
 
