@@ -9,6 +9,8 @@
 	<remove xpath="/blocks/block[@name='cntBirdnestCorner']" />
 
 	<!-- Vanilla Updates -->
+	<!-- USA Flag switched to Whiteriver Flag for context of location -->
+	<set xpath="/blocks/block[@name='flagPoleAmerican']/property[@name='Model']/@value">Entities/Decor/flag_polePrefab</set>
 	<!-- Pickup time -->
 	<set xpath="/blocks/block[@name='forge']/property[@name='TakeDelay']/@value">5</set> <!-- Default 15 -->
 	<set xpath="/blocks/block[@name='workbench']/property[@name='TakeDelay']/@value">5</set> <!-- Default 15 -->
