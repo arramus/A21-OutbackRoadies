@@ -191,7 +191,7 @@
 	
 <!-- Food -->
 
-	<recipe name="foodWheatFlour" count="1">
+	<recipe name="foodWheatFlour" count="1" craft_time="60">
 		<ingredient name="foodWildWheat" count="30"/>
 	</recipe>
 	
