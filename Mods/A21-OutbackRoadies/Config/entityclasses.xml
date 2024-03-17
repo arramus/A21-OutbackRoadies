@@ -1297,13 +1297,13 @@
 	<property name="SoundGiveUp" value=""/>
 			
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="1"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="2"/>
 	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1"/>
-	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2"/>
 	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 	
 <effect_group name="Base Effects">
-	<passive_effect name="HealthMax" operation="base_set" value="100"/>
+	<passive_effect name="HealthMax" operation="base_set" value="65"/>
 	<passive_effect name="HealthMax" operation="perc_set" value="1"/>
 </effect_group>
 </entity_class>

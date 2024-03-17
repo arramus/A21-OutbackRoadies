@@ -22,6 +22,11 @@
 
 	<remove xpath="/lootcontainers/lootcontainer[@name='birdNest']" />
 	
+	<!-- *** Rocket Ammo -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoRocket']">
+	<item name="ammoRocketFire" count="1"/>
+	</append>
+	
 	<!-- *** T0_Weapons_All -->
 	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_All']">
 	<item name="meleeWpnClubT1CanCanBat"/>

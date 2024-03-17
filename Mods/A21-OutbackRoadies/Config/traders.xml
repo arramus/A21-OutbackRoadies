@@ -11,10 +11,15 @@
 	<!-- *** Trader_Bob_Magazines -->
 	<set xpath="/traders/trader_item_groups/trader_item_group[@name='skillMagazinesTraderBob']/item[@name='vehiclesSkillMagazine']/@count">3,6</set>
 
+	<!-- *** Ammo -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='ammoAll']">
+		<item name="ammoRocketFire" count="1,4"/>		
+	</append>
+
 	<!-- *** Raw_Ingredients -->
 	
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='foodSupplies']">
-			<item name="GrownChicken" count="1"/>		
+		<item name="GrownChicken" count="1"/>		
 	</append>
 	
 	<!-- *** Melee_Weapons -->
