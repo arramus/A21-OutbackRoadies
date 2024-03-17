@@ -1161,7 +1161,7 @@
 
 		<display_value name="dExDamageFire" value="250"/>
 		<passive_effect name="EntityDamage" operation="base_set" value="5" tags="perkDemolitionsExpert"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="5" tags="perkDemolitionsExpert"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="1" tags="perkDemolitionsExpert"/>
 		<display_value name="dExRadius" value="3"/>
 		<display_value name="dDuration" value="16"/>
 
