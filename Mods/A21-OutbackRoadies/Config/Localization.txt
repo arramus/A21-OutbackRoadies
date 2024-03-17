@@ -161,7 +161,7 @@ chainlinkDoorGateVariantHelper,blocks,Block,,,Chain Link Doors,,,,,,,,,,,
 meleeWpnClubT1CanCanBat,items,Melee,,,Can Can Bat,,,,,,,,,,,,,
 meleeWpnClubT1CanCanBatDesc,items,Melee,,,"This Can Can Bat can do what a Can Can Bat can do. Cannot be crafted. Can only be found in loot, rewards, or the trader inventory.\n\nRepair with a Repair Kit.\nScrap to Wood.",,,,,,,,,,,,,
 ammoRocketFire,items,Ammo,,,Rocket Fire (Ammo),,,,,,,,,,,,,
-ammoRocketFireDesc,items,Ammo,,,"A rocket fire used as rocket fire launcher ammunition can be crafted at a forge and workbench once you've gained the perk.",,,,,,,,,,,,,
+ammoRocketFireDesc,items,Ammo,,,"A rocket fire used as rocket launcher ammunition can be crafted at a forge and workbench once you've gained the perk.",,,,,,,,,,,,,
 
 AmmoPress,blocks,Workstation,,,Roadies Ammo Press,,,,,,,,,,,,,
 AmmoPressDesc,blocks,Block,,,"The Roadies Ammo Press allows players to craft ammunition in a compact standalone device. Bulk ammo crafts in half the time of the Workbench.",,,,,,,,,,,,,
