@@ -11,7 +11,7 @@
 		animalKoala, 30
 		animalFrillneck, 30
 		animalKangaroo, 40
-		animalMagpie, 20
+		animalMagpie, 16
 		animalSpider01Mini, 6
 		animalSpider02Mini, 6
 		animalSpider03Mini, 6
@@ -30,6 +30,9 @@
 		animalFlyingSpider01, .75
 		animalFlyingSpider02, .75
 		animalFlyingSpider03, .75
+		animalBloodMoonSpider01QueenFred, .5
+		animalBloodMoonSpider02QueenFred, .5
+		animalBloodMoonSpider03QueenFred, .5
 	</csv>
 	
 <!-- *** SNOW ANIMALS --> <!-- ANY -->
@@ -54,6 +57,9 @@
 		animalFlyingSpider01, .75
 		animalFlyingSpider02, .75
 		animalFlyingSpider03, .75
+		animalBloodMoonSpider01QueenFred, .5
+		animalBloodMoonSpider02QueenFred, .5
+		animalBloodMoonSpider03QueenFred, .5
 	</csv>
 	
 <!-- *** BIOME_ANIMAL_WILD_GAME_FOREST_GROUP --> <!-- ANY -->
@@ -64,7 +70,7 @@
 		animalKoala, 8
 		animalFrillneck, 8
 		animalKangaroo, 8
-		animalMagpie, 8
+		animalMagpie, 6
 		animalSpider01Mini, 2
 		animalSpider02Mini, 2
 		animalSpider03Mini, 2
@@ -90,40 +96,15 @@
 	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsForest']/text()" delim="\n" op="add" >
 		animalMagpie, 30
 		animalTassydevil, 10
-		animalSpider01Mini, 2
-		animalSpider02Mini, 2
-		animalSpider03Mini, 2
-		animalSpider01, 1
-		animalSpider02, 1
-		animalSpider03, 1
-		animalSpider01Feral, .75
-		animalSpider02Feral, .75
-		animalSpider03Feral, .75
-		animalSpider01Radiated, .5
-		animalSpider02Radiated, .5
-		animalSpider03Radiated, .5
-		animalSpider01Queen, .25
-		animalSpider02Queen, .25
-		animalSpider03Queen, .25
-		animalFlyingSpider01, .25
-		animalFlyingSpider02, .25
-		animalFlyingSpider03, .25
-	</csv>
-
-	<!-- *** BIOME_ENEMY_ANIMAL_BURNT_FOREST_GROUP --> <!-- NIGHT -->
-
-	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForest']/text()" delim="\n" op="add" >
-		animalMagpie, 30
-		animalTassydevil, 10
-		animalSpider01Mini, 3
-		animalSpider02Mini, 3
-		animalSpider03Mini, 3
-		animalSpider01, 2
-		animalSpider02, 2
-		animalSpider03, 2
-		animalSpider01Feral, 1.5
-		animalSpider02Feral, 1.5
-		animalSpider03Feral, 1.5
+		animalSpider01Mini, 5
+		animalSpider02Mini, 5
+		animalSpider03Mini, 5
+		animalSpider01, 3
+		animalSpider02, 3
+		animalSpider03, 3
+		animalSpider01Feral, 2
+		animalSpider02Feral, 2
+		animalSpider03Feral, 2
 		animalSpider01Radiated, 1
 		animalSpider02Radiated, 1
 		animalSpider03Radiated, 1
@@ -133,6 +114,37 @@
 		animalFlyingSpider01, .75
 		animalFlyingSpider02, .75
 		animalFlyingSpider03, .75
+		animalBloodMoonSpider01QueenFred, .5
+		animalBloodMoonSpider02QueenFred, .5
+		animalBloodMoonSpider03QueenFred, .5
+	</csv>
+
+	<!-- *** BIOME_ENEMY_ANIMAL_BURNT_FOREST_GROUP --> <!-- NIGHT -->
+
+	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForest']/text()" delim="\n" op="add" >
+		animalMagpie, 30
+		animalTassydevil, 10
+		animalSpider01Mini, 6
+		animalSpider02Mini, 6
+		animalSpider03Mini, 6
+		animalSpider01, 4
+		animalSpider02, 4
+		animalSpider03, 4
+		animalSpider01Feral, 3
+		animalSpider02Feral, 3
+		animalSpider03Feral, 3
+		animalSpider01Radiated, 2
+		animalSpider02Radiated, 2
+		animalSpider03Radiated, 2
+		animalSpider01Queen, 1
+		animalSpider02Queen, 1
+		animalSpider03Queen, 1
+		animalFlyingSpider01, 1
+		animalFlyingSpider02, 1
+		animalFlyingSpider03, 1
+		animalBloodMoonSpider01QueenFred, 1
+		animalBloodMoonSpider02QueenFred, 1
+		animalBloodMoonSpider03QueenFred, 1
 	</csv>
 	
 	<!-- *** BIOME_ENEMY_ANIMAL_WASTELAND_GROUP --> <!-- ANY -->
@@ -150,12 +162,15 @@
 		animalSpider01Radiated, 2
 		animalSpider02Radiated, 2
 		animalSpider03Radiated, 2
-		animalSpider01Queen, .75
-		animalSpider02Queen, .75
-		animalSpider03Queen, .75
-		animalFlyingSpider01, .75
-		animalFlyingSpider02, .75
-		animalFlyingSpider03, .75
+		animalSpider01Queen, 1
+		animalSpider02Queen, 1
+		animalSpider03Queen, 1
+		animalFlyingSpider01, 1
+		animalFlyingSpider02, 1
+		animalFlyingSpider03, 1
+		animalBloodMoonSpider01QueenFred, 1
+		animalBloodMoonSpider02QueenFred, 1
+		animalBloodMoonSpider03QueenFred, 1
 	</csv>
 
 	<!-- GRUNT SPIDER HORDE NIGHT -->
@@ -201,6 +216,9 @@
 		animalBloodMoonFlyingSpider02Queen, .15
 		animalBloodMoonSpider03Queen, .15
 		animalBloodMoonFlyingSpider03Queen, .15
+		animalBloodMoonSpider01QueenFred, .15
+		animalBloodMoonSpider02QueenFred, .15
+		animalBloodMoonSpider03QueenFred, .15
 		animalBloodMoonKoala, .15
 		animalBloodMoonKangaroo, .15
 	</csv>
@@ -252,6 +270,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -271,6 +292,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -290,6 +314,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
@@ -310,6 +337,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -329,6 +359,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -348,6 +381,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -367,6 +403,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -386,6 +425,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
@@ -406,6 +448,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -425,6 +470,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -444,6 +492,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -463,6 +514,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -482,6 +536,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
@@ -502,6 +559,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -521,6 +581,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -540,6 +603,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -559,6 +625,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -578,6 +647,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
@@ -598,6 +670,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -617,6 +692,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -636,6 +714,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
@@ -656,6 +737,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -675,6 +759,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
@@ -695,6 +782,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05		
 	</set>
@@ -714,6 +804,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
@@ -734,6 +827,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -753,6 +849,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -772,6 +871,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
@@ -792,6 +894,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -811,6 +916,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -830,6 +938,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
@@ -850,6 +961,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -869,6 +983,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -888,6 +1005,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
@@ -908,6 +1028,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -927,6 +1050,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -946,6 +1072,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -965,6 +1094,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
@@ -985,6 +1117,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -1004,6 +1139,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -1023,6 +1161,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
@@ -1043,6 +1184,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -1062,6 +1206,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -1081,6 +1228,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
@@ -1101,6 +1251,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -1120,6 +1273,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -1139,6 +1295,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 	</set>
@@ -1158,6 +1317,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
@@ -1178,6 +1340,9 @@
 		animalBloodMoonSpider03Feral, .1
 		animalBloodMoonSpider03Radiated, .05
 		animalBloodMoonFlyingSpider03Queen, .05
+		animalBloodMoonSpider01QueenFred, .05
+		animalBloodMoonSpider02QueenFred, .05
+		animalBloodMoonSpider03QueenFred, .05
 		animalBloodMoonKoala, .05
 		animalBloodMoonKangaroo, .05
 		zombieDemolition, .5
