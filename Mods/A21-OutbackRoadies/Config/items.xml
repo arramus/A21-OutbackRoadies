@@ -1,5 +1,12 @@
 <configs>
 
+	<!-- NPC Mod Expansions -->
+	<append xpath="/items/item[@name='bakerPickUpNPC']">		
+		<property name="CustomIcon" value="bakerPickUpNPC" />
+	</append>
+	<append xpath="/items/item[@name='nursePickUpNPC']">		
+		<property name="CustomIcon" value="nursePickUpNPC" />
+	</append>
 	<append xpath="/items/item[@name='foxPickUpNPC']">		
 		<property name="CustomIcon" value="foxPickUpNPC" />
 	</append>
