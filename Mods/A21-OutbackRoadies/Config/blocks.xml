@@ -9,6 +9,8 @@
 	<remove xpath="/blocks/block[@name='cntBirdnestCorner']" />
 
 	<!-- Vanilla Updates -->
+	<!-- Removing movement collision from Drift wood as it can stop a custom vehicle instantly -->
+	<set xpath="/blocks/block[@name='driftwood']/property[@name='Collide']/@value">melee,bullet,arrow,rocket</set>
 	<!-- USA Flag switched to Whiteriver Flag for context of location -->
 	<set xpath="/blocks/block[@name='flagPoleAmerican']/property[@name='Model']/@value">Entities/Decor/flag_polePrefab</set>
 	<!-- Pickup time -->
