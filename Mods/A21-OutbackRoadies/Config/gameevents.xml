@@ -1,0 +1,49 @@
+<configs>
+	<append xpath="/gameevents">
+	
+	<!-- Single Animals -->
+
+	<action_sequence name="spawn_cassowary" template="spawn_single">
+		<variable name="zombiename" value="animalCassowary" />
+		<variable name="alertsound" value="boaralert" />
+	</action_sequence>
+	
+	<action_sequence name="spawn_tassydevil" template="spawn_single">
+		<variable name="zombiename" value="animalTassydevil" />
+		<variable name="alertsound" value="boaralert" />
+	</action_sequence>
+	
+	<action_sequence name="spawn_platypus" template="spawn_single">
+		<variable name="zombiename" value="animalPlatypus" />
+		<variable name="alertsound" value="boaralert" />
+	</action_sequence>
+	
+	<action_sequence name="spawn_koala" template="spawn_single">
+		<variable name="zombiename" value="animalKoala" />
+		<variable name="alertsound" value="boaralert" />
+	</action_sequence>
+	
+	<action_sequence name="spawn_frillneck" template="spawn_single">
+		<variable name="zombiename" value="animalFrillneck" />
+		<variable name="alertsound" value="boaralert" />
+	</action_sequence>
+	
+	<action_sequence name="spawn_kangaroo" template="spawn_single">
+		<variable name="zombiename" value="animalKangaroo" />
+		<variable name="alertsound" value="boaralert" />
+	</action_sequence>
+	
+	<!-- Group Animal Spawns -->
+	
+	<action_sequence name="group_magpies" template="spawn_group">
+		<variable name="zombiename" value="animalMagpie" />
+		<variable name="spawncount" value="5" />
+		<variable name="alertsound" value="Animals/Chicken/chickenpain" />
+		<variable name="gamestage_extra1" value="55" />
+		<variable name="spawncount_extra1" value="2" />
+		<variable name="gamestage_extra2" value="155" />
+		<variable name="spawncount_extra2" value="3" />
+	</action_sequence>
+
+	</append>
+</configs>
