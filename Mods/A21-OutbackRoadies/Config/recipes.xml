@@ -588,6 +588,14 @@
 	<ingredient name="carBattery" count="1"/>
 </recipe>
 
+<recipe name="vehicleSpiderRiderPlaceable" count="1" craft_time="200" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="vehicleMinibikePlaceable" count="1"/>
+	<ingredient name="trapSpikesIronDmg0" count="1"/>
+	<ingredient name="resourceBone" count="50"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+</recipe>	
+
 </append>
 
 </configs>

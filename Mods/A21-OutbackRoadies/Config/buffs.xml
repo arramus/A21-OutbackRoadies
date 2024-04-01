@@ -1,5 +1,11 @@
 <configs>
 
+	<append xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group">
+		<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="VehicleChecker">
+			<requirement name="NotHasBuff" buff="VehicleChecker"/>
+		</triggered_effect>
+	</append>
+
     <!-- Make Encumberence Debuff percentage lower to accomodate more locked inventory slots - KhaineGB -->
 	<set xpath="/buffs/buff[@name='buffEncumberedInv']/effect_group/triggered_effect[@cvar='$encumbranceEffect'][@value='0.026']/@value">0.013</set>
 	<set xpath="/buffs/buff[@name='buffDrugSteroids']/effect_group/passive_effect[@name='CarryCapacity'][@operation='base_set']/@operation">base_add</set>
@@ -46,6 +52,34 @@
 		<buff name="animalBloodMoonSpider01QueenFredDeco" hidden="true">
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Entities/Zombies/Prefabs/ZCrawlerFeral.prefab" local_offset="0.65,0,-0.1" local_rotation="0,90,90" parent_transform="Bone35"/>	
+			</effect_group>
+		</buff>	
+		
+	</append>
+	
+	<append xpath="/buffs">
+		<buff name="VehicleChecker" hidden="true">
+			<stack_type value="replace"/>
+			<duration value="500"/>
+			<update_rate value=".1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="100" buff="vehicleSpiderRiderBikeCheck">
+					<requirement name="EntityTagCompare" target="other" tags="vehiclespiderrider"/>
+					<requirement name="NotHasBuff" target="other" buff="vehicleSpiderRiderBikeCheck"/>
+				</triggered_effect>			
+			</effect_group>				
+		</buff>
+
+		<buff name="vehicleSpiderRiderBikeCheck" hidden="true">
+			<damage_type value="heat"/>		
+			<stack_type value="ignore"/>			
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Entities/LootContainers/weapon_bags_largePrefab.prefab" local_offset="0.05,.5,-0.85" local_rotation="0,0,0" parent_transform="Origin"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/XythSpiders.unity3d?Spider02_X" local_offset="0,0.3,0.1" local_rotation="-20,0,0" parent_transform="Physics"/>				
+			
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="1.2" buff="buffInjuryKnockdown01">
+					<requirement name="EntityTagCompare" target="other" tags="zombie,enemy"/>
+				</triggered_effect>
 			</effect_group>
 		</buff>	
 		

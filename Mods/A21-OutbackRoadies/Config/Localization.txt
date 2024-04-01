@@ -246,3 +246,5 @@ vehiclePocoBattleBuggy,vehicles,vehicle,,,Poco Battle Buggy
 vehiclePocoBattleBuggyPlaceable,vehicles,item,,,Poco Battle Buggy
 vehiclePocoBattleCrane,vehicles,vehicle,,,Poco Battle Crane
 vehiclePocoBattleCranePlaceable,vehicles,item,,,Poco Battle Crane
+vehicleSpiderRider,entityclasses,Entity,,,Spider Rider Minibike,,,,,,,,,,,,,
+vehicleSpiderRiderPlaceable,vehicles,vehicle,,,Spider Rider Minibike,,,,,,,,,,,,,
