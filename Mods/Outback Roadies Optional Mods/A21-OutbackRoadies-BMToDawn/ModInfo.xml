@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="A21_OutbackRoadies_BMToDawn" />
+	<DisplayName value="A21 Outback Roadies BM To Dawn" />
+	<Description value="Ensures Horde Night does not finish early, and allows greater counts to appear at earlier GS, where set." />
+	<Author value="arramus" />
+	<Version value="21.2.1.0" />
+	<Website value="" />
+</xml>
