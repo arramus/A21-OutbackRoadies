@@ -84,6 +84,18 @@
 		<variable name="gamestage_extra2" value="150" />
 		<variable name="spawncount_extra2" value="3" />
 	</action_sequence>
+	
+	<!-- Group Zombie Spawns -->
+	
+	<action_sequence name="group_burntmini" template="spawn_group">
+		<variable name="zombiename" value="zombieBurntRadiatedMini" />
+		<variable name="spawncount" value="5" />
+		<variable name="alertsound" value="Enemies/Burnt_Zombie/zombieburntattack" />
+		<variable name="gamestage_extra1" value="100" />
+		<variable name="spawncount_extra1" value="2" />
+		<variable name="gamestage_extra2" value="150" />
+		<variable name="spawncount_extra2" value="3" />
+	</action_sequence>
 
 	</append>
 </configs>

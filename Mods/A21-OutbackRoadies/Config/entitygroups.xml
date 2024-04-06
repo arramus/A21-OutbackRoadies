@@ -20,12 +20,14 @@
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']/text()" delim="\n" op="add" >
 		zombieBurntFeral, .5
 		zombieBurntRadiated, .25
+		zombieBurntRadiatedMini, .1
 	</csv>
 	
 <!-- *** BIOME_ZOMBIES_WASTELAND_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']/text()" delim="\n" op="add" >
 		zombieBurntFeral, .5
 		zombieBurntRadiated, .25
+		zombieBurntRadiatedMini, .1
 	</csv>
 
 <!-- *** INTEGRATION FOR BIOME ANIMALS -->
@@ -213,6 +215,7 @@
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieMoeRadiated')]/text()" delim="\n" op="add">
 		zombieBurntRadiated, .2
 		zombieMutatedRadiated, .2
+		zombieBurntRadiatedMini, .2
 	</csv>
 
 	<!-- GRUNT SPIDER HORDE NIGHT -->

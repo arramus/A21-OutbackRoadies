@@ -241,6 +241,8 @@ animalBloodMoonSpider03QueenFred,entityclasses,Entity,,,Blood Moon Boss Spider F
 animalBloodMoonKoala,entityclasses,Entity,,,Blood Moon Koala,,,,,,,,,,,,,
 animalBloodMoonKangaroo,entityclasses,Entity,,,Blood Moon Kangaroo,,,,,,,,,,,,,
 
+zombieBurntRadiatedMini,entityclasses,Entity,,,Mini Radiated Burnt,,,,,,,,,,,,,
+
 vehiclePocoCar,vehicles,vehicle,,,Poco Car
 vehiclePocoCarPlaceable,vehicles,item,,,Poco Car
 vehiclePocoBuggy,vehicles,vehicle,,,Poco Buggy
@@ -296,3 +298,6 @@ TwitchAction_SpawnGroupFlyingSpidersDesc,twitch,Actions,,,Spawns a group of Flyi
 TwitchAction_SpawnGroupBossSpiders,twitch,Actions,,,Group of Boss Spiders,,,,,,,,,,,
 TwitchAction_SpawnGroupBossSpidersCommand,twitch,Actions,,,#group_bossspiders,,,,,,,,,,,,
 TwitchAction_SpawnGroupBossSpidersDesc,twitch,Actions,,,Spawns a group of Boss Spiders.,,,,,,,,,,,,,
+TwitchAction_SpawnGroupBurntMini,twitch,Actions,,,Group of Burnt Mini,,,,,,,,,,,
+TwitchAction_SpawnGroupBurntMiniCommand,twitch,Actions,,,#group_burntmini,,,,,,,,,,,,
+TwitchAction_SpawnGroupBurntMiniDesc,twitch,Actions,,,Spawns a group of Burnt Mini.,,,,,,,,,,,,,
