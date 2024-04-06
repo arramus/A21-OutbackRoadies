@@ -1024,7 +1024,8 @@
     <property name="MoveSpeed" value="0.2"/>
     <property name="MoveSpeedAggro" value="1.3,1.3"/>
     <property name="MoveSpeedPanic" value="1.6"/>
-	<property name="ExperienceGain" value="650"/>	
+	<property name="ExperienceGain" value="650"/>
+	<property name="CanClimbLadders" value="true"/>
 
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="30"/>
@@ -1072,7 +1073,8 @@
     <property name="MoveSpeed" value="0.1"/>
     <property name="MoveSpeedAggro" value="1.3,1.3"/>
     <property name="MoveSpeedPanic" value="1.6"/>
-	<property name="ExperienceGain" value="450"/>	
+	<property name="ExperienceGain" value="450"/>
+	<property name="CanClimbLadders" value="true"/>	
 
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="15"/>
@@ -1119,7 +1121,8 @@
     <property name="MoveSpeed" value="0.2"/>
     <property name="MoveSpeedAggro" value="1.3,1.3"/>
     <property name="MoveSpeedPanic" value="1.6"/>
-	<property name="ExperienceGain" value="350"/>	
+	<property name="ExperienceGain" value="350"/>
+	<property name="CanClimbLadders" value="true"/>
 
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="20"/>
@@ -1165,7 +1168,8 @@
     <property name="MoveSpeed" value="0.2"/>
     <property name="MoveSpeedAggro" value="1.3,1.3"/>
     <property name="MoveSpeedPanic" value="1.6"/>
-	<property name="ExperienceGain" value="450"/>	
+	<property name="ExperienceGain" value="450"/>
+	<property name="CanClimbLadders" value="true"/>	
 
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="15"/>
@@ -1211,7 +1215,8 @@
     <property name="MoveSpeed" value="0.2"/>
     <property name="MoveSpeedAggro" value="1.3,1.3"/>
     <property name="MoveSpeedPanic" value="1.6"/>
-	<property name="ExperienceGain" value="250"/>	
+	<property name="ExperienceGain" value="250"/>
+	<property name="CanClimbLadders" value="true"/>
 
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="5"/>
@@ -1258,7 +1263,8 @@
     <property name="MoveSpeed" value="0.2"/>
     <property name="MoveSpeedAggro" value="1.3,1.3"/>
     <property name="MoveSpeedPanic" value="1.6"/>
-	<property name="ExperienceGain" value="650"/>	
+	<property name="ExperienceGain" value="650"/>
+	<property name="CanClimbLadders" value="true"/>
 
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="35"/>
@@ -1337,6 +1343,8 @@
 			<property name="ExperienceGain" value="130"/>
 			<property name="LootDropProb" value=".02"/> <!-- Whether it drops a loot bag on death or not. -->
 			<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
+			<property name="CanClimbLadders" value="true"/>			
+			
 			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="5"/>
 			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="1"/>
@@ -1691,6 +1699,7 @@
 			<property name="ExperienceGain" value="130"/>
 			<property name="LootDropProb" value=".02"/> <!-- Whether it drops a loot bag on death or not. -->
 			<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
+			<property name="CanClimbLadders" value="true"/>
 			
 			<property name="AITask-1" value="BreakBlock"/>
 			<property name="AITask-2" value="Territorial"/>
@@ -2178,6 +2187,8 @@
 		<property name="ExperienceGain" value="550"/>
 		<property name="LootDropProb" value=".25"/> <!-- Feral -->
 		<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
+		<property name="CanClimbLadders" value="true"/>		
+		
 		<property name="HandItem" value="meleeHandAnimalWolf"/>		
 
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
@@ -2237,6 +2248,8 @@
 		<property name="ExperienceGain" value="750"/>
 		<property name="LootDropProb" value=".25"/> <!-- Feral -->
 		<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
+		<property name="CanClimbLadders" value="true"/>		
+		
 		<property name="HandItem" value="meleeHandAnimalWolf"/>	
 
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
