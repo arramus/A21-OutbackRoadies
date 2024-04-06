@@ -1,6 +1,34 @@
 <configs>
 
-<!-- *** INTEGRATION FOR ANIMALS -->
+<!-- *** INTEGRATION FOR BIOME ZOMBIES -->
+
+	<!-- *** BIOME_ALL_ZOMBIES_GROUP -->
+	<csv xpath="/entitygroups/entitygroup[@name='ZombiesAll']/text()" delim="\n" op="add" >
+		zombieBurnt
+		zombieBurntFeral, .25
+		zombieBurntRadiated, .1		
+	</csv>
+	
+	<!-- *** BIOME_ZOMBIES_NIGHT_GROUP -->
+	<csv xpath="/entitygroups/entitygroup[@name='ZombiesNight']/text()" delim="\n" op="add" >
+		zombieBurnt
+		zombieBurntFeral, .3
+		zombieBurntRadiated, .15		
+	</csv>
+
+<!-- *** BIOME_ZOMBIES_BURNT_FOREST_GROUP -->
+	<csv xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']/text()" delim="\n" op="add" >
+		zombieBurntFeral, .5
+		zombieBurntRadiated, .25
+	</csv>
+	
+<!-- *** BIOME_ZOMBIES_WASTELAND_GROUP -->
+	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']/text()" delim="\n" op="add" >
+		zombieBurntFeral, .5
+		zombieBurntRadiated, .25
+	</csv>
+
+<!-- *** INTEGRATION FOR BIOME ANIMALS -->
 
 <!-- *** BIOME_ENEMY_ANIMAL_DESERT_GROUP --> <!-- ANY -->
 
@@ -171,6 +199,20 @@
 		animalBloodMoonSpider01QueenFred, 1
 		animalBloodMoonSpider02QueenFred, 1
 		animalBloodMoonSpider03QueenFred, 1
+	</csv>
+	
+	<!-- ZOMBIE HORDE NIGHT -->
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieMoe')]/text()" delim="\n" op="add">
+		zombieBurnt, .5
+		zombieMutated, .5
+	</csv>	
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieMoeFeral')]/text()" delim="\n" op="add">
+		zombieBurntFeral, .35
+		zombieMutatedFeral, .35
+	</csv>	
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieMoeRadiated')]/text()" delim="\n" op="add">
+		zombieBurntRadiated, .2
+		zombieMutatedRadiated, .2
 	</csv>
 
 	<!-- GRUNT SPIDER HORDE NIGHT -->

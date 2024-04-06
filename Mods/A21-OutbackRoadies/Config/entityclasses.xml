@@ -413,6 +413,9 @@
 		<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
 	</append>
+	<append xpath="/entity_classes/entity_class[@name='zombieMoe']/effect_group">
+			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieMoeDeco"/>
+	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieMoe']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
@@ -564,6 +567,9 @@
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
 	</append>
 	<!-- *** ZOMBIES_STRONG -->
+	<append xpath="/entity_classes/entity_class[@name='zombieBiker']/effect_group">
+			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="zombieBikerDeco"/>
+	</append>
 	<append xpath="/entity_classes/entity_class[@name='zombieBiker']">
 		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,4"/>
