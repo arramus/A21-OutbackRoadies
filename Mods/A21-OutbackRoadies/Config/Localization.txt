@@ -40,6 +40,8 @@ perkBoomstickRank3LongDesc,progression,perk Str,,,"If shotgun meets were still a
 perkBoomstickRank4LongDesc,progression,perk Str,,,"You are now very deadly with a shotgun and considered a shotgun master and master of the shotgun. Shotguns deal 40% more damage, 40% faster fire rate, and 50% faster reload.",,,,,,,,,,,,,
 perkBoomstickRank5LongDesc,progression,perk Str,,,"You've ascended to the legendary status of Shotgun Messiah, as you are the last thing they see before meeting their maker. Shotguns deal 50% more damage, 50% faster fire rate, and a 60% faster reload.\nLegs shots cripple opponents.",,,,,,,,,,,,,
 
+perkTechJunkie5RepulsorLongDesc,progression,perk  book,,,"Stun Repulsor Mod: Craft a stun repulsor mod for stun batons or steel spears and send zombies flying on the charged hit.",,,,,,,,,,,,,
+
 perkLockPickingName,progression,perk Per,,,Outback Lockpicking,,,,,,,,,,,,,
 perkLockPickingRank1Desc,progression,perk Per,,,Pick Pal,,,,,,,,,,,,,
 perkLockPickingRank1LongDesc,progression,perk Per,,,"Pick Pal. You are starting to make a name for yourself. You can pick locks 33% faster and have a 25% lower chance to break lockpicks.",,,,,,,,,,,,,
@@ -70,6 +72,8 @@ outbackroadies_TheCompound,POI,POIName,,x,The Compound,,,,,,,,,,,,,
 
 apparelCoatLeatherDuster,items,Clothes,,,Roadies Duster,,,,,,,,,,,,,
 
+modMeleeStunBatonRepulsor,item_modifiers,Mod,,,Stun Repulsor Mod,,,,,,,,,,,,,,
+modMeleeStunBatonRepulsorDesc,item_modifiers,Mod,,,"Install this mod into a stun baton or steel spear, and send zombies flying on the charged hit.",,,,,,,,,,,,,,
 modArmorRunningShoesHP,item_modifiers,mod,,,Speedy Running Shoes Mod,,,,,,,,,,,,,
 modArmorRunningShoesHPDesc,item_modifiers,mod,,,"Wearing this mod in your armor footwear provides environmental protection and increases running speed by 10%.",,,,,,,,,,,,,
 modArmorRunningShoesHPSchematic,item_modifiers,Mod,,,Speedy Running Shoes Mod Schematic,,,,,,,,,,,,,
