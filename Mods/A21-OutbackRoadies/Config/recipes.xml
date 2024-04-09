@@ -330,6 +330,14 @@
 	<ingredient name="foodHoneyComb" count="5"/>
 	</recipe>
 	
+	<recipe name="foodChickSticks" count="1" craft_time="18" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef">
+	<ingredient name="CaughtChick" count="3"/>
+	<ingredient name="foodHoneyComb" count="1"/>
+	<ingredient name="foodWheatFlour" count="1"/>
+	<ingredient name="foodEgg" count="1"/>
+	<ingredient name="resourceWood" count="1"/>
+	</recipe>
+	
 	<!-- Oakraven Ammo Press crafts in half the time for Bundles -->
 	
 	<recipe name="AmmoPress" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">

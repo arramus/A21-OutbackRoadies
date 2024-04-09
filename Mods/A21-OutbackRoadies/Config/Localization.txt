@@ -112,6 +112,8 @@ foodPocoTucker,items,Food,,,Poco Tucker,,,,,,,,,,,,,
 foodPocoTuckerDesc,items,Food,,,"Fine dining for Outback Roadies.",,,,,,,,,,,,,
 foodZombimiteToast,items,Food,,,Zombimite on Toast,,,,,,,,,,,,,
 foodZombimiteToastDesc,items,Food,,,"Zombimite tastes like Poco Straya. Harvest those zombies for rotten flesh.",,,,,,,,,,,,,
+foodChickSticks,items,Food,,,Chick Sticks,,,,,,,,,,,,,
+foodChickSticksDesc,items,Food,,,"Chick Sticks allow any excess chicks to be put to good use. You can find chicks in some nests and trees. Cures 1% infection.",,,,,,,,,,,,,
 
 CaughtChick,items,Item,,,Caught Chick,,,,,,,,,,,,,
 CaughtChickDesc,items,Item,,,"Use 2 Caught Chicks, with right mouse click, on an Empty Chicken Coop to populate and activate the next stage.",,,,,,,,,,,,,
