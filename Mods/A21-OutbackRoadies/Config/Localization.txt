@@ -307,3 +307,5 @@ TwitchAction_SpawnGroupBossSpidersDesc,twitch,Actions,,,Spawns a group of Boss S
 TwitchAction_SpawnGroupBurntMini,twitch,Actions,,,Group of Burnt Mini,,,,,,,,,,,
 TwitchAction_SpawnGroupBurntMiniCommand,twitch,Actions,,,#group_burntmini,,,,,,,,,,,,
 TwitchAction_SpawnGroupBurntMiniDesc,twitch,Actions,,,Spawns a group of Burnt Mini.,,,,,,,,,,,,,
+
+jetBootsAdmin,items,Item,,,Jet Boots (Admin),,,,,,,,,,,,,
