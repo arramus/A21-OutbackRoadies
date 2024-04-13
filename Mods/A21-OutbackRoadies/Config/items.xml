@@ -1804,6 +1804,55 @@
 	</effect_group>
 </item>
 
+	<!-- Quest Notes -->
+	<!-- Rabbits -->	
+		<item name="quest_rabbits">
+			<property name="Extends" value="challengeQuestMaster"/>
+			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>
+			<property name="DescriptionKey" value="quest_rabbitsDesc"/>
+			<property name="CustomIcon" value="quest_rabbits"/>
+			<property class="Action0">
+				<property name="UseAnimation" value="false"/>
+				<property name="QuestGiven" value="quest_rabbits"/>
+			</property>
+		</item>
+		
+	<!-- Spiders -->	
+		<item name="quest_spiders">
+			<property name="Extends" value="challengeQuestMaster"/>
+			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>
+			<property name="DescriptionKey" value="quest_spidersDesc"/>
+			<property name="CustomIcon" value="quest_spiders"/>
+			<property class="Action0">
+				<property name="UseAnimation" value="false"/>
+				<property name="QuestGiven" value="quest_spiders"/>
+			</property>
+		</item>
+		
+	<!-- Aussie Animals -->	
+		<item name="quest_aussieanimals">
+			<property name="Extends" value="challengeQuestMaster"/>
+			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>
+			<property name="DescriptionKey" value="quest_aussieanimalsDesc"/>
+			<property name="CustomIcon" value="quest_aussieanimals"/>
+			<property class="Action0">
+				<property name="UseAnimation" value="false"/>
+				<property name="QuestGiven" value="quest_aussieanimals"/>
+			</property>
+		</item>
+		
+	<!-- Mini Burnt Radiated -->	
+		<item name="quest_miniradiatedburnt">
+			<property name="Extends" value="challengeQuestMaster"/>
+			<property name="Material" value="Mpaper"/> <property name="Weight" value="67"/>
+			<property name="DescriptionKey" value="quest_miniradiatedburntDesc"/>
+			<property name="CustomIcon" value="quest_miniradiatedburnt"/>
+			<property class="Action0">
+				<property name="UseAnimation" value="false"/>
+				<property name="QuestGiven" value="quest_miniradiatedburnt"/>
+			</property>
+		</item>
+
 	<!-- ADMIN TOOLS -->
 	
 	<item name="jetBootsAdmin">

@@ -124,6 +124,70 @@
 		<item name="modArmorRunningShoesHPSchematic"/>
 		<item name="modGunMagnumMagazineExtenderSchematic"/>
 	</append>
+	
+	<!-- QUEST NOTES -->
+	<!-- Ratio allows approximately 1:5 for Quest Notes with resource fillers -->
+	<!-- *** Reinforced_Chest_T1 to T5 Additions-->
+	<insertBefore xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT1_01']">
+	<lootgroup name="group_roadiesquestnotes_groupHardenedChest">
+		<item name="quest_rabbits"/>
+		<item name="quest_spiders"/>
+		<item name="quest_aussieanimals"/>
+		<item name="quest_miniradiatedburnt"/>
+		<item name="foodWitchettyGrub" count="1,2"/>
+		<item name="foodWheatFlour" count="1,2"/>
+		<item name="ammoGasCan" count="50,150"/>
+		<item name="ammoRocketFire" count="3,5"/>
+		<item name="resourcePaper" count="25,50"/>
+		<item name="resourceOilShale" count="25,50"/>
+		<item name="resourceGlue" count="1,4"/>
+		<item name="resourceScrapLead" count="25,50"/>
+		<item name="resourceAcid" count="1"/>
+		<item name="resourceDuctTape" count="1,3"/>
+		<item name="resourceScrapBrass" count="25,50"/>
+		<item name="resourceGunPowder" count="25,50"/>
+		<item name="resourceRepairKit" count="1,2"/>
+		<item name="thrownAmmoMolotovCocktail" count="2,4"/>
+		<item name="thrownAmmoFlare" count="2,4"/>
+		<item name="medicalFirstAidBandage" count="1,2"/>
+	</lootgroup>
+	</insertBefore>
+	
+	<!-- Hardened Quest Chest Notes from T1 to T5 -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT1']">
+		<item group="group_roadiesquestnotes_groupHardenedChest" count="1"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT2']">
+		<item group="group_roadiesquestnotes_groupHardenedChest" count="1"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT3']">
+		<item group="group_roadiesquestnotes_groupHardenedChest" count="1"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT4']">
+		<item group="group_roadiesquestnotes_groupHardenedChest" count="1,2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT5']">
+		<item group="group_roadiesquestnotes_groupHardenedChest" count="1,2"/>
+	</append>
+	
+	<!-- Safes for Quest Notes -->
+	<!-- groupSafeBooks for gun and wall/desk -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupSafeBooks']">
+		<item name="quest_rabbits"/>
+		<item name="quest_spiders"/>
+		<item name="quest_aussieanimals"/>
+		<item name="quest_miniradiatedburnt"/>
+	</append>
+	
+	<!-- Gun Safe drops three possible passes for books/quests notes to offset potential loot percentage bug for custom content and decline in regular books -->	
+	<append xpath="/lootcontainers/lootgroup[@name='groupGunSafeSecure']">
+		<item group="groupSafeBooks" count="1"/>
+		<item group="groupSafeBooks" loot_prob_template="med" force_prob="true"/>
+	</append>
 
 	<append xpath="/lootcontainers">
 	
