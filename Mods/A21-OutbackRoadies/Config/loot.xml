@@ -22,6 +22,18 @@
 
 	<remove xpath="/lootcontainers/lootcontainer[@name='birdNest']" />
 	
+	<append xpath="/lootcontainers/lootgroup[@name='rareFoodDrink']">
+		<item name="drinkCanChromeSoda"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupDrinksRare']">
+		<item name="drinkCanChromeSoda"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupSodaFountain01']">
+		<item name="drinkCanChromeSoda" loot_prob_template="med"/>
+	</append>
+	
 	<!-- *** Rocket Ammo -->
 	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoRocket']">
 	<item name="ammoRocketFire" count="1"/>
@@ -187,6 +199,11 @@
 	<append xpath="/lootcontainers/lootgroup[@name='groupGunSafeSecure']">
 		<item group="groupSafeBooks" count="1"/>
 		<item group="groupSafeBooks" loot_prob_template="med" force_prob="true"/>
+	</append>
+	
+	<!-- *** twitch_drink -->
+	<append xpath="/lootcontainers/lootgroup[@name='twitch_drinkspecial1']">
+		<item name="drinkCanChromeSoda" count="1,2"/>
 	</append>
 
 	<append xpath="/lootcontainers">
