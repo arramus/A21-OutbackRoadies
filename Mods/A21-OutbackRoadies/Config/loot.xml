@@ -162,6 +162,7 @@
 		<item name="thrownAmmoMolotovCocktail" count="2,4"/>
 		<item name="thrownAmmoFlare" count="2,4"/>
 		<item name="medicalFirstAidBandage" count="1,2"/>
+		<item name="foodBillyTea" count="1,3"/>		
 	</lootgroup>
 	</insertBefore>
 	
