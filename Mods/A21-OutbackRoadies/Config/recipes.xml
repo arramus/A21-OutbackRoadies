@@ -245,6 +245,27 @@
 		<ingredient name="resourceAnimalFat" count="1"/>	
 	</recipe>
 	
+	<recipe name="foodDamper" count="1" craft_time="12" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+		<ingredient name="foodWheatFlour" count="1"/>
+		<ingredient name="resourceAnimalFat" count="1"/>
+		<ingredient name="drinkJarRiverWater" count="1"/>		
+	</recipe>
+	
+	<recipe name="foodSausageRoll" count="1" craft_time="12" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+		<ingredient name="foodWheatFlour" count="1"/>
+		<ingredient name="resourceAnimalFat" count="1"/>
+		<ingredient name="foodRawMeat" count="5"/>
+		<ingredient name="foodEgg" count="1"/>		
+	</recipe>
+	
+	<recipe name="foodHordeGorge" count="1" craft_time="36" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+		<ingredient name="foodPocoTucker" count="1"/>		
+		<ingredient name="foodSausageRoll" count="1"/>
+		<ingredient name="foodMeatPie" count="1"/>
+		<ingredient name="foodHoneyPumpkinPie" count="1"/>
+		<ingredient name="drinkJarBillyTea" count="1"/>
+	</recipe>
+	
 	<recipe name="drinkJarBillyTea" count="1" craft_time="18" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
 		<ingredient name="foodBillyTea" count="1"/>		
 		<ingredient name="drinkJarBoiledWater" count="1"/>
