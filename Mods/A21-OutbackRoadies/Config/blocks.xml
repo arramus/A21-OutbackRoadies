@@ -1039,7 +1039,7 @@
 	<property name="CustomIcon" value="playerWoodBurningRoadiesStove"/>
 	<property name="Material" value="Mmetal"/>
 	<property name="MaxDamage" value="250"/>
-	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+	<!--property name="StabilitySupport" value="false"/--> <!-- build restriction -->
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Furniture/woodBurningStovePrefab"/>
 	<property name="ImposterDontBlock" value="true"/>
