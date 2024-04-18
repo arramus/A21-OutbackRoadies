@@ -208,6 +208,8 @@ lblCategoryAmmoPress,UI,Tooltip,,,Ammo,,Munition,Munici√≥n,Munitions,Munizioni,Â
 lblCategoryAmmoPressRegularAmmo,UI,Tooltip,,,Regular Ammo,,,,,,,,,,,,,
 lblCategoryAmmoPressHPAmmo,UI,Tooltip,,,HP Ammo,,,,,,,,,,,,,
 lblCategoryAmmoPressAPAmmo,UI,Tooltip,,,AP Ammo,,,,,,,,,,,,,
+playerWoodBurningRoadiesStove,blocks,Block,,,Wood Burning Roadies Stove,,,,,,,,,,,,,
+playerWoodBurningRoadiesStoveDesc,blocks,Block,,,"This Wood Burning Roadies Stove provides an alternative cooking source to the campfire.",,,,,,,,,,,,,
 
 animalCassowary,entityclasses,Entity,,,Cassowary,,,,,,,,,,,,,
 animalTassydevil,entityclasses,Entity,,,Tasmanian Devil,,,,,,,,,,,,,

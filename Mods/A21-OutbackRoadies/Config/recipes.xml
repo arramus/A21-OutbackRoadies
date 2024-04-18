@@ -548,6 +548,12 @@
 	<ingredient name="resourceScrapIron" count="2400"/>
 </recipe>
 
+	<recipe name="playerWoodBurningRoadiesStove" count="1" craft_area="workbench" craft_time="180" tags="workbenchCrafting">
+		<ingredient name="resourceScrapIron" count="100"/>
+		<ingredient name="resourceClayLump" count="100"/>
+		<ingredient name="resourceRockSmall" count="100"/>
+	</recipe>
+
 <!-- Vehicles -->
 
 <recipe name="vehiclePocoCarPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
