@@ -1046,7 +1046,7 @@
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="ParticleName" value="campfire"/>
-	<property name="ParticleOffset" value="0.5,0.5,0.5"/>
+	<property name="ParticleOffset" value="0.5,0.5,0.75"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="HeatMapStrength" value="5"/>
 	<property name="HeatMapTime" value="2500"/>
