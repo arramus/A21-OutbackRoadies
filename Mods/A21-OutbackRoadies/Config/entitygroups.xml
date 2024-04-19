@@ -6,14 +6,30 @@
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesAll']/text()" delim="\n" op="add" >
 		zombieBurnt
 		zombieBurntFeral, .25
-		zombieBurntRadiated, .1		
+		zombieBurntRadiated, .1
+		zombieOakNurse, .05
+		zombieOakFireNurse, .05
+		zombieOakRadNurse, .05
+		zombieOakHeadHunter1, .05
+		zombieOakHeadHunter2, .05
+		zombieOakHeadHunter3, .05
+		zombieOakHeadHunter4, .05
+		zombieOakHeadHunter5, .05
 	</csv>
 	
 	<!-- *** BIOME_ZOMBIES_NIGHT_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesNight']/text()" delim="\n" op="add" >
 		zombieBurnt
 		zombieBurntFeral, .3
-		zombieBurntRadiated, .15		
+		zombieBurntRadiated, .15
+		zombieOakNurse, .1
+		zombieOakFireNurse, .1
+		zombieOakRadNurse, .1
+		zombieOakHeadHunter1, .1
+		zombieOakHeadHunter2, .1
+		zombieOakHeadHunter3, .1
+		zombieOakHeadHunter4, .1
+		zombieOakHeadHunter5, .1
 	</csv>
 
 <!-- *** BIOME_ZOMBIES_BURNT_FOREST_GROUP -->
@@ -21,6 +37,14 @@
 		zombieBurntFeral, .5
 		zombieBurntRadiated, .25
 		zombieBurntRadiatedMini, .1
+		zombieOakNurse, .1
+		zombieOakFireNurse, .1
+		zombieOakRadNurse, .1
+		zombieOakHeadHunter1, .1
+		zombieOakHeadHunter2, .1
+		zombieOakHeadHunter3, .1
+		zombieOakHeadHunter4, .1
+		zombieOakHeadHunter5, .1
 	</csv>
 	
 <!-- *** BIOME_ZOMBIES_WASTELAND_GROUP -->
@@ -28,6 +52,29 @@
 		zombieBurntFeral, .5
 		zombieBurntRadiated, .25
 		zombieBurntRadiatedMini, .1
+		zombieOakNurse, .1
+		zombieOakFireNurse, .1
+		zombieOakRadNurse, .1
+		zombieOakHeadHunter1, .1
+		zombieOakHeadHunter2, .1
+		zombieOakHeadHunter3, .1
+		zombieOakHeadHunter4, .1
+		zombieOakHeadHunter5, .1
+	</csv>
+	
+<!-- *** BIOME_ZOMBIES_WASTELAND_NIGHT_GROUP -->
+	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']/text()" delim="\n" op="add" >
+		zombieBurntFeral
+		zombieBurntRadiated, .5
+		zombieBurntRadiatedMini, .25
+		zombieOakNurse, .25
+		zombieOakFireNurse, .25
+		zombieOakRadNurse, .25
+		zombieOakHeadHunter1, .25
+		zombieOakHeadHunter2, .25
+		zombieOakHeadHunter3, .25
+		zombieOakHeadHunter4, .25
+		zombieOakHeadHunter5, .25
 	</csv>
 
 <!-- *** INTEGRATION FOR BIOME ANIMALS -->
@@ -205,17 +252,29 @@
 	
 	<!-- ZOMBIE HORDE NIGHT -->
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieMoe')]/text()" delim="\n" op="add">
-		zombieBurnt, .5
-		zombieMutated, .5
+		zombieBurnt, .7
+		zombieMutated, .7
 	</csv>	
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieMoeFeral')]/text()" delim="\n" op="add">
-		zombieBurntFeral, .35
-		zombieMutatedFeral, .35
-	</csv>	
+		zombieBurntFeral, .7
+		zombieMutatedFeral, .7
+	</csv>
 	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieMoeRadiated')]/text()" delim="\n" op="add">
-		zombieBurntRadiated, .2
-		zombieMutatedRadiated, .2
-		zombieBurntRadiatedMini, .2
+		zombieBurntRadiated, .7
+		zombieMutatedRadiated, .7
+		zombieBurntRadiatedMini, .7
+	</csv>	
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieNurseRadiated')]/text()" delim="\n" op="add">
+		zombieOakNurse, .7
+		zombieOakFireNurse, .7
+		zombieOakRadNurse, .7
+	</csv>	
+	<csv xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and contains (text(), 'zombieWightRadiated')]/text()" delim="\n" op="add">
+		zombieOakHeadHunter1, .7
+		zombieOakHeadHunter2, .7
+		zombieOakHeadHunter3, .7
+		zombieOakHeadHunter4, .7
+		zombieOakHeadHunter5, .7
 	</csv>
 
 	<!-- GRUNT SPIDER HORDE NIGHT -->
