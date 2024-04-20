@@ -111,6 +111,36 @@
 			</effect_group>
 		</buff>
 		
+	<!-- *** twitch_buffTrippy -->
+	<!-- Temporarily gives psychedelic color vision screen effect -->
+	<buff name="buff5Trippy" name_key="TwitchBuff_Trippy" description_key="TwitchBuff_BlurDesc">
+		<stack_type value="replace"/>
+		<duration value="5"/>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfEnteredGame" action="RemoveBuff" buff="buff5Trippy"/>
+		</effect_group>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="1" fade="1" effect_name="Trippy"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Trippy"/>
+		</effect_group>
+	</buff>	
+	
+	<buff name="buff10Trippy" name_key="TwitchBuff_Trippy" description_key="TwitchBuff_BlurDesc">
+		<stack_type value="replace"/>
+		<duration value="10"/>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfEnteredGame" action="RemoveBuff" buff="buff10Trippy"/>
+		</effect_group>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="1" fade="1" effect_name="Trippy"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Trippy"/>
+		</effect_group>
+	</buff>
+		
 	</append>
 	
 	<append xpath="/buffs">

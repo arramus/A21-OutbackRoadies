@@ -2302,7 +2302,7 @@
 			</effect_group>
 		</entity_class>
 		
-    <!-- Female Head Hunter Nurses in the Snow and Wasteland by day and everywhere by night -->
+    <!-- Nurse and War Boy Head Hunters in all biomes but greater in Wasteland and at night. Appear in Horde Night. -->
 	
     <entity_class name="zombieOakNurse" extends="zombieBossTemplate">
 	<property name="UserSpawnType" value="Menu"/>
@@ -2312,7 +2312,7 @@
 	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
 	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
 	<property name="ExperienceGain" value="1500"/>
-    <property name="HandItem" value="meleeHandZombieStrong"/>
+    <property name="HandItem" value="meleeHandZombieStrongShock"/>
 	
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
@@ -2386,8 +2386,6 @@
     </effect_group> 
 	</entity_class>
 	
-    <!-- Male Head Hunters in the Desert and Wasteland by day and everywhere by night -->
-	
     <entity_class name="zombieOakHeadHunter1" extends="zombieBossTemplate">
 	<property name="UserSpawnType" value="Menu"/>
 	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template"/>
@@ -2397,7 +2395,7 @@
 	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
 	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
 	<property name="ExperienceGain" value="1500"/>
-    <property name="HandItem" value="meleeHandZombieStrong"/>
+    <property name="HandItem" value="meleeHandZombieStrong5Trippy"/>
 	
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
@@ -2425,7 +2423,7 @@
 	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
 	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
 	<property name="ExperienceGain" value="1500"/>
-    <property name="HandItem" value="meleeHandZombieStrong"/>
+    <property name="HandItem" value="meleeHandZombieStrong5Trippy"/>
 	
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
@@ -2453,7 +2451,7 @@
 	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
 	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
 	<property name="ExperienceGain" value="1500"/>
-    <property name="HandItem" value="meleeHandZombieStrong"/>
+    <property name="HandItem" value="meleeHandZombieStrong5Trippy"/>
 	
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
@@ -2481,7 +2479,7 @@
 	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
 	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
 	<property name="ExperienceGain" value="1500"/>
-    <property name="HandItem" value="meleeHandZombieStrong"/>
+    <property name="HandItem" value="meleeHandZombieStrong5Trippy"/>
 	
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
@@ -2509,7 +2507,7 @@
 	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
 	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
 	<property name="ExperienceGain" value="1500"/>
-    <property name="HandItem" value="meleeHandZombieStrong"/>
+    <property name="HandItem" value="meleeHandZombieStrong5Trippy"/>
 	
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
@@ -2524,6 +2522,287 @@
         <passive_effect name="HealthMax" operation="base_set" value="750"/>
 		<passive_effect name="PhysicalDamageResist" operation="base_set" value="50"/>
 		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+    </effect_group> 
+	</entity_class>
+	
+    <!-- Boss Nurse and Boss War Boy Head Hunters in Wasteland and Horde Night -->
+	
+    <entity_class name="zombieOakBossNurse" extends="zombieBossTemplate">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template"/>
+	<property name="Class" value="EntityZombieCop"/>
+	<property name="Mesh" value="#@modfolder:Resources/NightNurse.unity3d?oaknurse1"/>
+	<property name="MoveSpeedAggro" value="0.6, 1.55"/>
+	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	<property name="ExperienceGain" value="1850"/>
+	<property name="LootDropProb" value=".2"/>
+	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
+	<property name="SizeScale" value="1.2"/>
+	
+	<property name="AITask-1" value="BreakBlock"/>
+	<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=5"/>
+	<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityNPC,0,EntityEnemyAnimal,0,EntityPlayer,0"/>
+	<property name="AITask-4" value="ApproachSpot"/>
+	<property name="AITask-5" value="Look"/>
+	<property name="AITask-6" value="Wander"/>
+	<property name="AITask-7" value=""/><!-- Marks end, so we don't inheirit -->		
+	
+    <property name="HandItem" value="meleeHandZombieStrongShockBall"/>
+	<property name="ExplodeHealthThreshold" value="0"/>
+	
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+	
+	<effect_group name="Base Effects">
+        <passive_effect name="HealthMax" operation="base_set" value="1250"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="4"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+    </effect_group> 	
+	</entity_class>
+	
+    <entity_class name="zombieOakBossFireNurse" extends="zombieBossTemplate">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template"/>
+	<property name="Class" value="EntityZombieCop"/>
+	<property name="Mesh" value="#@modfolder:Resources/NightNurse.unity3d?oaknursefire"/>
+	<property name="MoveSpeedAggro" value="0.6, 1.55"/>
+	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	<property name="ExperienceGain" value="1850"/>
+	<property name="LootDropProb" value=".2"/>
+	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
+	<property name="SizeScale" value="1.2"/>
+	
+	<property name="AITask-1" value="BreakBlock"/>
+	<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=5"/>
+	<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityNPC,0,EntityEnemyAnimal,0,EntityPlayer,0"/>
+	<property name="AITask-4" value="ApproachSpot"/>
+	<property name="AITask-5" value="Look"/>
+	<property name="AITask-6" value="Wander"/>
+	<property name="AITask-7" value=""/><!-- Marks end, so we don't inheirit -->	
+	
+    <property name="HandItem" value="meleeHandZombieStrongFireBall"/>
+	<property name="ExplodeHealthThreshold" value="0"/>
+	
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+	
+	<effect_group name="Base Effects">
+        <passive_effect name="HealthMax" operation="base_set" value="1250"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="4"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+    </effect_group> 
+	</entity_class>
+	
+    <entity_class name="zombieOakBossRadNurse" extends="zombieBossTemplate">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template"/>
+	<property name="Class" value="EntityZombieCop"/>
+	<property name="Mesh" value="#@modfolder:Resources/NightNurse.unity3d?oaknurseRad"/>
+	<property name="MoveSpeedAggro" value="0.6, 1.55"/>
+	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	<property name="ExperienceGain" value="1850"/>
+	<property name="LootDropProb" value=".2"/>
+	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
+	<property name="SizeScale" value="1.2"/>
+	
+	<property name="AITask-1" value="BreakBlock"/>
+	<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=5"/>
+	<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityNPC,0,EntityEnemyAnimal,0,EntityPlayer,0"/>
+	<property name="AITask-4" value="ApproachSpot"/>
+	<property name="AITask-5" value="Look"/>
+	<property name="AITask-6" value="Wander"/>
+	<property name="AITask-7" value=""/><!-- Marks end, so we don't inheirit -->		
+	
+    <property name="HandItem" value="meleeHandZombieStrongRadBall"/>
+	<property name="ExplodeHealthThreshold" value="0"/>
+	
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+	
+	<effect_group name="Base Effects">
+        <passive_effect name="HealthMax" operation="base_set" value="1250"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="4"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+		<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="zombieOakRadNurseRadiatedShowerAOE"/>
+    </effect_group> 
+	</entity_class>	
+	
+    <entity_class name="zombieOakBossHeadHunter1" extends="zombieBossTemplate">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template"/>
+    <property name="Mesh" value="#@modfolder:Resources/HeadHunter.unity3d?headhunter"/>
+	<property name="MoveSpeedAggro" value="0.6, 1.55"/>
+    <property name="WalkType" value="2"/>
+	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	<property name="ExperienceGain" value="1850"/>
+	<property name="LootDropProb" value=".2"/>
+	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
+	<property name="SizeScale" value="1.2"/>
+    <property name="HandItem" value="meleeHandZombieStrong10Trippy"/>
+	
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+	
+	<effect_group name="Base Effects">
+        <passive_effect name="HealthMax" operation="base_set" value="1250"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="4"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+    </effect_group> 
+	</entity_class>
+	
+    <entity_class name="zombieOakBossHeadHunter2" extends="zombieBossTemplate">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template"/>
+    <property name="Mesh" value="#@modfolder:Resources/HeadHunter.unity3d?headhunter2"/>
+	<property name="MoveSpeedAggro" value="0.6, 1.55"/>
+    <property name="WalkType" value="2"/>
+	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	<property name="ExperienceGain" value="1850"/>
+	<property name="LootDropProb" value=".2"/>
+	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
+	<property name="SizeScale" value="1.2"/>
+    <property name="HandItem" value="meleeHandZombieStrong10Trippy"/>
+	
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+	
+	<effect_group name="Base Effects">
+        <passive_effect name="HealthMax" operation="base_set" value="1250"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="4"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+    </effect_group> 
+	</entity_class>
+	
+    <entity_class name="zombieOakBossHeadHunter3" extends="zombieBossTemplate">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template"/>
+    <property name="Mesh" value="#@modfolder:Resources/HeadHunter.unity3d?headhunter3"/>
+	<property name="MoveSpeedAggro" value="0.6, 1.55"/>
+    <property name="WalkType" value="2"/>
+	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	<property name="ExperienceGain" value="1850"/>
+	<property name="LootDropProb" value=".2"/>
+	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
+	<property name="SizeScale" value="1.2"/>
+    <property name="HandItem" value="meleeHandZombieStrong10Trippy"/>
+	
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+	
+	<effect_group name="Base Effects">
+        <passive_effect name="HealthMax" operation="base_set" value="1250"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="4"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+    </effect_group> 
+	</entity_class>
+	
+    <entity_class name="zombieOakBossHeadHunter4" extends="zombieBossTemplate">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template"/>
+    <property name="Mesh" value="#@modfolder:Resources/HeadHunter.unity3d?headhunter4"/>
+	<property name="MoveSpeedAggro" value="0.6, 1.55"/>
+    <property name="WalkType" value="2"/>
+	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	<property name="ExperienceGain" value="1850"/>
+	<property name="LootDropProb" value=".2"/>
+	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
+	<property name="SizeScale" value="1.2"/>
+    <property name="HandItem" value="meleeHandZombieStrong10Trippy"/>
+	
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+	
+	<effect_group name="Base Effects">
+        <passive_effect name="HealthMax" operation="base_set" value="1250"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="4"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+    </effect_group> 
+	</entity_class>
+	
+    <entity_class name="zombieOakBossHeadHunter5" extends="zombieBossTemplate">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,male,zombie,walker,feral,radiated,template"/>
+    <property name="Mesh" value="#@modfolder:Resources/HeadHunter.unity3d?headhunter5"/>
+	<property name="MoveSpeedAggro" value="0.6, 1.55"/>
+    <property name="WalkType" value="2"/>
+	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	<property name="ExperienceGain" value="1850"/>
+	<property name="LootDropProb" value=".2"/>
+	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
+	<property name="SizeScale" value="1.2"/>
+    <property name="HandItem" value="meleeHandZombieStrong10Trippy"/>
+	
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2,3"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1,3"/>
+	<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
+	
+	<effect_group name="Base Effects">
+        <passive_effect name="HealthMax" operation="base_set" value="1250"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="4"/>
 		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
     </effect_group> 
 	</entity_class>

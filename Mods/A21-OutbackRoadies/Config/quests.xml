@@ -99,7 +99,7 @@
 		<property name="difficulty" value="hard"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="zombieOakNurse,zombieOakFireNurse,zombieOakRadNurse,zombieOakHeadHunter1,zombieOakHeadHunter2,zombieOakHeadHunter3,zombieOakHeadHunter4,zombieOakHeadHunter5" value="100"/>
+		<objective type="EntityKill" id="zombieOakNurse,zombieOakFireNurse,zombieOakRadNurse,zombieOakHeadHunter1,zombieOakHeadHunter2,zombieOakHeadHunter3,zombieOakHeadHunter4,zombieOakHeadHunter5,zombieOakBossNurse,zombieOakBossFireNurse,zombieOakBossRadNurse,zombieOakBossHeadHunter1,zombieOakBossHeadHunter2,zombieOakBossHeadHunter3,zombieOakBossHeadHunter4,zombieOakBossHeadHunter5" value="100"/>
 		
 		<reward type="Exp" value="20000"/>
 		<reward type="Item" id="casinoCoin" value="5000"/>

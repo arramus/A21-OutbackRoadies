@@ -271,6 +271,15 @@ zombieOakHeadHunter2,entityclasses,Entity,,,Head Hunter Lazza,,,,,,,,,,,,,
 zombieOakHeadHunter3,entityclasses,Entity,,,Head Hunter Dazza,,,,,,,,,,,,,
 zombieOakHeadHunter4,entityclasses,Entity,,,Head Hunter Tezza,,,,,,,,,,,,,
 zombieOakHeadHunter5,entityclasses,Entity,,,Head Hunter Jezza,,,,,,,,,,,,,
+zombieOakBossNurse,entityclasses,Entity,,,Boss Nurse Kylie,,,,,,,,,,,,,
+zombieOakBossFireNurse,entityclasses,Entity,,,Boss Nurse Barbie,,,,,,,,,,,,,
+zombieOakBossRadNurse,entityclasses,Entity,,,Boss Nurse Jazlyn,,,,,,,,,,,,,
+zombieOakBossHeadHunter1,entityclasses,Entity,,,Boss Head Hunter Bazza,,,,,,,,,,,,,
+zombieOakBossHeadHunter2,entityclasses,Entity,,,Boss Head Hunter Lazza,,,,,,,,,,,,,
+zombieOakBossHeadHunter3,entityclasses,Entity,,,Boss Head Hunter Dazza,,,,,,,,,,,,,
+zombieOakBossHeadHunter4,entityclasses,Entity,,,Boss Head Hunter Tezza,,,,,,,,,,,,,
+zombieOakBossHeadHunter5,entityclasses,Entity,,,Boss Head Hunter Jezza,,,,,,,,,,,,,
+
 
 vehiclePocoCar,vehicles,vehicle,,,Poco Car
 vehiclePocoCarPlaceable,vehicles,item,,,Poco Car

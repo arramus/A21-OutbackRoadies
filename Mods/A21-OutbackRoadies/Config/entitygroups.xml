@@ -60,6 +60,14 @@
 		zombieOakHeadHunter3, .1
 		zombieOakHeadHunter4, .1
 		zombieOakHeadHunter5, .1
+		zombieOakBossNurse, .1
+		zombieOakBossFireNurse, .1
+		zombieOakBossRadNurse, .1
+		zombieOakBossHeadHunter1, .1
+		zombieOakBossHeadHunter2, .1
+		zombieOakBossHeadHunter3, .1
+		zombieOakBossHeadHunter4, .1
+		zombieOakBossHeadHunter5, .1
 	</csv>
 	
 <!-- *** BIOME_ZOMBIES_WASTELAND_NIGHT_GROUP -->
@@ -75,6 +83,14 @@
 		zombieOakHeadHunter3, .25
 		zombieOakHeadHunter4, .25
 		zombieOakHeadHunter5, .25
+		zombieOakBossNurse, .25
+		zombieOakBossFireNurse, .25
+		zombieOakBossRadNurse, .25
+		zombieOakBossHeadHunter1, .25
+		zombieOakBossHeadHunter2, .25
+		zombieOakBossHeadHunter3, .25
+		zombieOakBossHeadHunter4, .25
+		zombieOakBossHeadHunter5, .25
 	</csv>
 
 <!-- *** INTEGRATION FOR BIOME ANIMALS -->
@@ -325,6 +341,14 @@
 		animalBloodMoonSpider03QueenFred, .15
 		animalBloodMoonKoala, .15
 		animalBloodMoonKangaroo, .15
+		zombieOakBossNurse, .1
+		zombieOakBossFireNurse, .1
+		zombieOakBossRadNurse, .1
+		zombieOakBossHeadHunter1, .1
+		zombieOakBossHeadHunter2, .1
+		zombieOakBossHeadHunter3, .1
+		zombieOakBossHeadHunter4, .1
+		zombieOakBossHeadHunter5, .1
 	</csv>
 
 	<!-- SPIDER ONLY HORDE NIGHT -->
