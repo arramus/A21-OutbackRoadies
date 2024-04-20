@@ -28,6 +28,8 @@ Current additions, and their function are as follows:
 - A21-OutbackRoadies-BMToDawn folder is to be placed in the main Mods folder to activate it. Allows Horde Night to last all night, with greater numbers (up to 256) where set at earlier GS.
 - A21-OutbackRoadies-FireOnOption folder is to be placed in the main Mods folder to activate it. It will allow wooden and other burnable world assets to burn.
 - A21-OutbackRoadies-KHA21-96BBM folder is to be placed in the main Mods folder to activate it. It will increase the backpack to 96 slots, and is courtesy of Khaine (from DF).
+- A21-OutbackRoadies-KHA21-CustomMenuMusic is to be placed in the main Mods folder to activate it. It will play Waltzing Matilda in the game menu.
+- A21-OutbackRoadies-TreeSeedsLOTL is to be placed in the main Mods folder to activate it. It will allow player trees at final stage to yield more seeds for Living off the Land Skill.
 
 ================
 = TERMS OF USE =
