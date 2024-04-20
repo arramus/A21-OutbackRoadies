@@ -298,7 +298,7 @@ quest_rabbitsDesc,items,Quest - Challenge,,,"Read this Quest Note, and accept th
 quest_spiders,items,Quest - Challenge,,,"Eliminate Spiders",,,,,,,,,,,,,
 quest_spidersDesc,items,Quest - Challenge,,,"Read this Quest Note, and accept the challenge to find and eliminate 100 spiders. Earn XP, Dukes, and 2 Skill Points upon completion.\n\nAdditional Quest Notes can be found in safes and quest loot. Scraps to 50 paper.",,,,,,,,,,,,,
 quest_aussieanimals,items,Quest - Challenge,,,"Eliminate Aussie Animals",,,,,,,,,,,,,
-quest_aussieanimalsDesc,items,Quest - Challenge,,,"Read this Quest Note, and accept the challenge to find and eliminate 25 aussie animals. Earn XP, Dukes, and 2 Skill Points upon completion.\n\nAdditional Quest Notes can be found in safes and quest loot. Scraps to 50 paper.",,,,,,,,,,,,,
+quest_aussieanimalsDesc,items,Quest - Challenge,,,"Read this Quest Note, and accept the challenge to find and eliminate 100 aussie animals. Earn XP, Dukes, and 2 Skill Points upon completion.\n\nAdditional Quest Notes can be found in safes and quest loot. Scraps to 50 paper.",,,,,,,,,,,,,
 quest_miniradiatedburnt,items,Quest - Challenge,,,"Eliminate Mini Radiated Burnt Zombies",,,,,,,,,,,,,
 quest_miniradiatedburntDesc,items,Quest - Challenge,,,"Read this Quest Note, and accept the challenge to find and eliminate 25 mini radiated burnt zombies. Earn XP, Dukes, and 1 Skill Point upon completion.\n\nAdditional Quest Notes can be found in safes and quest loot. Scraps to 50 paper.",,,,,,,,,,,,,
 quest_headhunters,items,Quest - Challenge,,,"Eliminate Head Hunters",,,,,,,,,,,,,
