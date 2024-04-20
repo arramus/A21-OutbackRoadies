@@ -131,6 +131,10 @@
 		<ingredient name="resourceWood" count="30"/>
 	</recipe>
 	
+	<recipe name="decoClassicDogHouse" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceWood" count="30"/>
+	</recipe>
+	
 	<!-- High Performance Running Shoes Mod -->
 	
 		<recipe name="modArmorRunningShoesHP" count="1" craft_area="workbench" tags="learnable">
