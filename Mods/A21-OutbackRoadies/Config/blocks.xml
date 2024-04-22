@@ -1076,6 +1076,28 @@
 	<property name="SortOrder1" value="70i0"/>
 </block>
 
+	<!-- Kangaroo Sign -->
+<block name="signRoadKangaroo">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Material" value="Mmetal_thin"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/KangarooSign.unity3d?KangarooSign"/>
+	<property name="ModelOffset" value="0,0.15,0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="VehicleHitScale" value="8"/>
+	<drop event="Destroy" name="resourceScrapIron" count="5,15"/>
+	<property name="SortOrder1" value="B701"/>
+	<property name="SortOrder2" value="0000"/>
+	<property name="FilterTags" value="MC_outdoor,SC_signs"/>
+</block>	
+
+
 </append>
 
 </configs>
