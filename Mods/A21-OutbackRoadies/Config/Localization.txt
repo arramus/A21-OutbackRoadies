@@ -261,6 +261,8 @@ animalBloodMoonSpider02QueenFred,entityclasses,Entity,,,Blood Moon Boss Spider F
 animalBloodMoonSpider03QueenFred,entityclasses,Entity,,,Blood Moon Boss Spider Fred n Sidney,,,,,,,,,,,,,
 animalBloodMoonKoala,entityclasses,Entity,,,Aussie Animals,,,,,,,,,,,,,
 animalBloodMoonKangaroo,entityclasses,Entity,,,Blood Moon Kangaroo,,,,,,,,,,,,,
+animalBloodMoonBossKoala,entityclasses,Entity,,,Blood Moon Boss Koala,,,,,,,,,,,,,
+animalBloodMoonBossKangaroo,entityclasses,Entity,,,Blood Moon Boss Kangaroo,,,,,,,,,,,,,
 
 zombieBurntRadiatedMini,entityclasses,Entity,,,Mini Radiated Burnt,,,,,,,,,,,,,
 zombieOakNurse,entityclasses,Entity,,,Head Hunters,,,,,,,,,,,,,

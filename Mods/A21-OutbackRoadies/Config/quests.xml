@@ -61,7 +61,7 @@
 		<property name="difficulty" value="hard"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="animalBloodMoonKoala,animalBloodMoonKangaroo,animalCassowary,animalTassydevil,animalPlatypus,animalKoala,animalFrillneck,animalKangaroo,animalMagpie" value="100"/>
+		<objective type="EntityKill" id="animalBloodMoonKoala,animalBloodMoonKangaroo,animalBloodMoonBossKoala,animalBloodMoonBossKangaroo,animalCassowary,animalTassydevil,animalPlatypus,animalKoala,animalFrillneck,animalKangaroo,animalMagpie" value="100"/>
 		
 		<reward type="Exp" value="20000"/>
 		<reward type="Item" id="casinoCoin" value="5000"/>
