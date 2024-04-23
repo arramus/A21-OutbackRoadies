@@ -1083,7 +1083,7 @@
 	<property name="Material" value="Mmetal_thin"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/KangarooSign.unity3d?KangarooSign"/>
-	<property name="ModelOffset" value="0,0.15,0"/>
+	<property name="ModelOffset" value="0,0.25,0"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="WaterFlow" value="permitted"/>
 	<property name="OnlySimpleRotations" value="true"/>
