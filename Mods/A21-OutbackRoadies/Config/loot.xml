@@ -59,6 +59,8 @@
 	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_Melee']">
 	<item name="meleeWpnClubT1CanCanBat"/>
 	<item name="meleeWpnKnucklesT3SteelOakravenBristonKnuckles"/>
+	<item name="meleeWpnClubT3OldCricketBat"/>
+	<item name="meleeWpnClubT3NewCricketBat"/>
 	</append>
 	
 	<!-- *** Quest_Rewards -->
@@ -69,6 +71,8 @@
 	
 	<append xpath="/lootcontainers/lootgroup[@name='groupQuestWeaponsMeleeT2']">
 	<item name="meleeWpnKnucklesT3SteelOakravenBristonKnuckles"/>
+	<item name="meleeWpnClubT3OldCricketBat"/>
+	<item name="meleeWpnClubT3NewCricketBat"/>
 	</append>
 	
 	<!-- Bringing in mid/late range vehicle mod schematics earlier and keeping them later to remove scripted drops which are far too predictable -->	
@@ -135,6 +139,12 @@
 		<item name="modArcheryReloadSpeedSchematic"/>
 		<item name="modArmorRunningShoesHPSchematic"/>
 		<item name="modGunMagnumMagazineExtenderSchematic"/>
+	</append>
+	
+	<!-- *** Dyes -->
+	<append xpath="/lootcontainers/lootgroup[@name='dyes']">
+		<item name="modDyeAussieGreen"/>
+		<item name="modDyeAussieGold"/>
 	</append>
 	
 	<!-- QUEST NOTES -->

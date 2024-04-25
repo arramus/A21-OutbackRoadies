@@ -5,8 +5,7 @@
    <append xpath="/item_modifiers/item_modifier[@name='modMeleeClubMetalSpikes']">
         <item_property_overrides name="meleeWpnClubT1CanCanBat">
             <property name="HandMeshfile" value="#@modfolder:Resources/BeanBat.unity3d?BeanBatbarbspike"/>
-        </item_property_overrides>
-        
+        </item_property_overrides>        
     </append>
     
     <append xpath="/item_modifiers/item_modifier[@name='modMeleeClubBarbedWire']">
@@ -25,7 +24,59 @@
        <item_property_overrides name="meleeWpnClubT1CanCanBat">
             <property name="FlameEffect" value="#@modfolder:Resources/BeanBat.unity3d?flameoak"/>
        </item_property_overrides>
-    </append>	
+    </append>
+	
+   <!-- Old look Cricket Bat -->
+
+   <append xpath="/item_modifiers/item_modifier[@name='modMeleeClubMetalSpikes']">   
+		<item_property_overrides name="meleeWpnClubT3OldCricketBat">
+            <property name="HandMeshfile" value="#@modfolder:Resources/CricketBat.unity3d?CricketBatSpike"/>
+        </item_property_overrides>        
+    </append>
+    
+    <append xpath="/item_modifiers/item_modifier[@name='modMeleeClubBarbedWire']">			
+		<item_property_overrides name="meleeWpnClubT3OldCricketBat">
+            <property name="HandMeshfile" value="#@modfolder:Resources/CricketBat.unity3d?CricketBatWire"/>
+        </item_property_overrides>       
+    </append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubMetalChain']">		
+		 <item_property_overrides name="meleeWpnClubT3OldCricketBat">
+            <property name="HandMeshfile" value="#@modfolder:Resources/CricketBat.unity3d?CricketBatChain"/>
+        </item_property_overrides>     
+    </append>
+
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubBurningShaft']">
+	   <item_property_overrides name="meleeWpnClubT3OldCricketBat">
+            <property name="FlameEffect" value="#@modfolder:Resources/CricketBat.unity3d?CricketBatFire"/>
+       </item_property_overrides>
+    </append>
+	
+	<!-- New look Cricket Bat -->
+	
+	 <append xpath="/item_modifiers/item_modifier[@name='modMeleeClubMetalSpikes']">   
+		<item_property_overrides name="meleeWpnClubT3NewCricketBat">
+            <property name="HandMeshfile" value="#@modfolder:Resources/Cricketbatz.unity3d?CricketbatzSpikes"/>
+        </item_property_overrides>        
+    </append>
+    
+    <append xpath="/item_modifiers/item_modifier[@name='modMeleeClubBarbedWire']">			
+		<item_property_overrides name="meleeWpnClubT3NewCricketBat">
+            <property name="HandMeshfile" value="#@modfolder:Resources/Cricketbatz.unity3d?CricketbatzWire"/>
+        </item_property_overrides>       
+    </append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubMetalChain']">		
+		 <item_property_overrides name="meleeWpnClubT3NewCricketBat">
+            <property name="HandMeshfile" value="#@modfolder:Resources/Cricketbatz.unity3d?CricketbatzChain"/>
+        </item_property_overrides>     
+    </append>
+
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubBurningShaft']">
+	   <item_property_overrides name="meleeWpnClubT3NewCricketBat">
+            <property name="FlameEffect" value="#@modfolder:Resources/Cricketbatz.unity3d?CricketbatzFire"/>
+       </item_property_overrides>
+    </append>
 
 <append xpath="/item_modifiers">
 
@@ -124,6 +175,84 @@
 		<effect_group tiered="false">
 			<passive_effect name="MagazineSize" operation="perc_add" value="1"/>
 		</effect_group>
+	</item_modifier>
+	
+<!-- Aussie Colours -->
+	
+	<item_modifier name="modDyeAussieGreen" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye" type="attachment" cosmetic_install_chance=".16">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="0, 132, 61"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+
+		<item_property_overrides name="*">
+			<property name="TintColor" value="0, 132, 61"/>
+			<property name="CustomIconTint" value="0, 132, 61"/>
+			<property name="UMA.Overlay0Tint" value="0, 132, 61"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="apparelTankTop">
+			<property name="UMA.Overlay0Tint" value="skin"/>
+			<property name="UMA.Overlay1Tint" value="0, 132, 61"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="apparelTShirtPlain">
+			<property name="UMA.Overlay0Tint" value="skin"/>
+			<property name="UMA.Overlay1Tint" value="0, 132, 61"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="apparelTShirtZU">
+			<property name="UMA.Overlay0Tint" value="skin"/>
+			<property name="UMA.Overlay1Tint" value="0, 132, 61"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="apparelCoatJacketLetterZU">
+			<property name="UMA.Overlay0Tint" value="0, 132, 61,255"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="apparelDenimShortsPants">
+			<property name="UMA.Overlay0Tint" value="skin"/>
+			<property name="UMA.Overlay1Tint" value="0, 132, 61"/>
+		</item_property_overrides>
+	</item_modifier>
+	
+	<item_modifier name="modDyeAussieGold" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye" type="attachment" cosmetic_install_chance=".16">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="255, 205, 0"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+
+		<item_property_overrides name="*">
+			<property name="TintColor" value="255, 205, 0"/>
+			<property name="CustomIconTint" value="255, 205, 0"/>
+			<property name="UMA.Overlay0Tint" value="255, 205, 0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="apparelTankTop">
+			<property name="UMA.Overlay0Tint" value="skin"/>
+			<property name="UMA.Overlay1Tint" value="255, 205, 0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="apparelTShirtPlain">
+			<property name="UMA.Overlay0Tint" value="skin"/>
+			<property name="UMA.Overlay1Tint" value="255, 205, 0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="apparelTShirtZU">
+			<property name="UMA.Overlay0Tint" value="skin"/>
+			<property name="UMA.Overlay1Tint" value="255, 205, 0"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="apparelCoatJacketLetterZU">
+			<property name="UMA.Overlay0Tint" value="255, 205, 0,255"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="apparelDenimShortsPants">
+			<property name="UMA.Overlay0Tint" value="skin"/>
+			<property name="UMA.Overlay1Tint" value="255, 205, 0"/>
+		</item_property_overrides>
 	</item_modifier>
 
 </append>

@@ -31,7 +31,9 @@
 	<!-- *** Melee_Weapons -->
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupMeleeAll']">
 		<item name="meleeWpnClubT1CanCanBat" quality="3,6"/>
-		<item name="meleeWpnKnucklesT3SteelOakravenBristonKnuckles" quality="3,6"/>		
+		<item name="meleeWpnKnucklesT3SteelOakravenBristonKnuckles" quality="3,6"/>
+		<item name="meleeWpnClubT3OldCricketBat" quality="3,6"/>
+		<item name="meleeWpnClubT3NewCricketBat" quality="3,6"/>	
 	</append>
 	
 	<!-- *** T1_Melee_Mods -->

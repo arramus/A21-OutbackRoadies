@@ -50,7 +50,7 @@ perkLockPickingRank2LongDesc,progression,perk Per,,,"You are now a Reserve Bank 
 perkLockPickingRank3Desc,progression,perk Per,,,Safe Cracker,,,,,,,,,,,,,
 perkLockPickingRank3LongDesc,progression,perk Per,,,"You are now a world class safe cracker. Pick locks 100% faster and have a 75% lower chance to break lockpicks.",,,,,,,,,,,,,
 
-perkHighOctaneExperienceDesc,progression,perk Int,,,This skill allows players to guzzle XP at a faster rate. Don't guzzle too much at once...,,,,,,,,,,,,,
+perkHighOctaneExperienceDesc,progression,perk Int,,,This skill allows players to guzzle XP at a faster rate. Guzzle too much too soon, and you'll be meeting ferals, and beyond, in no time...,,,,,,,,,,,,,
 perkHighOctaneExperienceName,progression,perk Int,,,High-Octane Experience,,,,,,,,,,,,,
 perkHighOctaneExperienceRank1Desc,progression,perk Int,,,Cattle Dog,,,,,,,,,,,,,
 perkHighOctaneExperienceRank1LongDesc,progression,perk Int,,,"You can pretty much go the distance. Gain +30% XP.",,,,,,,,,,,,,
@@ -92,10 +92,11 @@ modMeleeSpartanSledgeStaminaSchematic,item_modifiers,Mod,,,Spartan Sledge Stamin
 modGunMagnumMagazineExtender,item_modifiers,mod,,,Magnum Reload Mod,,,,,,,,,,,,,
 modGunMagnumMagazineExtenderDesc,item_modifiers,mod,,,"Did I fire eleven shots, or twelve? The Magnum Reload Mod allows the Magnum to shoot 12 shots before requiring a full reload.",,,,,,,,,,,,,
 modGunMagnumMagazineExtenderSchematic,item_modifiers,Mod,,,Magnum Reload Mod Schematic,,,,,,,,,,,,,
+modDyeAussieGreen,item_modifiers,mod,,,Dye: Aussie Green,,,,,,,,,,,,,
+modDyeAussieGold,item_modifiers,mod,,,Dye: Aussie Gold,,,,,,,,,,,,,
 
 resourceSeasonedWoodLogs,items,Item,,,Wood Logs (Seasoned),,,,,,,,,,,,,
 resourceSeasonedWoodLogsDesc,items,Item,,,"Seasoned Wood Logs have a longer burn time than regular Wood Logs.",,,,,,,,,,,,,
-
 foodWildWheat,items,Food,,,Wild Wheat,,,,,,,,,,,,,
 foodWildWheatDesc,items,Food,,,"Wild Wheat can be ground down to make Wheat Flour and added to recipes.",,,,,,,,,,,,,
 foodWheatFlour,items,Food,,,Wheat Flour,,,,,,,,,,,,,
@@ -198,6 +199,10 @@ meleeWpnClubT1CanCanBat,items,Melee,,,Can Can Bat,,,,,,,,,,,,,
 meleeWpnClubT1CanCanBatDesc,items,Melee,,,"This Can Can Bat can do what a Can Can Bat can do. Cannot be crafted. Can only be found in loot, rewards, or the trader inventory.\n\nRepair with a Repair Kit.\nScrap to Wood.",,,,,,,,,,,,,
 meleeWpnKnucklesT3SteelOakravenBristonKnuckles,items,Melee,,,Boomerang Bruisers,,,,,,,,,,,,,
 meleeWpnKnucklesT3SteelOakravenBristonKnucklesDesc,items,Melee,,,"Bring some 'culture' into your life with Boomerang Bruisers (aka) Briston's Pistons. Their coloration and pattern come from a one in a kind hand crafting process using Damascus Steel from the legendary forger, Oakraven. Only be found in loot, rewards, or the trader inventory. These blades can also be useful for gutting animals.\n\nRepair with a Repair Kit.\nScrap to Steel Knuckles parts.",,,,,,,,,,,,,
+meleeWpnClubT3OldCricketBat,items,Melee,,,The Don Don Bat,,,,,,,,,,,,,
+meleeWpnClubT3OldCricketBatDesc,items,Melee,,,"When put to the test, The Don Don Bat is reliable 99.94% of the time. The remainder is purely human error. Cannot be crafted. Can only be found in loot, rewards, or the trader inventory.\n\nRepair with a Repair Kit.\nScrap to Wood.",,,,,,,,,,,,,
+meleeWpnClubT3NewCricketBat,items,Melee,,,The Club House Bat,,,,,,,,,,,,,
+meleeWpnClubT3NewCricketBatDesc,items,Melee,,,"The Club House Bat is that spare one left in the corner that rarely gets used. Just like a stinky cheese, regardless of the smell, the passage of time just improves it. Cannot be crafted. Can only be found in loot, rewards, or the trader inventory.\n\nRepair with a Repair Kit.\nScrap to Wood.",,,,,,,,,,,,,
 ammoRocketFire,items,Ammo,,,Rocket Fire (Ammo),,,,,,,,,,,,,
 ammoRocketFireDesc,items,Ammo,,,"A rocket fire used as rocket launcher ammunition can be crafted at a forge and workbench once you've gained the perk.",,,,,,,,,,,,,
 
