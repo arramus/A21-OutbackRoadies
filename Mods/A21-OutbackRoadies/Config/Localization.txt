@@ -100,7 +100,7 @@ resourceSeasonedWoodLogsDesc,items,Item,,,"Seasoned Wood Logs have a longer burn
 foodWildWheat,items,Food,,,Wild Wheat,,,,,,,,,,,,,
 foodWildWheatDesc,items,Food,,,"Wild Wheat can be ground down to make Wheat Flour and added to recipes.",,,,,,,,,,,,,
 foodWheatFlour,items,Food,,,Wheat Flour,,,,,,,,,,,,,
-foodWheatFlourDesc,items,Food,,,"Wild Flour can be added to recipes.",,,,,,,,,,,,,
+foodWheatFlourDesc,items,Food,,,"Wheat Flour can be added to recipes.",,,,,,,,,,,,,
 foodSnagSanga,items,Food,,,Snag Sanga,,,,,,,,,,,,,
 foodSnagSangaDesc,items,Food,,,"A Snag Sanga is best served slightly charred.",,,,,,,,,,,,,
 foodWitchettyGrub,items,Food,,,Witchetty Grub,,,,,,,,,,,,,
