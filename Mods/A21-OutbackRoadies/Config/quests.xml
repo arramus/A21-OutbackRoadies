@@ -51,17 +51,17 @@
 	
 	<!-- Animals -->
 	<quest id="quest_aussieanimals">
-		<property name="offer_key" value="Accept this quest to eliminate 100 hostile aussie animals. XP, Dukes, and 2 Skill Points for your troubles."/>
+		<property name="offer_key" value="Accept this quest to eliminate 100 hostile aussie animals. This does not include spiders as they have their very own quest. XP, Dukes, and 2 Skill Points for your troubles."/>
 		<property name="name_key" value="100 Aussie Animals"/>
 		<property name="subtitle_key" value="100 Aussie Animals"/>
-		<property name="description_key" value="Accept this quest to eliminate 100 aussie animals. XP, Dukes, and 2 Skill Points for your troubles."/>
+		<property name="description_key" value="Accept this quest to eliminate 100 aussie animals. This does not include spiders as they have their very own quest. XP, Dukes, and 2 Skill Points for your troubles."/>
 		<property name="icon" value="ui_game_symbol_aussieanimal"/>
 		<property name="repeatable" value="true"/>
 		<property name="category_key" value="Quest"/>
 		<property name="difficulty" value="hard"/>
 		<property name="shareable" value="false"/>
 		
-		<objective type="EntityKill" id="animalBloodMoonKoala,animalBloodMoonKangaroo,animalBloodMoonBossKoala,animalBloodMoonBossKangaroo,animalCassowary,animalTassydevil,animalPlatypus,animalKoala,animalFrillneck,animalKangaroo,animalMagpie" value="100"/>
+		<objective type="EntityKill" id="animalBloodMoonKoala,animalBloodMoonKangaroo,animalBloodMoonBossKoala,animalBloodMoonBossKangaroo,animalCassowary,animalTassydevil,animalPlatypus,animalKoala,animalFrillneck,animalKangaroo,animalMagpie,animalEagle" value="100"/>
 		
 		<reward type="Exp" value="20000"/>
 		<reward type="Item" id="casinoCoin" value="5000"/>

@@ -105,6 +105,7 @@
 		animalFrillneck, 30
 		animalKangaroo, 40
 		animalMagpie, 16
+		animalEagle, 8
 		animalSpider01Mini, 6
 		animalSpider02Mini, 6
 		animalSpider03Mini, 6
@@ -131,6 +132,7 @@
 <!-- *** SNOW ANIMALS --> <!-- ANY -->
 	
 	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']/text()" delim="\n" op="add" >
+		animalEagle, 8
 		animalMagpie, 15
 		animalSpider01Mini, 3
 		animalSpider02Mini, 3
@@ -164,6 +166,7 @@
 		animalFrillneck, 8
 		animalKangaroo, 8
 		animalMagpie, 6
+		animalEagle, 4
 		animalSpider01Mini, 2
 		animalSpider02Mini, 2
 		animalSpider03Mini, 2
@@ -187,7 +190,7 @@
 	<!-- *** BIOME_ENEMY_ANIMAL_FOREST_GROUP --> <!-- NIGHT -->
 	
 	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsForest']/text()" delim="\n" op="add" >
-		animalMagpie, 30
+		animalMagpie, 24
 		animalTassydevil, 10
 		animalSpider01Mini, 5
 		animalSpider02Mini, 5
