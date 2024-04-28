@@ -226,6 +226,7 @@ animalFrillneck,entityclasses,Entity,,,Frilled-Neck Lizard,,,,,,,,,,,,,
 animalKangaroo,entityclasses,Entity,,,Kangaroo,,,,,,,,,,,,,
 animalMagpie,entityclasses,Entity,,,Magpie,,,,,,,,,,,,,
 animalEagle,entityclasses,Entity,,,Eagle,,,,,,,,,,,,,
+animalBat,entityclasses,Entity,,,Bat,,,,,,,,,,,,,
 
 animalSpider01,entityclasses,Entity,,,Spider Sam,,,,,,,,,,,,,
 animalSpider01Feral,entityclasses,Entity,,,Feral Spider Sam,,,,,,,,,,,,,

@@ -36,44 +36,21 @@
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']/text()" delim="\n" op="add" >
 		zombieBurntFeral, .5
 		zombieBurntRadiated, .25
-		zombieBurntRadiatedMini, .1
-		zombieOakNurse, .1
-		zombieOakFireNurse, .1
-		zombieOakRadNurse, .1
-		zombieOakHeadHunter1, .1
-		zombieOakHeadHunter2, .1
-		zombieOakHeadHunter3, .1
-		zombieOakHeadHunter4, .1
-		zombieOakHeadHunter5, .1
+		zombieBurntRadiatedMini, .15
+		zombieOakNurse, .15
+		zombieOakFireNurse, .15
+		zombieOakRadNurse, .15
+		zombieOakHeadHunter1, .15
+		zombieOakHeadHunter2, .15
+		zombieOakHeadHunter3, .15
+		zombieOakHeadHunter4, .15
+		zombieOakHeadHunter5, .15
 	</csv>
 	
 <!-- *** BIOME_ZOMBIES_WASTELAND_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']/text()" delim="\n" op="add" >
 		zombieBurntFeral, .5
 		zombieBurntRadiated, .25
-		zombieBurntRadiatedMini, .1
-		zombieOakNurse, .1
-		zombieOakFireNurse, .1
-		zombieOakRadNurse, .1
-		zombieOakHeadHunter1, .1
-		zombieOakHeadHunter2, .1
-		zombieOakHeadHunter3, .1
-		zombieOakHeadHunter4, .1
-		zombieOakHeadHunter5, .1
-		zombieOakBossNurse, .1
-		zombieOakBossFireNurse, .1
-		zombieOakBossRadNurse, .1
-		zombieOakBossHeadHunter1, .1
-		zombieOakBossHeadHunter2, .1
-		zombieOakBossHeadHunter3, .1
-		zombieOakBossHeadHunter4, .1
-		zombieOakBossHeadHunter5, .1
-	</csv>
-	
-<!-- *** BIOME_ZOMBIES_WASTELAND_NIGHT_GROUP -->
-	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']/text()" delim="\n" op="add" >
-		zombieBurntFeral
-		zombieBurntRadiated, .5
 		zombieBurntRadiatedMini, .25
 		zombieOakNurse, .25
 		zombieOakFireNurse, .25
@@ -92,6 +69,29 @@
 		zombieOakBossHeadHunter4, .25
 		zombieOakBossHeadHunter5, .25
 	</csv>
+	
+<!-- *** BIOME_ZOMBIES_WASTELAND_NIGHT_GROUP -->
+	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']/text()" delim="\n" op="add" >
+		zombieBurntFeral
+		zombieBurntRadiated, .5
+		zombieBurntRadiatedMini, .5
+		zombieOakNurse, .5
+		zombieOakFireNurse, .5
+		zombieOakRadNurse, .5
+		zombieOakHeadHunter1, .5
+		zombieOakHeadHunter2, .5
+		zombieOakHeadHunter3, .5
+		zombieOakHeadHunter4, .5
+		zombieOakHeadHunter5, .5
+		zombieOakBossNurse, .5
+		zombieOakBossFireNurse, .5
+		zombieOakBossRadNurse, .5
+		zombieOakBossHeadHunter1, .5
+		zombieOakBossHeadHunter2, .5
+		zombieOakBossHeadHunter3, .5
+		zombieOakBossHeadHunter4, .5
+		zombieOakBossHeadHunter5, .5
+	</csv>
 
 <!-- *** INTEGRATION FOR BIOME ANIMALS -->
 
@@ -104,7 +104,8 @@
 		animalKoala, 30
 		animalFrillneck, 30
 		animalKangaroo, 40
-		animalMagpie, 16
+		animalMagpie, 10
+		animalBat, 10
 		animalEagle, 8
 		animalSpider01Mini, 6
 		animalSpider02Mini, 6
@@ -132,8 +133,8 @@
 <!-- *** SNOW ANIMALS --> <!-- ANY -->
 	
 	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']/text()" delim="\n" op="add" >
-		animalEagle, 8
 		animalMagpie, 15
+		animalEagle, 8
 		animalSpider01Mini, 3
 		animalSpider02Mini, 3
 		animalSpider03Mini, 3
@@ -165,7 +166,8 @@
 		animalKoala, 8
 		animalFrillneck, 8
 		animalKangaroo, 8
-		animalMagpie, 6
+		animalMagpie, 4
+		animalBat, 4
 		animalEagle, 4
 		animalSpider01Mini, 2
 		animalSpider02Mini, 2
@@ -190,7 +192,7 @@
 	<!-- *** BIOME_ENEMY_ANIMAL_FOREST_GROUP --> <!-- NIGHT -->
 	
 	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsForest']/text()" delim="\n" op="add" >
-		animalMagpie, 24
+		animalBat, 20
 		animalTassydevil, 10
 		animalSpider01Mini, 5
 		animalSpider02Mini, 5
@@ -218,7 +220,7 @@
 	<!-- *** BIOME_ENEMY_ANIMAL_BURNT_FOREST_GROUP --> <!-- NIGHT -->
 
 	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForest']/text()" delim="\n" op="add" >
-		animalMagpie, 30
+		animalBat, 14
 		animalTassydevil, 10
 		animalSpider01Mini, 6
 		animalSpider02Mini, 6
@@ -246,6 +248,8 @@
 	<!-- *** BIOME_ENEMY_ANIMAL_WASTELAND_GROUP --> <!-- ANY -->
 	
 	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']/text()" delim="\n" op="add" >
+		animalBat, 14
+		animalTassydevil, 10
 		animalSpider01Mini, 6
 		animalSpider02Mini, 6
 		animalSpider03Mini, 6

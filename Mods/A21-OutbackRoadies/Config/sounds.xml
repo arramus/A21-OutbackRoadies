@@ -97,5 +97,27 @@
   <MaxRepeatRate name="1.111" />
   </SoundDataNode>
   
+<!-- Aussie Bat -->
+	
+<SoundDataNode name="BatAttack"> <AudioSource name="Sounds/AudioSource_Creatures100Meter"/>
+	<Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#@modfolder:Resources/AussieBat.unity3d?BatAttack"/>
+	<Channel name="Mouth"/>
+	<Priority name="3"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="0.9"/>
+	<HighestPitch name="1.0"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.9"/> </SoundDataNode>	
+
+<SoundDataNode name="BatsChittering"> <AudioSource name="Sounds/AudioSource_Creatures100Meter"/>
+	<Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="#@modfolder:Resources/AussieBat.unity3d?BatsChittering"/>
+	<Channel name="Mouth"/>
+	<Priority name="3"/>
+	<maxVoicesPerEntity value="1"/>
+	<LowestPitch name="0.9"/>
+	<HighestPitch name="1.0"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.9"/> </SoundDataNode>	
+  
 	</append>	
 </configs>

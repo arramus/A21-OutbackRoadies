@@ -1116,7 +1116,7 @@
     <property name="SoundSense" value=""/>
     <property name="SoundGiveUp" value=""/>
 
-	<property name="SizeScale" value="1"/>
+	<property name="SizeScale" value="0.55"/>
     <property name="PainResistPerHit" value=".05"/>
     <property name="MoveSpeed" value="0.2"/>
     <property name="MoveSpeedAggro" value="1.3,1.3"/>
@@ -1356,6 +1356,46 @@
 	
 <effect_group name="Base Effects">
 	<passive_effect name="HealthMax" operation="base_set" value="150"/>
+	<passive_effect name="HealthMax" operation="perc_set" value="1"/>
+</effect_group>
+</entity_class>
+
+<!--MAGPIE-->	
+<entity_class name="animalBat" extends="animalTemplateHostileFlying">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Class" value="EntityVulture"/>
+	<property name="Mesh" value="#@modfolder:Resources/AussieBat.unity3d?SmallBat" />
+	<property name="Tags" value="entity,animal,hostile,template"/>
+	<property name="Faction" value="animals"/>
+	<property name="AvatarController" value="AvatarAnimalController"/> 
+	<property name="HandItem" value="meleeHandAnimalCoyote"/>
+	<property name="IsEnemyEntity" value="true"/>
+	<property name="MaxViewAngle" value="240"/>
+	<property name="SightRange" value="90"/>
+	<property name="MoveSpeed" value="1"/>
+	<property name="MoveSpeedAggro" value="2.1, 2.1"/> 
+	<property name="MaxTurnSpeed" value="190"/>
+	<property name="TimeStayAfterDeath" value="300"/>
+	<property name="SizeScale" value="1.2"/>
+	
+	<property name="SoundRandom" value="BatsChittering"/>
+	<property name="SoundAlert" value="BatsChittering"/>
+	<property name="SoundHurt" value="BatsChittering"/>
+	<property name="SoundDeath" value="Animals/rabbitdeath"/>
+	<property name="SoundAttack" value="BatAttack"/>
+	<property name="SoundSense" value="BatsChittering"/>
+	<property name="SoundGiveUp" value="BatsChittering"/>
+	<!-- Stealth -->
+	<property name="SightRange" value="50"/> <!-- vulture 70 -->
+			
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="6"/>
+	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+	
+<effect_group name="Base Effects">
+	<passive_effect name="HealthMax" operation="base_set" value="65"/>
 	<passive_effect name="HealthMax" operation="perc_set" value="1"/>
 </effect_group>
 </entity_class>
