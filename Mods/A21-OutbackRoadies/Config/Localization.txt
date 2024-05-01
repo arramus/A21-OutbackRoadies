@@ -187,7 +187,7 @@ foodBlueberryBreadPuddingDesc,items,Food,,,"A tasty treat with healing propertie
 foodHoneyGlazedDonuts,items,Food,,,Honey Glazed Donuts,,,,,,,,,,,,,
 foodHoneyGlazedDonutsDesc,items,Food,,,"Gets you buzzing, and can be used to play catch with doggo. Cures 5% infection.",,,,,,,,,,,,,
 drinkHoneyBeer,items,Food,,,Honey Beer,,Honigbier,,,,,,,,,,,
-drinkHoneyBeerDesc,items,Food,,,"Puts a spring in your step, power in your punch, and provides healing properties. Cures 5% infection.",,,,,,,,,,,,,
+drinkHoneyBeerDesc,items,Food,,,"Unleash your inner berserker to put power in your punch for longer, and cure 5% infection.",,,,,,,,,,,,,
 
 crushedCars01WhiteVariantHelper,blocks,Block,,,Crushed Car Defences,,,,,,,,,,,,,
 resourceCementMixerConcreteBundle,items,Item,,,Stack of Concrete Mix (1000),,,,,,,,,,,,,

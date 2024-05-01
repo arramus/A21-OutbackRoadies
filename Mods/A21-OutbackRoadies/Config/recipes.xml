@@ -362,9 +362,7 @@
 	</recipe>
 
 	<recipe name="drinkHoneyBeer" count="1" craft_area="campfire" craft_tool="toolCookingPot">
-	<ingredient name="resourceCropHopsFlower" count="4"/>
-	<ingredient name="drinkJarRiverWater" count="4"/>
-	<ingredient name="foodCropPotato" count="4"/>
+	<ingredient name="drinkJarBeer" count="1"/>
 	<ingredient name="foodHoneyComb" count="5"/>
 	</recipe>
 	
