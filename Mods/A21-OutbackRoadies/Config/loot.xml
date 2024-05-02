@@ -171,7 +171,7 @@
 		<item name="resourceGunPowder" count="25,50"/>
 		<item name="resourceRepairKit" count="1,2"/>
 		<item name="thrownAmmoMolotovCocktail" count="2,4"/>
-		<item name="thrownAmmoFlare" count="2,4"/>
+		<item name="thrownAmmoPipeBomb" count="2,4"/>
 		<item name="medicalFirstAidBandage" count="1,2"/>
 		<item name="foodBillyTea" count="1,3"/>		
 	</lootgroup>
