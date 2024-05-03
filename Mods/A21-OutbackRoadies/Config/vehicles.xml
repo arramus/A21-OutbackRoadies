@@ -443,15 +443,15 @@
 		</property>
 
 <property class="seat0">
-	<property name="position" value="-.4,15,.6"/>
+	<property name="position" value="-.4,0.9,.9"/>
 	<property name="rotation" value="-100,0,0"/>
 	<property name="exit" value="-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0"/>
 </property>
 
 <property class="seat1">
 	<property name="class" value="Seat"/>
-	<property name="position" value=".4, .36, .1"/>
-	<property name="rotation" value="-27, 0, 0"/>
+	<property name="position" value=".4, 0.9, .9"/>
+	<property name="rotation" value="-100, 0, 0"/>
 	<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/>
 	<property name="IKHandLPosition" value="-.27, .87, .14"/>
 	<property name="IKHandLRotation" value="41, -30, 18"/>
