@@ -1108,15 +1108,15 @@
 <item name="foodEggQuiche">
 	<property name="Tags" value="food"/>
 	<property name="HoldType" value="31"/>
-	<property name="DisplayType" value="foodPumpkinCheesecake"/>
+	<property name="DisplayType" value="food"/>
 	<property name="CustomIcon" value="foodEggQuiche"/>
 	<property name="DescriptionKey" value="foodEggQuicheDesc"/>	
 	<property name="Meshfile" value="@:Other/Items/Misc/parcelPrefab.prefab"/>
-	<property name="DropMeshfile" value="@:Other/Items/Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="250"/> <!-- STK food -->
 	<property name="EconomicValue" value="124"/>
-	<!--property name="UnlockedBy" value="perkMasterChef"/-->
+	<!--property name="UnlockedBy" value="craftingFood"/-->
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
@@ -1141,7 +1141,7 @@
 	<property name="CustomIcon" value="foodEggSandwich"/>
 	<property name="DescriptionKey" value="foodEggSandwichDesc"/>	
 	<property name="Meshfile" value="@:Other/Items/Misc/parcelPrefab.prefab"/>
-	<property name="DropMeshfile" value="@:Other/Items/Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="250"/> <!-- STK food -->
 	<property name="EconomicValue" value="124"/>
@@ -1170,7 +1170,7 @@
 	<property name="CustomIcon" value="foodChickenStew"/>
 	<property name="DescriptionKey" value="foodChickenStewDesc"/>	
 	<property name="Meshfile" value="@:Other/Items/Misc/parcelPrefab.prefab"/>
-	<property name="DropMeshfile" value="@:Other/Items/Misc/parcelPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="250"/> <!-- STK food -->
 	<property name="EconomicValue" value="134"/>
