@@ -609,6 +609,7 @@
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Destroy" count="0"/>	
 	<property name="FilterTags" value="fdecor,fother"/>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 </block>
 
 <block name="TinCoopEmpty">

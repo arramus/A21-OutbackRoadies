@@ -270,6 +270,14 @@
 		<ingredient name="drinkJarBillyTea" count="1"/>
 	</recipe>
 	
+	<recipe name="foodFishAndChips" count="1" craft_time="36" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+		<ingredient name="foodBarramundi" count="1"/>
+		<ingredient name="foodCropPotato" count="3"/>
+		<ingredient name="resourceAnimalFat" count="1"/>
+		<ingredient name="foodShamSandwich" count="1"/>
+		<ingredient name="foodEgg" count="1"/>	
+	</recipe>
+	
 	<recipe name="drinkJarBillyTea" count="1" craft_time="18" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
 		<ingredient name="foodBillyTea" count="1"/>		
 		<ingredient name="drinkJarBoiledWater" count="1"/>

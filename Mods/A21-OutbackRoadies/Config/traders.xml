@@ -20,7 +20,8 @@
 	
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='foodSupplies']">
 		<item name="GrownChicken" count="1"/>
-		<item name="foodBillyTea" count="2,5"/>		
+		<item name="foodBillyTea" count="2,5"/>
+		<item name="foodBarramundi" count="1,2"/>		
 	</append>
 	
 		<!-- *** Canned_Food -->

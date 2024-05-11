@@ -105,6 +105,25 @@
 		<reward type="Item" id="casinoCoin" value="5000"/>
 		<reward type="SkillPoints" value="2" chainreward="false"/>
 	</quest>
+	
+    <!-- Chickens -->
+	<quest id="quest_chickens">
+		<property name="offer_key" value="Spiders eat chickens. More chickens bring more spiders... Accept this quest to help eliminate 25 chickens. XP, Dukes, and 1 Skill Point for your troubles."/>
+		<property name="name_key" value="25 Chickens"/>
+		<property name="subtitle_key" value="25 Chickens"/>
+		<property name="description_key" value="Spiders eat chickens. More chickens bring more spiders... Accept this quest to help eliminate 25 chickens. XP, Dukes, and 1 Skill Point for your troubles."/>
+		<property name="icon" value="ui_game_symbol_chicken"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="Quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="EntityKill" id="animalChicken" value="25"/>
+		
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="1250"/>
+		<reward type="SkillPoints" value="1" chainreward="false"/>
+	</quest>
 
 	</append>
 	

@@ -157,6 +157,7 @@
 		<item name="quest_aussieanimals"/>
 		<item name="quest_miniradiatedburnt"/>
 		<item name="quest_headhunters"/>
+		<item name="quest_chickens"/>
 		<item name="foodWitchettyGrub" count="1,2"/>
 		<item name="foodWheatFlour" count="1,2"/>
 		<item name="ammoGasCan" count="50,150"/>
