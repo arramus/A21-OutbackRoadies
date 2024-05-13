@@ -278,6 +278,12 @@
 		<ingredient name="foodEgg" count="1"/>	
 	</recipe>
 	
+	<recipe name="foodSuperMeatStew" count="1" craft_time="36" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+		<ingredient name="foodMeatStew" count="1"/>
+		<ingredient name="foodDamper" count="1"/>
+		<ingredient name="foodCropGraceCorn" count="1"/>	
+	</recipe>
+	
 	<recipe name="drinkJarBillyTea" count="1" craft_time="18" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
 		<ingredient name="foodBillyTea" count="1"/>		
 		<ingredient name="drinkJarBoiledWater" count="1"/>
