@@ -126,7 +126,7 @@ foodLamingtonDesc,items,Food,,,"A Lamington is a square of cake coated in chocol
 foodBarramundi,items,Food,,,Sustainable Aussie Barra,,,,,,,,,,,,,
 foodBarramundiDesc,items,Food,,,"Trader Rekt is connected to Aussie Barra farmers (mostly his brothers) who put those swimming pools to good use. Can be eaten raw or added to a recipe.",,,,,,,,,,,,,
 foodFishAndChips,items,Food,,,Fish and Chips,,,,,,,,,,,,,
-foodFishAndChipsDesc,items,Food,,,"Fish and Chips is made with Aussie Barra and provides a well rounded treat.",,,,,,,,,,,,,
+foodFishAndChipsDesc,items,Food,,,"Fish and Chips is made with Aussie Barra and provides a well rounded treat. Traders stock Sustainable Aussie Barra, but Rekt receives the most from farmers (mostly his brothers), who put those swimming pools to good use.",,,,,,,,,,,,,
 foodSuperMeatStew,items,Food,,,Super Meat Stew,,,,,,,,,,,,,
 foodSuperMeatStewDesc,items,Food,,,"Enough to make you big and strong..., like Grace.",,,,,,,,,,,,,
 drinkCanChromeSoda,items,Food,,,Chrome Soda,,,,,,,,,,,,,
