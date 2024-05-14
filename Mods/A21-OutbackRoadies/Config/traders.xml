@@ -33,6 +33,7 @@
 		<!-- *** Prepared_Drinks -->
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupDrinks']">
 			<item name="drinkJarBillyTea" count="1,2"/>
+			<item name="drinkWombatChocoPoco" count="1,2"/>
 	</append>
 	
 	<!-- *** Melee_Weapons -->
