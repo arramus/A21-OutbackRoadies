@@ -388,6 +388,54 @@
 	<ingredient name="resourceWood" count="1"/>
 	</recipe>
 	
+	<!-- Oakraven Fish Trap -->
+	
+	<recipe name="cntFishTrapWaterCollector" count="1" tags="workbenchCrafting">
+		<ingredient name="resourceWaterFilter" count="1"/>
+		<ingredient name="resourceScrapPolymers" count="100"/>
+		<ingredient name="resourceMetalPipe" count="4"/>
+		<ingredient name="resourceDuctTape" count="4"/>
+	</recipe>
+	
+	<recipe name="resourceRope" count="1">
+		<ingredient name="resourceYuccaFibers" count="10"/>
+	</recipe>
+	
+	<recipe name="resourceHook" count="1" material_based="true" craft_area="forge">
+		<ingredient name="unit_iron" count="10"/>
+		<ingredient name="unit_clay" count="3"/>
+	</recipe>
+
+	<recipe name="FishTrapEmpty" count="1" craft_time="180" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceWood" count="100"/>
+		<ingredient name="resourceRockSmall" count="5"/>
+		<ingredient name="resourceScrapIron" count="25"/>
+		<ingredient name="resourceScrapPolymers" count="10"/>
+		<ingredient name="resourceRope" count="3"/>
+	</recipe>
+	
+	<recipe name="resourceFishBait" count="1">
+		<ingredient name="foodRawMeat" count="1"/>
+		<ingredient name="resourceRope" count="1"/>
+		<ingredient name="resourceHook" count="2"/>
+	</recipe>
+	
+	<recipe name="foodBillyCanYabbies" count="1" craft_time="36" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+		<ingredient name="resourceYabbies" count="30"/>
+		<ingredient name="foodCropPotato" count="2"/>
+		<ingredient name="foodCropCorn" count="2"/>
+		<ingredient name="foodCropMushrooms" count="3"/>
+	    <ingredient name="foodCanStock" count="2"/>
+	</recipe>
+	
+	<recipe name="foodCouscousYabbies" count="1" craft_time="36" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+		<ingredient name="resourceYabbies" count="20"/>
+		<ingredient name="foodWheatFlour" count="1"/>
+		<ingredient name="foodEggBoiled" count="1"/>
+		<ingredient name="foodCropMushrooms" count="3"/>
+	    <ingredient name="foodCanStock" count="1"/>
+	</recipe>
+	
 	<!-- Oakraven Ammo Press crafts in half the time for Bundles -->
 	
 	<recipe name="AmmoPress" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">

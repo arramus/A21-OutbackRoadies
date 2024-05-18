@@ -237,6 +237,23 @@
 		<item name="resourceFeather" count="4,10" prob="1"/>
 		<item name="GrownChicken" count="1,2" prob="0.5"/>
 	</lootcontainer>
+	
+	<lootcontainer name="cntFishTrap" count="3,6" size="7,2" destroy_on_close="true" sound_open="bucketplace_water" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
+		<item name="resourceYuccaFibers" count="10,30" prob="0.3"/>
+		<item name="foodWildWheat" count="10,20" prob="0.3"/>
+		<item name="resourceCloth" count="2,6" prob="0.3"/>
+		<item name="foodRottingFlesh" count="2,6" prob="0.3"/>
+		<item name="foodBarramundi" count="1" prob="0.3"/>
+		<item name="resourceYabbies" count="5,10" prob="0.3"/>
+		<item name="treePlantedOak1m" count="2,4" prob="0.2"/>
+		<item name="treePlantedMountainPine1m" count="2,4" prob="0.2"/>
+		<item name="treePlantedWinterPine1m" count="2,4" prob="0.2"/>
+		<item name="resourceRope" count="2,4" prob="0.2"/>
+		<item name="oldCash" count="10,20" prob="0.2"/>
+		<item name="resourceBone" count="2,6" prob="0.2"/>
+		<item name="resourceLeather" count="2,3" prob="0.2"/>
+		<item name="apparelWornBoots" count="1" prob="0.05"/>
+	</lootcontainer>
 	</append>
 	
 	<append xpath="/lootcontainers/lootgroup[@name='groupBirdNest02']">
