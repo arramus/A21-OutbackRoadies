@@ -284,6 +284,14 @@
 		<ingredient name="foodCropGraceCorn" count="1"/>	
 	</recipe>
 	
+    <recipe name="foodGnocchiChili" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+		<ingredient name="foodCropPotato" count="3"/>
+		<ingredient name="foodWheatFlour" count="1"/>
+		<ingredient name="foodCanStock" count="1"/>
+		<ingredient name="foodCropMushrooms" count="3"/>
+		<ingredient name="foodCanChili" count="1"/>
+    </recipe>
+	
 	<recipe name="drinkJarBillyTea" count="1" craft_time="18" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
 		<ingredient name="foodBillyTea" count="1"/>		
 		<ingredient name="drinkJarBoiledWater" count="1"/>

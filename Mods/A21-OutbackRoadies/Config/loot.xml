@@ -239,12 +239,12 @@
 	</lootcontainer>
 	
 	<lootcontainer name="cntFishTrap" count="3,6" size="7,2" destroy_on_close="true" sound_open="bucketplace_water" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
+		<item name="foodBarramundi" count="1" prob="0.4"/>
+		<item name="resourceYabbies" count="5,10" prob="0.4"/>
 		<item name="resourceYuccaFibers" count="10,30" prob="0.3"/>
 		<item name="foodWildWheat" count="10,20" prob="0.3"/>
 		<item name="resourceCloth" count="2,6" prob="0.3"/>
 		<item name="foodRottingFlesh" count="2,6" prob="0.3"/>
-		<item name="foodBarramundi" count="1" prob="0.3"/>
-		<item name="resourceYabbies" count="5,10" prob="0.3"/>
 		<item name="treePlantedOak1m" count="2,4" prob="0.2"/>
 		<item name="treePlantedMountainPine1m" count="2,4" prob="0.2"/>
 		<item name="treePlantedWinterPine1m" count="2,4" prob="0.2"/>
