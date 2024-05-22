@@ -270,14 +270,6 @@
 		<ingredient name="drinkJarBillyTea" count="1"/>
 	</recipe>
 	
-	<recipe name="foodFishAndChips" count="1" craft_time="36" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
-		<ingredient name="foodBarramundi" count="1"/>
-		<ingredient name="foodCropPotato" count="3"/>
-		<ingredient name="resourceAnimalFat" count="1"/>
-		<ingredient name="foodShamSandwich" count="1"/>
-		<ingredient name="foodEgg" count="1"/>	
-	</recipe>
-	
 	<recipe name="foodSuperMeatStew" count="1" craft_time="36" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
 		<ingredient name="foodMeatStew" count="1"/>
 		<ingredient name="foodDamper" count="1"/>
@@ -428,6 +420,14 @@
 		<ingredient name="resourceHook" count="2"/>
 	</recipe>
 	
+	<recipe name="foodFishAndChips" count="1" craft_time="36" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+		<ingredient name="foodBarramundi" count="1"/>
+		<ingredient name="foodCropPotato" count="3"/>
+		<ingredient name="resourceAnimalFat" count="1"/>
+		<ingredient name="foodShamSandwich" count="1"/>
+		<ingredient name="foodEgg" count="1"/>	
+	</recipe>
+	
 	<recipe name="foodBillyCanYabbies" count="1" craft_time="36" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
 		<ingredient name="resourceYabbies" count="30"/>
 		<ingredient name="foodCropPotato" count="2"/>
@@ -450,6 +450,14 @@
 		<ingredient name="foodCropPotato" count="5"/>
 		<ingredient name="foodCropMushrooms" count="5"/>
 	    <ingredient name="foodCanStock" count="2"/>
+	</recipe>
+	
+	<recipe name="foodFishPieMashPeas" count="1" craft_time="36" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+		<ingredient name="foodBarramundi" count="1"/>
+		<ingredient name="foodCropPotato" count="5"/>
+		<ingredient name="foodWheatFlour" count="1"/>
+		<ingredient name="foodCanPeas" count="1"/>
+	    <ingredient name="foodCanStock" count="1"/>
 	</recipe>
 	
 	<!-- Oakraven Ammo Press crafts in half the time for Bundles -->

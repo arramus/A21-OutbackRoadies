@@ -35,8 +35,8 @@
 <!-- *** BIOME_ZOMBIES_BURNT_FOREST_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']/text()" delim="\n" op="add" >
 		zombieBurntFeral, .5
+		zombieBurntRadiatedMini, .35
 		zombieBurntRadiated, .25
-		zombieBurntRadiatedMini, .15
 		zombieOakNurse, .15
 		zombieOakFireNurse, .15
 		zombieOakRadNurse, .15
@@ -50,8 +50,8 @@
 <!-- *** BIOME_ZOMBIES_WASTELAND_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']/text()" delim="\n" op="add" >
 		zombieBurntFeral, .5
+		zombieBurntRadiatedMini, .35
 		zombieBurntRadiated, .25
-		zombieBurntRadiatedMini, .25
 		zombieOakNurse, .25
 		zombieOakFireNurse, .25
 		zombieOakRadNurse, .25
@@ -73,8 +73,8 @@
 <!-- *** BIOME_ZOMBIES_WASTELAND_NIGHT_GROUP -->
 	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']/text()" delim="\n" op="add" >
 		zombieBurntFeral
+		zombieBurntRadiatedMini, .75
 		zombieBurntRadiated, .5
-		zombieBurntRadiatedMini, .5
 		zombieOakNurse, .5
 		zombieOakFireNurse, .5
 		zombieOakRadNurse, .5
